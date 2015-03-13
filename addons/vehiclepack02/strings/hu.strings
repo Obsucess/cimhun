@@ -1,0 +1,16 @@
+
+$vehicle_dlc02_bus01 = "Dino Vettore";
+$vehicle_dlc02_bus01_info = "Az észak-olaszországi gyár zászlóshajója, a Vettore az egyik valaha gyártott legnagyobb busz. Kényelmes üléseket biztosítva két, elöl és hátul lépcsõkkel ellátott emeleten, nagy számú utas befogadására képes.\n\nA Vettore-t eredetileg hosszú távú utazásokra tervezék, de nemrég a gyár megkezdte a kissé lerövidített, helyi járatokra szánt verziójának gyártását.";
+
+$vehicle_dlc02_bus02 = "Comet Ambienta";
+$vehicle_dlc02_bus02_info = "A Comet Ambienta-t elõször 1995-ben mutatta be a sikeres svéd gyártó. A dizájnját a természet simított alakjai és az ûrtechnológia legújabb fejlesztései ihlették. Technikai szempontból a környezetbarát mivolta nagy jelentõséget kapott - az eredmény az egyik valaha gyártott legtisztább busz, nagyon alacsony szintû károsanyag-kibocsátással és különösen zajcsökkentõ felépítéssel.";
+
+$vehicle_dlc02_tram01 = "Prospecta Experimental";
+$vehicle_dlc02_tram01_info = "A Prospecta Experimental dizájnja arra irányul, hogy nemcsak hogy megtörje a villamostervezés szokásait, de az egész tömegközlekedését is. A legfõbb jellemzõi a hatalmas ablakok, sima felületek és legnevezetesebben, a villamoskocsik cikcakk elrendezése. Az üléselrendezés úgy lett tervezve, hogy bátorítsa az utasok közötti szociális interakciót, a kocsik közötti üres helyekkel. A konstrukió egyik sajátos jellemzõje az erkélyek használata, amely fényûzõ életérzést ad a villamosnak. A Prospecta Experimental elektromosságot használ, ezért egy nagyon zöld választás a környezettudatos utazó számára.";
+
+$vehicle_dlc02_metro01 = "Capitol W700 automatic";
+$vehicle_dlc02_metro01_info = "A  W700 egy öt kocsiból álló alumíniumból készült metrószerelvény konfiguráció, amelyet az egyesült amerikai-japán Capitol gyárak gyártják. Ez a vezetõ nélküli metrószerelvények hetedik generációja, amit távirányítással mûködtet az Automatikus Vonatirányító Rendszer. Hogy jobban kielégítsék a csúcsforgalmi idõk igényeit, a vagonoknak hosszanti irányú üléselrendezése van, így több helyet hagy az álló utasoknak. A W700-nak alacsonyabbak a karbantartási költségei mint a korábbi modelljeinek és a modernizált szerkezete jobb energiahatékonyságot biztosít.";
+
+$vehicle_dlc02_heli01 = "Roto-Tec Leopard";
+$vehicle_dlc02_heli01_info = "A belga helikoptergyártó Roto-Tec két kisebb vállalat egyesülésébõl jött létre. A Leopard-ot eredetileg arra tervezték, hogy ellássa az olafjúrótornyok légiközlekedési kapcsolatainak növekvõ igényét. Két megbízható, turbóhengeres motorral és egy különösen robosztus törzzsel rendelkezik. Az 1980-as évek elején egy új verziót mutattak egy hatékony jégtelenítõ rendszerrel, hogy jobban ellenálljon a fagyos körülményeknek. A Leopard egy közepesen nehéz helikopter jó ülõhely kapacitással.";
+

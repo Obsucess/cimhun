@@ -1,0 +1,600 @@
+$location_newyork_name = "New York";
+$location_california_name = "California";
+
+$cityname_newyork = "New York City";
+$citydescription_newyork_short = "New York, the city of dreams, offers endless possibilities. A metropolis that never sleeps needs unique public transport solutions to keep the citizens happy and the company profitable.";
+$citydescription_newyork_long = "";
+
+$cityname_sanfrancisco = "San Francisco";
+$citydescription_sanfrancisco_short = "Have you got flowers in your hair? This is San Francisco, and all thought hippies are not always there, the population is open minded and has a deep love for their special cable cars.";
+$citydescription_sanfrancisco_long = "";
+
+$station_trolley = "Trolley bus stop";
+$track_trolley = "Catenary lines";
+
+$building_apartment04 = "Apartment building";
+$building_apartment05 = "Apartment building";
+$building_apartment06 = "Apartment building";
+$building_blockHouse04 = "Apartment building";
+$building_blockHouse05 = "Apartment building";
+$building_blockHouse06 = "Apartment building";
+$building_blockHouse07 = "Apartment building";
+$building_blockHouse08 = "Apartment building";
+$building_blockHouse09 = "Apartment building";
+$building_blockHouse10 = "Apartment building";
+$building_blockHouse11 = "Apartment building";
+$building_blockHouse12 = "Apartment building";
+$building_blockHouse13 = "Apartment building";
+$building_detachedHouse04 = "Detached house";
+$building_basketballField = "Basketball field";
+$building_skyscraper01 = "Commercial building";
+$building_skyscraper02 = "Commercial building";
+$building_skyscraper03 = "Commercial building";
+$building_lowCommercial01 = "Commercial building";
+$building_lowCommercial03 = "Commercial building";
+$building_semidetached01 = "Semi-detached house";
+$building_semidetached02 = "Semi-detached house";
+$building_semidetached03 = "Semi-detached house";
+$building_semidetached04 = "Semi-detached house";
+$building_transamericaPyramid = "Transamerica Pyramid";
+$building_empireStateBuilding = "Empire State Building";
+$building_centralStation = "Central Station";
+$building_statueOfLiberty = "Statue Of Liberty";
+
+$road_lombardStreet = "Lombard Street";
+
+$prop_basketballStand = "Basketball stand";
+$prop_broadWayAd = "Ad";
+$prop_largeAd = "Ad";
+$prop_wallad = "Ad";
+$prop_constructionStand = "Construction stand";
+$prop_firepost = "Fire post";
+$prop_hotdogKiosk = "Hotdog kiosk";
+$prop_magazineMachine = "Magazine machine";
+$prop_onewaySign = "Traffic sign";
+$prop_stoneWall = "Stone wall";
+
+$tool_trolley_hint = "Trolley bus infrastructure";
+$tool_trolley_track_hint = "Trolley bus catenary lines\nCost per segment: %it,d.20";
+$tool_trolley_station_hint = "Trolley bus stop\nPrice: %it,d.20\nMaintenance cost per month: %it,d.21";
+
+$line_trolley_hint = "Trolley bus lines";
+
+$policy_trolley_hint = "Trolley bus";
+
+$budget_trolley_title = "Trolley\nbus:";
+
+$vehicles_trolley_hint = "Trolley bus";
+
+$vehicle_trolley_name_pattern = "Trolley bus %0";
+
+$objectinfo_trolley = ["Weirdos on board", "Seats given to elderly people", "Ticket inspector visited this trolley bus", "Bubblegum cleaned from seat"];
+
+$newsticker_trolley_broken_text = "A trolley bus has broken down!";
+$newsticker_trolley_angry_text = "Passengers at %0 stop are unhappy!";
+$newsticker_trolley_cannotReach_text = "A trolley bus on line %0 cannot reach the next stop!";
+$newsticker_trolley_jammed_text = "A trolley bus on line %0 seems to be jammed!";
+$newsticker_trolley_new_text = "New trolley bus available! Factory launches the %0!";
+
+$usa_credit_items = [
+  "",
+  "Cities In Motion: U.S. Cities",
+  "",
+  "PRODUCER",
+  "-Mariina Hallikainen",
+  "TECHNICAL DIRECTOR",
+  "-Antti Lehto",
+  "LEAD DESIGNER",
+  "-Karoliina Korppoo",
+  "MAP DESIGN",
+  "-Henri Haimakainen",
+  "-Mikko Pernu",
+  "-Antti Lehto",
+  "LEAD ARTIST",
+  "-Antti Isosomppi",
+  "ARTISTS",
+  "-Tuuli Juntunen",
+  "-Henri Haimakainen",
+  "COMPOSERS",
+  "-Olli Perttula/MediaStage",
+  "-Oleksi Onttonen",
+  "SPECIAL THANKS",
+  "-Paradox Forum community"
+];
+
+$vehicle_usaTram01 = "Cable Car";
+$vehicle_usaTram01_info = "Cable Cars are an iconic sight in San Francisco. These small, durable, reliable vehicles have been designed with passenger comfort in mind. Although widely used by commuters, they are perhaps even more popular with tourists who flock to them to enjoy coasting up and down the hills of this beautiful city.";
+$vehicle_usaTram02 = "Modern Cable Car";
+$vehicle_usaTram02_info = "The Modern Cable Car is an improved version of its classical counterpart. The traditional single exit model has been improved with the addition of a second door designed to allow smoother passenger flow on and off the vehicle. In most respects, the basic design remains unchanged from the earlier classical model, with the main differences being a slightly lower average speed and an improved passenger capacity.";
+$vehicle_usaTrolley01 = "City Trolley";
+$vehicle_usaTrolley01_info = "City Trolleys have long been a feature of New York City. A popular way to navigate the many sights and suburbs, they also afford the traveler a nostalgic hint of what city transportation used to be like in the olden days. While the seats might not be quite as comfortable as one could wish, the large windows more than compensate for the slight discomfort, providing an excellent means of viewing the city.";
+$vehicle_usaTrolley02 = "Toyoka Ogon F-46";
+$vehicle_usaTrolley02_info = "One of the Toyoka factories' first trolley buses, the Ogon F-46 is a marvelous engineering feat. Despite its relatively high energy consumption, it is an excellent vehicle for navigating crowded city streets, offering good maneuverability, reduced engine noise and superior passenger capacity.";
+$vehicle_usaTrolley03 = "Hess Light Trolley";
+$vehicle_usaTrolley03_info = "The Hess Light Trolley is a popular choice in cities all around the world. It is extremely low-maintenance, as well as being remarkably energy efficient, making it the smart choice for any budget-conscious transportation company.";
+
+$campaign_usa1_name_text = "Life In America";
+$campaign_usa1_description_text = "America, land of the free – and also the land of sprawling metropolises, all facing severe problems with regard to public transport. Big cities need comprehensive, well planned systems, otherwise their streets become jammed with cars. Do you have what it takes to steer New York and San Francisco onto the right track?";
+
+/* SCENARIO1 */
+
+$usa01_name_text = "Summer of Love";
+$usa01_location_text = "San Francisco 1970-1973";
+$usa01_animation_text = "The \"Summer of Love\" festival in San Francisco.\nHippies from all across the country are gathering in support of their ideals – free food, homes, healthcare and love!\nThey also need affordable public transport.";
+$usa01_briefing_short = "Build a public transport network to support San Francisco.";
+$usa01_briefing_text = "Hello, good to see you! I'm the Governor of San Francisco, and I'll be your main contact on this project. We're hosting a massive hippie festival and the number of visitors has boomed. We need a public transportation system that can handle the increased volume of tourists. I was hoping you could lend us your expertise and build us such a system.";
+$usa01_completed_text = "Marvelous, everything is running smoothly now. I'm sure I can handle the transport system for he foreseeable future, and all thanks to you! You've done a wonderful job – I wouldn't change a thing! I'm very grateful and wish you luck in your future endeavors!";
+
+$usa01_task01_name = "Start from Zero";
+$usa01_task01_text = "I'm giving you free rein with this project, but I will say that I'd like you to start with the festival area down south.";
+$usa01_task01_short = "Build three lines in the city.";
+$usa01_task01_passed = "Fine work! It would never have occurred to me to run the lines that way, but now that they're in place it seems perfectly logical.";
+
+$usa01_task02_name = "Grateful Love";
+$usa01_task02_text = "Peace, man! I'm, like, putting together a festival of love with a few friends, and we'd be really stoked if you could help us with the transportation. That would be far out, man!";
+$usa01_task02_short = "Build a line connecting {0:%0} to {1:%1}.";
+$usa01_task02_passed = "Peace and love! The festival was a great success. We've got you some flowers to say thank you!";
+
+$usa01_task03_name = "Cable Cars";
+$usa01_task03_text = "The northern part also needs better connections. How about putting in a few cable cars? They are quite unusual and really stylish, so I think they would be a good fit for our city.";
+$usa01_task03_short = "Build two tram lines using Cable Cars.";
+$usa01_task03_passed = "Well done, looks like you know your way around with these systems! Lets move on to the next task.";
+
+$usa01_task04_name = "Wall Street of the West ";
+$usa01_task04_text = "Did you know that San Francisco is also known as the Wall Street of the West? Unfortunately, I'm concerned that the local banks are not attracting enough customers. I was hoping you might be the person to change this... If you could set up a few direct routes to our banks, we bank managers would be in a position to offer a substantial reward.";
+$usa01_task04_short = "Connect {0:%0}, {1:%1} and {2:%2} to the {3:Airport}.";
+$usa01_task04_passed = "Many thanks! This will allow us to offer a better service to our customers! Please accept this token of our appreciation!";
+
+$usa01_task05_name = "Don't Escape Alcatraz!";
+$usa01_task05_text = "The island of Alcatraz is proving very popular nowadays, so if we were to run boat line out there for the tourists, it might turn out to be extremely profitable.";
+$usa01_task05_short = "Build a Water bus line to {0:Alcatraz}.";
+$usa01_task05_passed = "Well done, the route looks like it's going to be a success!";
+
+$usa01_task06_name = "Sea Lions";
+$usa01_task06_text = "The sea lions have returned to pier 39. Lots of people will want to go and see them, so we should make sure it's easily accessible. The route could also take in a few other key locations in the city.";
+$usa01_task06_short = "Build a line connecting the {0:pier}, the {1:museum} and {2:Lombard street}.";
+$usa01_task06_passed = "Excellent! Did you stop by to see the sea lions? Truly magnificent, aren't they?";
+
+$usa01_task07_name = "More Traffic, More Lines";
+$usa01_task07_text = "Some new lines would help us better handle the increased traffic – looks like the citizens are happy with our service!";
+$usa01_task07_short = "Build three lines.";
+$usa01_task07_passed = "Good work! Those new lines are well placed – it's obvious we mean business!";
+
+$usa01_task08_name = "Grab The Cable";
+$usa01_task08_text = "Cable cars seem to be very popular and they fit well in the city. Could you add a few lines?";
+$usa01_task08_short = "Build three Tram lines.";
+$usa01_task08_passed = "They complement the existing network perfectly! Thank you, I'm sure this will help with the heavy traffic.";
+
+$usa01_task09_name = "Free the Freeways!";
+$usa01_task09_text = "We want fewer freeways! The city has been planning to construct a freeway to allow easier access to the city center, but many citizens are violently opposed to this – myself included! There are more than enough cars as is... There's no need to bring even more flooding in.  If you were to expand the public transport system, the council would be forced to discard its plans for the road.";
+$usa01_task09_short = "Build three lines.";
+$usa01_task09_passed = "Thank you! Your lines are so practical and convenient – no one can resist them! I'm sure we will see a lot fewer cars on the road.";
+
+$usa01_task10_name = "The Cypher";
+$usa01_task10_text = "A criminal has been sending weird, indecipherable messages to the newspapers. We are quite sure that the perpetrator is a regular on one of your lines. We were hoping to catch him on foot, giving us more time to keep him under surveillance and get to know his routine. Could you close the line for a few weeks, to give us time to single him out?";
+$usa01_task10_short = "Shut tram line %0 down for three weeks.";
+$usa01_task10_passed = "Thank you for your help, citizen! Unfortunately we didn't catch the criminal yet, but we have more leads to follow up now, and our investigation is on-going.";
+
+$usa01_task11_name = "Jammin' Downtown";
+$usa01_task11_text = "The downtown area has been experiencing frequent traffic jams. Could you add a line? The busiest places are the railway station, pier and shopping mall. If you could connect all three it would be a tremendous help!";
+$usa01_task11_short = "Build a line connecting the {0:hospital}, the {1:office building} and the {2:park}.";
+$usa01_task11_passed = "Much better, good job! We're having far fewer traffic jams and the overall situation seems to be improving.";
+
+$usa01_task12_name = "Prison Museum";
+$usa01_task12_text = "Hello there, I'm current Warden of Alcatraz. That's just a title, since the island is mainly for tourists nowadays! I contacted you because my employees at the prison museum are hoping for better connections to the island, so their journey to and from work wouldn't be so long. Do you think that would be possible?";
+$usa01_task12_short = "Build a line to {0:Alcatraz}";
+$usa01_task12_passed = "Thank you kindly. My employees are happier now, they tell the new route is really nice and quiet, and the view is great.";
+
+$usa01_task13_name = "Look Sharp!";
+$usa01_task13_text = "An important writer is coming to town and we would like the city to look its best! Do you think you could do a quick fleet upgrade?";
+$usa01_task13_short = "Have no vehicle older than one year.";
+$usa01_task13_passed = "I think we made a good impression, so I'm hoping for a good write-up. He has a bit of a reputation for being nasty in print, but since we now have such an impressive fleet, how could he possibly find anything to criticize?";
+
+$usa01_task14_name = "Shopping in Chinatown";
+$usa01_task14_text = "The New Year's parade has come and gone – now we are focusing on getting more  customers in our shops. We thought the parade would be enough of an attraction to draw shoppers into Chinatown, but I'm told these days you also need direct bus and tram lines. Ah, things were very different in the olden days!";
+$usa01_task14_short = "Build two lines to {0:Chinatown}.";
+$usa01_task14_passed = "A thousand thanks for your help! Please, accept these fortune cookies and fireworks as a token of our gratitude. We can also offer you a nice little discount whenever you stop by, so don't forget to visit us!";
+
+$usa01_task15_name = "Visiting the Young";
+$usa01_task15_text = "Thank you so much for building such a wonderful network! I only wish there was a line passing closer to my granddaughter's house, so I could visit more often. Do you think you could see if this might be possible?";
+$usa01_task15_short = "Build a line to the {0:Granddaughter's house}.";
+$usa01_task15_passed = "Thank you! Now I can visit my granddaughter every day – she will be so happy!";
+
+$usa01_task16_name = "Brother, can you spare... anything?!";
+$usa01_task16_text = "Sorry to bother you, but do you have minute? Could you spare any change? I'm between jobs at the moment, so I was hoping you could lower ticket prices so people on a reduced income could get around the city easier. How about it? I promise I won't forget this when I'm the CEO of an international consortium!";
+$usa01_task16_short = "Lower ticket prices by 0.30, have 75 popularity with Dropouts";
+$usa01_task16_passed = "Thanks, that's really swell of you! I won't forget this – I'll pay you back one day, you see!";
+
+$usa01_task17_name = "Quake Prevention";
+$usa01_task17_text = "I was talking with my earthquake prevention expert and she suggested we install devices to monitor seismic activity on all city buses. What do you think? We would need a few more lines to monitor activity in the most dangerous zones, but otherwise it wouldn't affect service.";
+$usa01_task17_short = "Build three lines with stops at {0:%0}, {1:%1} and {2:%2}.";
+$usa01_task17_passed = "Perfect, this will provide all the information we need! Good work, once again.";
+
+$usa01_task18_name = "The Best Shop Ever";
+$usa01_task18_text = "I'm in trouble! I just opened a shop selling patchouli perfume and tie-dyed clothing, but I haven't had any customers! Please, please, please, could you build a route to bring them to my shop?";
+$usa01_task18_short = "Build a line to the {0:Hippie's Shop}.";
+$usa01_task18_passed = "Thank you! Now my shop finally has customers! Would you like some love beads as a gift? I have plenty!";
+
+$usa01_task19_name = "Empty Coffers";
+$usa01_task19_text = "The city coffers are running dry, so I was hoping that public transport might be able to generate some extra income. You've done really well so far, but it would be even better if you could generate some serious profits!";
+$usa01_task19_short = "Have 15,000 money.";
+$usa01_task19_passed = "Just in the nick of time! Thanks for the help. This will help keep our roads in good repair, as well as pay for our schools and hospitals.";
+
+$usa01_task20_name = "Yet Another Hippie Festival";
+$usa01_task20_text = "Hey man, there's another festival on the way! It's gonna take place in the park to the north of the city. But we don't want any stinky, noisy cars spoiling the vibe! It'd be cool if you could make sure everyone can make it by public transport?";
+$usa01_task20_short = "Build three lines to the {0:Park}.";
+$usa01_task20_passed = "Thanks, man! There were, like, almost no cars... totally awesome. And the bands, the park, the people – I'm talking far out!";
+
+$usa01_task21_name = "Water for the Tourists";
+$usa01_task21_text = "Tourists are requesting more waterbuses – they just love the view from a boat. Could you build us a few more, please?";
+$usa01_task21_short = "Build two waterbus lines.";
+$usa01_task21_passed = "Those look really nice! Thank you for building the lines, I'm sure the tourists will love them as much as I do.";
+
+$usa01_task22_name = "Super Secret!";
+$usa01_task22_text = "The army is conducting top secret experiments on Treasure Island this year, so I would advise you to make sure there are no lines in the area. We can't be responsible for the consequences if there are!";
+$usa01_task22_short = "Have no stops on {0:Treasure Island}.";
+$usa01_task22_passed = "Keep out, this is secret! Oh, it's you! No problem, and thanks for the help. We're still working on the experiment so we need absolute peace and quiet.";
+
+$usa01_task23_name = "Lions Rule!";
+$usa01_task23_text = "The sea lions are in danger! People are using the sea lions' favorite spots for sunbathing and the lions are getting upset. I can see it in their eyes! Please, build a line to the beach so I can go and hand out leaflets telling people of the plight of the sea lions! I'm sure they will understand and find another place to tan.";
+$usa01_task23_short = "Build a line to the {0:Beach}.";
+$usa01_task23_passed = "Well done! We held a demonstration and amazingly all the sunbathers decided to move. We must have been so intimidating, with flowers in our hair and fish for all the poor hungry sea lions!";
+
+$usa01_task24_name = "Get the Cash Flowing";
+$usa01_task24_text = "We're almost there! If you could just help me with the cash flow once again, I'm sure we'll be fine from now on.";
+$usa01_task24_short = "Have 25,000 money.";
+
+$usa01_task25_name = "Industrial Idea";
+$usa01_task25_text = "Good day! I work in the industrial area downtown, and we would be really pleased if you could provide us with better connections. Most workers would prefer to use public transport to get to work, but the current set up is just too slow.";
+$usa01_task25_short = "Build two lines to the {0:Industrial area}.";
+$usa01_task25_passed = "Thank you so much! This will make our commute much easier.";
+
+$usa01_task26_name = "The March";
+$usa01_task26_text = "Listen up! I'm planning to take my new recruits on a march, but we need more space. We're having a good year and I've got a whole bunch of youngsters to whip into shape. Could you remove a stop to make way for our march?";
+$usa01_task26_short = "Remove stop {0:%0}.";
+$usa01_task26_passed = "Good work! Just as I requested. Now we have plenty of space to march, I can make it an extra long route.";
+
+/* SCENARIO2 */
+
+$usa02_name_text = "Dot-com-boom";
+$usa02_location_text = "New York 1984-1986";
+$usa02_animation_text = "Help New York city thrive throughout the dot-com industry boom – a time when new office buildings are popping up all over city!";
+$usa02_briefing_short = "Help New York City cope with new businesses.";
+$usa02_briefing_text = "Welcome to New York! Glad to have you on board: the public transport system is in desperate need of an update. There are new businesses setting up every day and we would prefer to direct our workers towards public transportation rather than encourage them to use cars, since we simply don't have the space to accommodate them!";
+$usa02_completed_text = "Excellent work! The city is very well provided for now, and I can see this system lasting well into the future. On behalf of our citizens, I'd like to thank you for all the work you have done!";
+
+$usa02_task01_name = "More, More, More!";
+$usa02_task01_text = "Your first assignment is to increase the number of lines. Our current network is in poor condition and we need to expand rapidly.";
+$usa02_task01_short = "Build six lines.";
+$usa02_task01_passed = "Good work! This will encourage new commuters to try our services.";
+
+$usa02_task02_name = "A Native American Graveyard?";
+$usa02_task02_text = "Listen up! Archaeologists from the university have been excavating in the city and have uncovered an ancient Native American graveyard! They are planning to make it into an exhibition site and want to leave the area undisturbed. Could remove one of your stops, because it's where they plan to build the museum. For the sake of history?";
+$usa02_task02_short = "Remove stop {0:%0}.";
+$usa02_task02_passed = "Thank you! The museum project is progressing well, now we have the space to build. I'll be sure to send you tickets once the museum opens so you can see what you helped to accomplish!";
+
+$usa02_task03_name = "Monitor";
+$usa02_task03_text = "I believe monitoring passenger levels is our next step, so we know how best to proceed.";
+$usa02_task03_short = "Transport 350 passengers.";
+$usa02_task03_passed = "Interesting results! I'll have to crunch the numbers before we decide on our next move.";
+
+$usa02_task04_name = "To the Office!";
+$usa02_task04_text = "My company is opening new offices near the city center. I suppose you can guess what I'm about to request? That's right, better connections!";
+$usa02_task04_short = "Build two lines to the {0:Office}.";
+$usa02_task04_passed = "Thanks! That's much better, not nearly as many cars as there used to be. You did well!";
+
+$usa02_task05_name = "Trolleys!";
+$usa02_task05_text = "Our monitoring of passenger volume shows that we still need to add more lines to better serve our customers. How about trolley buses? Could you add a few lines? Trolley buses need overhead electrical wires, so when you build a route, you must add wires as well as stops. Trolleys are very environment-friendly and have all the advantages of an electrical vehicle, without the need to charge batteries.";
+$usa02_task05_short = "Build four Trolley bus lines.";
+$usa02_task05_passed = "I really like these vehicles! And the routes are thoughtfully planned, too. This is an excellent addition to our system.";
+
+$usa02_task06_name = "Demanding Diva";
+$usa02_task06_text = "Hey, you there! Yes, you! I need you to do something for me. The theater where I am currently starring is a little short on audience, and the idiot manager says he can't do anything about it. Absolute and total rubbish – why, my public is longing to see me perform, if only they could get there! That's why I need you to provide a few lines to the theater.  Erm... please?";
+$usa02_task06_short = "Build two lines to the {0:theater}.";
+$usa02_task06_passed = "Oh, thank you, darling! This will make a vast number of people amazingly happy, because they can see me perform, at long last.";
+
+$usa02_task07_name = "Central Parking";
+$usa02_task07_text = "Next I think we should connect the parks. Central Park is very popular, but it sometimes gets overcrowded, so we should direct people to our other parks as well. Recreation is very important to residents of large cities such as New York.";
+$usa02_task07_short = "Build a line connecting {0:%0}, {1:%1}, {2:%2} and {3:%3}.";
+$usa02_task07_passed = "That's good! Looks like people are already flocking to the parks, just as we wished. Well done!";
+
+$usa02_task08_name = "Aid the Audience";
+$usa02_task08_text = "I recently purchased a string of theaters, but I think I was scammed. The theater buildings are in excellent condition, but people are simply not attending the shows because they are too far from the main streets! Could you please put in a line to connect them? I'm sure you will get lots of customers, too!";
+$usa02_task08_short = "Build a line connecting {0:%0}, {1:%1} and {2:%2}.";
+$usa02_task08_passed = "Thank you so much! I'll be sure to run your ads in all my programs. If it wasn't for you, my theaters would all be bankrupt by now!";
+
+$usa02_task09_name = "The Statue of Liberty";
+$usa02_task09_text = "Now for the Statue of Liberty. Thousands of tourists come to see it every year, and I want to make sure they support our public transport system at the same time. If we had a line or two going there, I'm sure the more budget conscious visitors would choose our services over the taxi.";
+$usa02_task09_short = "Build two lines to the {0:Statue of Liberty}.";
+$usa02_task09_passed = "I'm really excited about this line, it looks really promising! I'm sure plenty of tourists will use it.";
+
+$usa02_task10_name = "Vehicles in the Way";
+$usa02_task10_text = "Cut! Cut! Hey you, I'm having an issue with these vehicles that keep getting in the way. I'm trying to film a movie but they keep getting in the frame. Could you hold the line until we've finished?";
+$usa02_task10_short = "Stop bus line %0 for four weeks.";
+$usa02_task10_passed = "Thanks! That should do it – now my set looks perfect.";
+
+$usa02_task11_name = "Moving Downtown";
+$usa02_task11_text = "The movie theaters downtown have made a special plea for help in boosting audience numbers. It's really not my job but, then again, New York is the capital of film and theater, so I guess we could try and help them out. Perhaps if you put in a couple of lines to the entertainment districts, that would do the trick.";
+$usa02_task11_short = "Build lines to {0:%0}, {1:%1}, {2:%2} and {3:%3}.";
+$usa02_task11_passed = "I'm sure the theater owners will be pleased when they see our new line!";
+
+$usa02_task12_name = "Remember the Workers";
+$usa02_task12_text = "Feels like you've forgotten about us! In fact, almost all of my co-workers think public transport is for yuppies and I can't convince them otherwise. It just sucks to have the parking lot full of cars when there are public transport stops within walking distance!";
+$usa02_task12_short = "Have 80 popularity with Blue Collar Workers.";
+$usa02_task12_passed = "Now that's much better! When I catch my bus in the morning, I see plenty of familiar faces!";
+
+$usa02_task13_name = "Leasing from the Lenape";
+$usa02_task13_text = "The city is opening an exhibition commemorating the historic land sale by the Lenape Indians. They hope to attract lots of visitors and I promised we would see to the transportation angle.";
+$usa02_task13_short = "Build two lines to the {0:museum}.";
+$usa02_task13_passed = "The exhibition curator just send me a message expressing her delight at the number of visitors. Seems like we succeeded – good job!";
+
+$usa02_task14_name = "Listen to your Grandmother!";
+$usa02_task14_text = "You should pay attention to your elders! My grandmother says none of your lines pass close enough to her apartment, and it's hard for her to get out and about. Could you help her? I'm sure many other pensioners would also benefit from your services, given half the chance.";
+$usa02_task14_short = "Build a line to {0:Grandmother's house}.";
+$usa02_task14_passed = "Thanks, now my grandmother is finally satisfied! She can get around much better.";
+
+$usa02_task15_name = "A New Metro Line";
+$usa02_task15_text = "The commuters seems to like the metro, so I suggest we add a line. It's rather expensive, but it could bring in significant extra revenue, if we manage to attract enough new passengers.";
+$usa02_task15_short = "Build a metro line.";
+$usa02_task15_passed = "That was a bit on the expensive side, but it I think it was worth it! We have more than enough passengers, so it should pay for itself in no time!";
+
+$usa02_task16_name = "A Sure Bet";
+$usa02_task16_text = "Hello! I work in an office in the city center, but I'd like to be able to visit my friends to the north of the city more often. I've discussed this with many people, and we all agree that a line there would be extremely profitable. Why not give it a go?";
+$usa02_task16_short = "Build a line from the {0:Office} to the {1:Northern area}.";
+$usa02_task16_passed = "Thank you, now I can visit my friends every day! It also looks like the line attracts plenty of passengers, so I guess I was right. Everybody wins!";
+
+$usa02_task17_name = "Build More Trolleys";
+$usa02_task17_text = "Trolley buses are practical, reasonably profitable and they blend in with the city landscape. Please build us a few more lines!";
+$usa02_task17_short = "Build two trolley bus lines.";
+$usa02_task17_passed = "Good, the lines are in perfect harmony with cityscape. I'm sure they will see a lot of use!";
+
+$usa02_task18_name = "New Amsterdam";
+$usa02_task18_text = "Have you heard that New York was originally named New Amsterdam? The Dutch settled here first and named it after their own capital city, naturally. Now we archaeologists have uncovered one of the very first Dutch settlements! Isn't that exciting? We are trying a new, experimental way of performing the dig:  people can watch us work. It would be great if you could provide a direct line from the railway station so visitors from other cities could come and watch the excavation, as well.";
+$usa02_task18_short = "Build a line from the {0:Railway station} to the {1:Excavation}.";
+$usa02_task18_passed = "Well done! The excavation is coming along swimmingly, and now we have lots of interested visitors every day.";
+
+$usa02_task19_name = "Buses to the North";
+$usa02_task19_text = "Buses might be the best fit for the northern part of the city. The street grid seems to lend itself to bus traffic. Could you design a few lines so we can test them out?";
+$usa02_task19_short = "Build three bus lines to the {0:Northern part of the city}.";
+$usa02_task19_passed = "Thanks, those lines look right at home. Lets hope the passengers agree!";
+
+$usa02_task20_name = "Hurry Up, Employees!";
+$usa02_task20_text = "My employees always come in late! They claim it's impossible to find parking space, and when I suggest they take the bus instead, they complain that the connections are too few and far between! Could you look into this? I'm willing to pay a nice bonus if you can help!";
+$usa02_task20_short = "Build three lines to the {0:Office}.";
+$usa02_task20_passed = "Nice work, now people have no excuse for being late!";
+
+$usa02_task21_name = "Volume Overload";
+$usa02_task21_text = "Our current capacity level still worries me. Could you make sure we have enough lines and vehicles to cope with the projected passenger volume?";
+$usa02_task21_short = "Transport 2500 passengers.";
+$usa02_task21_passed = "Nicely done! This will be a great help.";
+
+$usa02_task22_name = "Roots of the Nation";
+$usa02_task22_text = "I represent the Native American Association. We are hosting an event in Central Park to raise awareness of the nation's roots. Could you arrange for easy access to the event? The park is so big that a dedicated bus line would be the perfect solution. I think many of our guests will be flying in.";
+$usa02_task22_short = "Build a line from the {0:Airport} to the {1:Park}.";
+$usa02_task22_passed = "The party was a great success: thousands attended, and now they know more about Native American history. Thank you for helping us!";
+
+$usa02_task23_name = "For the Future";
+$usa02_task23_text = "Before I let you go, I'd like to get saturation coverage of the city so I can select the most profitable lines for future use.";
+$usa02_task23_short = "Build ten lines.";
+
+$usa02_task24_name = "Target the Students";
+$usa02_task24_text = "I just launched an advertising campaign aimed at students, but it seems like there aren't enough of them riding the lines to see the ads! Do something, quick!";
+$usa02_task24_short = "Have 85 reputation with Students.";
+$usa02_task24_passed = "That's better, now the ads are finally reaching the students! Well done.";
+
+/* SCENARIO3 */
+
+$usa03_name_text = "Too Many People, Too Few Buses";
+$usa03_location_text = "New York 2010-2011";
+$usa03_animation_text = "New York City is expanding rapidly and needs a transport system that can keep pace.\nThis great city has attracted many new residents and streams of tourists flow through daily.\nEveryone wants to be able move around the city cheaply and efficiently.\nCan you make this wish come true?";
+$usa03_briefing_short = "The New York City transport system needs some tweaking.";
+$usa03_briefing_text = "Hello again, I need your help! We're experiencing a bit of a problem, here in New York City, with our current, antiquated public transportation system – it simply can't handle the volume of traffic. What with the thousands of tourists, and the growing number of residents, our system is in urgent need of an upgrade.";
+$usa03_completed_text = "An extraordinary effort! You are truly a genius when it comes to public transport. Thank you so much for your help, this will make all citizens' lives much easier!";
+
+$usa03_task01_name = "Out with the Old";
+$usa03_task01_text = "We should start by removing some of the older lines. Many of them are no longer practical now the city has grown and changed.";
+$usa03_task01_short = "Remove two lines.";
+$usa03_task01_passed = "Good, now the situation looks much clearer! Lets move on.";
+
+$usa03_task02_name = "Esteemed Visitors";
+$usa03_task02_text = "My new masterpiece is due to premier! Unfortunately, the theater the producer booked is just too far from the airport. Naturally, many of my guests will be arriving from abroad, so please add a few new lines, as quickly as possible, so everyone can make the big day!";
+$usa03_task02_short = "Build a line from the {0:Theater} to the {1:Airport}.";
+$usa03_task02_passed = "Just in time! We'll be getting things rolling any minute now! Here's a small gift as a token of my appreciation.";
+
+$usa03_task03_name = "Hotel Troubles";
+$usa03_task03_text = "I'll be traveling to New York City soon, but I've just found out that my hotel is lousy. It's so far away from everything! I'm used to living right in the center of the city, near all the shops and amenities. My secretary suggested I contact you to ask if it might be possible to improve connections to the hotel. What do you think?";
+$usa03_task03_short = "Build three lines to the {0:Hotel}.";
+$usa03_task03_passed = "I am so grateful! This will make life a little more bearable, at least in the short term!";
+
+$usa03_task04_name = "Suffering Students";
+$usa03_task04_text = "We students are having a hard time getting to and from the University. The rush hour slows everything to a standstill. Could you help us by building a few lines out there? One to the Railway station, as well, since some students come from out of town.";
+$usa03_task04_short = "Build two lines to the {0:University}, have a line from the {1:Railway station} to the University.";
+$usa03_task04_passed = "Thanks, the rush hour is no problem any more! We can be on time to the lectures every day.";
+
+$usa03_task05_name = "The Bus Watcher";
+$usa03_task05_text = "My offices are too far away from all the routes! I like sitting and watching the buses go by while I work – it's strangely calming and boosts my creativity. Could you arrange for there to be a few lines running by my office, so I have something to watch?";
+$usa03_task05_short = "Build two lines to the {0:Office}.";
+$usa03_task05_passed = "Now I can watch the buses all day long! Thank you, I know it seems silly, but you don't know how much this means to me.";
+
+$usa03_task06_name = "Expand, Expand!";
+$usa03_task06_text = "Now it's time to expand! Make sure you cover the suburbs, because that's where the majority of our customers are headed. I'd like to have the system cover practically the whole city, do you think that's possible?";
+$usa03_task06_short = "Have 85% coverage.";
+$usa03_task06_passed = "Well done! The coverage is excellent, just as I requested!";
+
+$usa03_task07_name = "Native Offices";
+$usa03_task07_text = "I'm from the Native American Association. We have a new office in town, but it's a bit hard to reach. Could you help us out?";
+$usa03_task07_short = "Build two lines to the {0:Office}.";
+$usa03_task07_passed = "Thank you so much! This is a tremendous help, we've already had lots of new visitors.";
+
+$usa03_task08_name = "Vexing Visits";
+$usa03_task08_text = "Hello there! I work at the local hospital and we've been hoping for better connections. It's so sad when people can't visit their friends and relatives because the connections are poor, or the journey takes too long. Could you help us out?";
+$usa03_task08_short = "Build three lines to the {0:hospital}.";
+$usa03_task08_passed = "Thank you so much! Our patients are receiving more visitors now, and it helps them recover faster!";
+
+$usa03_task09_name = "One of the First Immigrants";
+$usa03_task09_text = "My family has lived here ever since the first immigrants arrived from Ireland, so I think it's reasonable for us to ask for a favor. In my opinion, we white-collar workers were left out when the public transport system was planned – there just are no good options available to get us where we want to go. Could you see what you can do? We're a great untapped source of income!";
+$usa03_task09_short = "Have 80 reputation with White-collar workers.";
+$usa03_task09_passed = "Thank you! You helped us out and made us feel like we count, too!";
+
+$usa03_task10_name = "Preserved Nightclub";
+$usa03_task10_text = "We have a new dig site here in New York! It's an extraordinary find: an 80's nightclub that was built over and preserved in its original state. Amazing! We are hoping to get students to help out at the dig, so it would be perfect if they could get there by bus or some other form of public transport.";
+$usa03_task10_short = "Build two lines to the {0:Dig site}.";
+$usa03_task10_passed = "Marvelous, the site is really giving us lots of valuable information on how people partied in the past. We also have lots of eager helping hands, thanks to your lines!";
+
+$usa03_task11_name = "The Shipyard";
+$usa03_task11_text = "Good day to you! I'm currently working at the shipyard and would like to be able to leave my car at home and use public transportation to get to work. You see, I've just started reading a nice thick book, and I want to be able to read on my journey to and from work. Do you think it would be possible to build a route to my house? I would be so grateful!";
+$usa03_task11_short = "Build a line connecting an {0:Apartment} and the {1:Shipyard}.";
+$usa03_task11_passed = "Thanks! Now all workers can get to work  much easier – and I'm halfway through my book. It's really good!";
+
+$usa03_task12_name = "All Aboard!";
+$usa03_task12_text = "Good, now that we have the coverage issue under control, you can concentrate on increasing passenger capacity. I believe these two elements are the foundation of a successful transport system.";
+$usa03_task12_short = "Transport 3400 people.";
+
+$usa03_task13_name = "Runaway Cyborg";
+$usa03_task13_text = "Good afternoon! I'm from the local police department, nice to meet you! We have a problem involving a runaway cyborg. No cause for alarm, they often do things like this (it's part of the programming) but this particular cyborg has been missing for a few weeks and its owners are getting concerned. The cyborg really loves buses, so we suspect it might be on one of your lines this very minute. Could you stop the line, so we can check the vehicles?";
+$usa03_task13_short = "Stop bus line %0 for two weeks.";
+$usa03_task13_passed = "We found the cyborg! Thank you for your help – the poor confused thing was riding one of your buses.";
+
+$usa03_task14_name = "Battle Mechas";
+$usa03_task14_text = "Good day! We have a small favor to ask. A new type of battle mechas need to be shipped from the harbor to the military base, as soon as possible. We plan to take a detour, to ensure that no spies detect our new machinery, but one of your routes is currently hindering the operation. It's not a big problem, time is of the essence. If you could stop the line for a while, it would be a great help.";
+$usa03_task14_short = "Stop trolley bus line %0 for four weeks.";
+$usa03_task14_passed = "Excellent. We successfully escorted the mechas to the base, undetected, as planned.";
+
+$usa03_task15_name = "Advertising!";
+$usa03_task15_text = "Hello, I'm from your local advertising agency. We would like to offer you a discount on our services. We have a wide range of options currently available, so please consider using our services! Actually, we really need the business...";
+$usa03_task15_short = "Start an advertising campaign";
+$usa03_task15_passed = "Thanks, you won't be sorry you chose us!";
+
+/* SCENARIO4 */
+
+$usa04_name_text = "Save The Day";
+$usa04_location_text = "San Francisco 1995-1997";
+$usa04_animation_text = "San Francisco needs major change!\nThe public transport system is outdated and the city is only now just waking up to the truth.\nA host of new lines, along with some innovative planning, is called for if the system is to keep pace with  modern requirements.";
+$usa04_briefing_short = "Upgrade San Francisco's transport system.";
+$usa04_briefing_text = "Thank you for coming! We really need your help. You see, we're planning to expand the network. We want to go big – really big! But smart, too – no mistakes, just make it perfect, okay? I'll fill you in on the details in a moment.";
+$usa04_completed_text = "Many thanks! I've reached a point where I feel confident continuing this work on my own – but should anything come up in the future I'll definitely keep you in mind. You did an excellent job and I appreciate your help and support. I'm sure all our residents are equally grateful!";
+
+$usa04_task01_name = "Plenty of Lines";
+$usa04_task01_text = "Right, this is what I want: first, build lots of lines, then we can fine-tune the system once we've figured out which lines are successful.";
+$usa04_task01_short = "Build five lines.";
+$usa04_task01_passed = "Marvelous, things are looking much better already! Let's keep going!";
+
+$usa04_task02_name = "Last Leasing";
+$usa04_task02_text = "I can't afford to lease any more parking space for my employees! Seems as though everyone wants to drive to work and it's too expensive. And just think of the damage to the environment! Please help me! Oh, and the environment too...";
+$usa04_task02_short = "Build a line to the {0:Office}, transport 15 passengers.";
+$usa04_task02_passed = "Thank you, this will save me so much money! Here, you earned this.";
+
+$usa04_task03_name = "Water-Way";
+$usa04_task03_text = "I think water buses would be ideal for San Francisco, could you add a few?";
+$usa04_task03_short = "Build two waterbus lines.";
+$usa04_task03_passed = "I tried out one of the lines, and I really enjoyed the view! Very good work.";
+
+$usa04_task04_name = "The Safe Option";
+$usa04_task04_text = "There's an alarming increase in the number of car crashes. I wish people would take the bus instead, and not drive when they are stressed out and tired. Could you help the situation by building a line?";
+$usa04_task04_short = "Build a line, transport 200 passengers.";
+$usa04_task04_passed = "Car crashes have plummeted, so our tactics are clearly working! Thank you for helping me out.";
+
+$usa04_task05_name = "Lay Some Cable";
+$usa04_task05_text = "Cable cars are always very popular. People enjoy looking at the view while they ride, and  tourists always flock to them. We want to encourage the tourist trade, so we should cater to their needs.";
+$usa04_task05_short = "Build three tram lines.";
+$usa04_task05_passed = "Those cable cars look great, and you planned the routes well!";
+
+$usa04_task06_name = "Impress the Partners";
+$usa04_task06_text = "Greetings! Some very important business partners are scheduled to visit. Apparently, they have heard great things about the city's public transport system. They are keen to take a trip to the sea, since they live quite far inland. Could you help me make the best of these elements? I'm sure they would tell everyone how well things were organized here!";
+$usa04_task06_short = "Build a line to the {0:Harbor}, transport 20 passengers.";
+$usa04_task06_passed = "My business partners were most impressed, thank you! They got together to buy a gift for you, to show their appreciation – here you are!";
+
+$usa04_task07_name = "Agile Buses";
+$usa04_task07_text = "What about buses? They are small and maneuverable, so they should be perfect for commuters. We must still have room for a few new routes, right?";
+$usa04_task07_short = "Build two bus lines.";
+$usa04_task07_passed = "Looks really good, well done!";
+
+$usa04_task08_name = "Soft Recruits";
+$usa04_task08_text = "Morning! See here, I have a favor to ask: my men have been complaining about the long walk to the barracks area. I think they should easily be able to walk those few kilometers, but you know how new recruits are these days – soft as putty the lot of 'em!";
+$usa04_task08_short = "Build two lines to the {0:Park}, transport 20 people.";
+$usa04_task08_passed = "I'm not seeing as many calloused feet, so the recruits must be using public transport. You get the money and I get the men!";
+
+$usa04_task09_name = "Focus on Coverage";
+$usa04_task09_text = "I'm worried about our coverage. We have a lot of lines, but there are still some areas with poor connections. Please focus on these next – I want all citizens to have equal access.";
+$usa04_task09_short = "Have 90% Coverage.";
+$usa04_task09_passed = "Excellent, now the city is more than adequately covered!";
+
+$usa04_task10_name = "Dine with Style";
+$usa04_task10_text = "Good day! Don't worry, I'm not here on official business, for once! I just wanted to ask if it would be possible to have a line going to my favorite restaurant? It's the best in town and my good lady wife and I like to dine there every Friday evening. It would be so much more convenient if we could leave our car at home, without having to take a taxi instead. ";
+$usa04_task10_short = "Build a line to the {0:Restaurant} from the {1:Warden's house}.";
+$usa04_task10_passed = "Thank you for your assistance! The restaurant is superb, I highly recommend it. And the line stops right at the entrance!";
+
+$usa04_task11_name = "Make them Feel Cozy!";
+$usa04_task11_text = "I just received a petition from the city pensioners. Some of them feel quite left out. This is unacceptable, please do whatever is necessary to gain their trust!";
+$usa04_task11_short = "Have 90 popularity with Pensioners.";
+$usa04_task11_passed = "Nice work, thanks for the help! This will help the pensioners feel as though they belong.";
+
+$usa04_task12_name = "Business Transactions";
+$usa04_task12_text = "Ni hao! I'm from the Chinatown district. We have been trying to establish a new office to cover all business transactions to and from Chinatown. We've acquired the office space, but it's a bit hard to reach... You see where I'm going? Please build a line there!";
+$usa04_task12_short = "Build a line to the {0:Office building}.";
+$usa04_task12_passed = "Thank you for the help! I've set aside a percentage of our first month's profits, to show our gratitude.";
+
+$usa04_task13_name = "Air Traffic";
+$usa04_task13_text = "The airport is going to be getting more traffic soon, since I've signed some new contracts with the airlines. So I've been thinking: we should add more lines so we are ready for the expansion. How about it?";
+$usa04_task13_short = "Build three lines to the {0:Airport}.";
+$usa04_task13_passed = "That should do it, good work! I'm sure the airport customers are much happier now.";
+
+$usa04_task14_name = "Super Sea Lions";
+$usa04_task14_text = "I'm with the sea lion activists, and we've just made an extraordinary discovery that could help you out! A local resident was trying to keep the sea lions away from his rocky beach, so he put some kind of slippery jelly on the rocks so the poor sea lions would just slide off. Naturally, we came to the aid of our stout aquatic friends and cleaned the rocks, and confiscated the rest of the jelly. It seems as though it should make an excellent motor lubricant, so we thought you might like to try it out – in exchange for a small donation to a worthy cause, that is.";
+$usa04_task14_short = "Pay 800 to get -20% for all tram energy costs for 3 months.";
+$usa04_task14_passed = "Glad you decided to give it a chance!, I don't know what we'd have done with the stuff if you hadn't been interested!";
+
+$usa04_task15_name = "People to the Parks";
+$usa04_task15_text = "The parks are not being used as much as I'd hoped – we spend a lot on maintaining them, so it's a shame if our citizens don't appreciate the investment and take the time to enjoy them. Maybe the situation would improve if there were better transit connections?";
+$usa04_task15_short = "Build a line connecting {0:%0}, {1:%1} and {2:%2}.";
+$usa04_task15_passed = "I've noticed that there are lots more people in the parks these days. Now that's what I like to see! Well done!";
+
+$usa04_task16_name = "Too Cold!";
+$usa04_task16_text = "Hello again! We are having a party to raise money for the sea lions. The poor things look so cold floating in that chilly water without so much as a woolly hat or a pair of mitts to keep them toasty. We decided to knit them all some warm clothes! Now it's just a question of where we get the yarn, since there are quite a number of sea lions... and they are pretty big. But the main thing is: we need guests to come to the festival!";
+$usa04_task16_short = "Build two lines to the {0:Park}.";
+$usa04_task16_passed = "The festival attracted a huge crowd! Now we have enough yarn to keep the whole sea lion population warm for at least two winters. Thanks!";
+
+$usa04_task17_name = "The Central Hub";
+$usa04_task17_text = "What about the Airport? That's the central hub of the city and I'm sure we could still squeeze a few more lines in there.";
+$usa04_task17_short = "Build two lines to the {0:Airport}.";
+$usa04_task17_passed = "That's great, now the Airport is much better served!";
+
+$usa04_task18_name = "Newer is Better";
+$usa04_task18_text = "I'm so concerned about the environment! Could you take another look at the types of vehicle you are using? I'm sure newer vehicles would cause less pollution.";
+$usa04_task18_short = "Have no vehicles older than one year.";
+$usa04_task18_passed = "Whew, this will surely help slow climate change a little. I was really worried there for a while!";
+
+$usa04_task19_name = "Meager Wages";
+$usa04_task19_text = "I'm worried about wages. The drivers have started to complain and I don't want this discontentment to spread. Could you raise their wages just a tiny bit, and see if that would make them happier?";
+$usa04_task19_short = "Raise the wages of Drivers by 0.50.";
+$usa04_task19_passed = "Excellent, that should keep them happy for a long time!";
+
+$usa04_task20_name = "Triple-Glazed";
+$usa04_task20_text = "I'm sorry to bother you, but the police department is in trouble. Someone used most of the money set aside for salaries to buy triple-glazed doughnuts – which were excellent, by the way – but now we need more money for the wages, and the city is refusing to give us extra. This is really embarrassing, so please don't tell anyone! If you had some extra cash to spare we would be ever so grateful!";
+$usa04_task20_short = "Have 5,000 money.";
+$usa04_task20_passed = "Yum num num.. Oh, sorry, didn't notice you there! Thanks for your help – now we can meet our payroll! And maybe, if there's some pennies left over, we could buy more of those delicious doughnuts...";
+
+$usa04_task21_name = "Build More!";
+$usa04_task21_text = "I still feel as though we have too few lines. Are you sure we can handle the projected volume of traffic? Add a few more, just to be safe, and I'll sleep better!";
+$usa04_task21_short = "Build two lines.";
+$usa04_task21_passed = "That's better, now it looks like we have plenty of capacity!";
+
+$usa04_task22_name = "Visiting the Center";
+$usa04_task22_text = "Hello! I'm Mary Ann and I live on the outskirts of the city. There are quite a few other seniors in our neighborhood and we all wish we could visit the city center more frequently. We simply love the parks: the colorful flowers and trees, the animals and of course the children. It's so much fun just to sit and watch the spectacle! Could you see if you could build a line that would allow us to get to the city center more easily? I've marked our favorite park on the map – look,  that would be the best location.";
+$usa04_task22_short = "Build a Tram line from the {0:Neighborhood} to the {1:Park}, transport 30 passengers.";
+$usa04_task22_passed = "Thank you dearie, that was really sweet of you. Now we can sit in the park as often, and as long, as we wish!";
+
+$usa04_task23_name = "Victorian Houses";
+$usa04_task23_text = "The historically significant Victorian houses are one of the top tourist attractions in the city. I believe we should make sure our visitors have easy access to them.";
+$usa04_task23_short = "Build a line connecting the {0:Victorian houses} to {1:Downtown}.";
+$usa04_task23_passed = "Now tourists are flocking to visit the houses, so it seems as though everyone is happy – I know I am!";
+
+$usa04_task24_name = "Savings Program";
+$usa04_task24_text = "The State Governor has informed me that we need to contribute to the state-wide savings program, so let's save up some money!";
+$usa04_task24_short = "Have 100,000 money.";
+
+$usa04_task25_name = "An Easy Way";
+$usa04_task25_text = "Hi there! I'm working for a company that is based near the outskirts of the city. We have been wishing there was an easier way to get to the airport – our workers often have to travel to office branches in other cities. Maybe you could help us?";
+$usa04_task25_short = "Build a line from the {0:Factory} to the {1:Airport}.";
+$usa04_task25_passed = "Thank you so much! This will make commuting much easier for us.";
+

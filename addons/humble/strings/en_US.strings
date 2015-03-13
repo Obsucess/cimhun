@@ -1,0 +1,16 @@
+
+$vehicle_dlc06_bus01 = "Sight-seeing Bus";
+$vehicle_dlc06_bus01_info = "The sight-seeing bus is built to look like a small train. While bringing joy to people by adding a cheerful touch to the cityscape, and also has a very low energy consumption. It's well-rounded vehicle, and very nice looking!";
+
+$vehicle_dlc06_tram01 = "Lucitania 34";
+$vehicle_dlc06_tram01_info = "This fancy tram was designed to be used in parades, but since it was very popular, more were produced. Cleverly disguised as a boat, this tram actually has lots of seats and a decent engine hidden inside.";
+
+$vehicle_dlc06_metro01 = "Caterpillar";
+$vehicle_dlc06_metro01_info = "The Caterpillar is an unique vehicle. It's a powerful metro train, and looks like a funky caterpillar! It has plenty of room and while the engine isn't top notch, it doesn't consume much fuel, making the vehicle very efficient.";
+
+$vehicle_dlc06_waterbus01 = "Amphibus";
+$vehicle_dlc06_waterbus01_info = "The extraordinary Amfibus is a great invention. Looks like a bus, but glides on water elegantly! It carries a decent amount of passengers and paddles speedily on water, and offers superb travelling with cushioned seats.";
+
+$vehicle_dlc06_heli01 = "Hot air balloon";
+$vehicle_dlc06_heli01_info = "The balloon is an exiting way to get around the city. The sights are fabulous and the going is slow so the passengers have plenty of time to enjoy them. There are no complicated mechanical parts, so the balloon is reliable and doesn't need much maintenance.";
+

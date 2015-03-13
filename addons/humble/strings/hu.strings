@@ -1,0 +1,16 @@
+
+$vehicle_dlc06_bus01 = "Városnézõ busz";
+$vehicle_dlc06_bus01_info = "A városnézõ busz úgy épült, hogy úgy nézzen ki mint egy kis vonat. Noha örömet csal az emberek arcára egy derûs érzést adva a város képéhez, alacsony engergiafogyasztással rendelkezik. Egy minden szempontból jó és jól kinézõ jármû!";
+
+$vehicle_dlc06_tram01 = "Lucitania 34";
+$vehicle_dlc06_tram01_info = "Ezt a díszes villamost arratervezték, hogy parádékon használják, de mivel nagyon népszerû volt, többet gyártottak belõle. Okosan egy hajónak álcázva, ennek a villamosnak valójában sok ülõhelye és egy elég jó motorja van belül elrejtve.";
+
+$vehicle_dlc06_metro01 = "Hernyó";
+$vehicle_dlc06_metro01_info = "A Hernyó egy különleges jármû. Egy erõteljes metrószerelvény és úgy néz ki, mint egy menõ hernyó! Nagyon tágas, és bár a motorja nem épp a legjobb, nem fogyaszt sok energiát, így a jármû nagyon hatékony.";
+
+$vehicle_dlc06_waterbus01 = "Vízibusz";
+$vehicle_dlc06_waterbus01_info = "A rendkívüli Vízibusz egy nagyszerû találmány. Úgy néz ki mint egy busz, de elegánsan siklik a víz felszínén! Elég szép számú utast képes befogadni és gyorsan úszik a vízen, valamint remek utazást biztosít párnázott üléseivel.";
+
+$vehicle_dlc06_heli01 = "Hõlégballon";
+$vehicle_dlc06_heli01_info = "A ballon egy izgalmas mód a városban való utazásra. A kilátás mesés, a haladás pedig lassú, tehát az utasoknak rengeteg ideje van, hogy élvezzék azt. Nincsenek bonyolult mechanikus szerkezetei, így a hõlégballon megbízható és nincs szüksége túl sok karbantartásra.";
+

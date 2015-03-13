@@ -1,0 +1,7 @@
+
+$tool_metro_xstation01_hint = "Underground metro station with double platforms\nPrice: %it,d.20\nMaintenance cost per month: %it,d.21\n\nDouble platformed underground station can handle heavy traffic.\nNeeds to be connected to underground rails. Very high maintenance costs.";
+$tool_metro_xstation02_hint = "Underground metro station with crossing platforms\nPrice: %it,d.20\nMaintenance cost per month: %it,d.21\n\nMulti-layered underground station can handle crossing metro lines.\nNeeds to be connected to underground rails. Very high maintenance costs.";
+
+$station_metroPlatform3 = "Metro platform 3";
+$station_metroPlatform4 = "Metro platform 4";
+

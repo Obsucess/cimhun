@@ -1,0 +1,16 @@
+
+$vehicle_dlc01_bus01 = "Jubilee Blim";
+$vehicle_dlc01_bus01_info = "A Jubilee Blim a korai 60-as évek ikonikus minibusza. Kompakt, kényelmes és egyedülálló sziluettje van. Az aranyos kinézete ellenére, a Jubilee Blim nem marad le a versenytársaival szemben: erõteljes motorral és jó felépítésû alvázzal rendelkezik, amely gyorssá és szívóssá teszi.";
+
+$vehicle_dlc01_tram01 = "Livingstone Inauguration";
+$vehicle_dlc01_tram01_info = "A Livingstone Inauguration egy modern gyorsulási és fékirányító rendszerrel rendelkezik, amely könnyûvé teszi a villamos számára a kanyarodást. Azonban, ezek a finom szerkezetek hajlamossá teszik a villamost a meghibásodásokra. Az összes Livingstone villamost Wakefieldben gyártják, Angliában, és a világ minden tájára szállítják.";
+
+$vehicle_dlc01_metro01 = "Arnauld Porte";
+$vehicle_dlc01_metro01_info = "A francia építésû Arnauld Porte híres volt az elegáns, rottánggal fedett üléseirõl. Nagy számú utast képesek szállítani és nagyon szívósak. Ezek a megbízható metrószerelvények Londonban léptek elõször szolgálatba 1915-ben és gyorsan népszerûek lettek az európai városokban is.";
+
+$vehicle_dlc01_waterbus01 = "Tiergarten Ferry";
+$vehicle_dlc01_waterbus01_info = "A Tiergarten Ferry Svédországból jön és nagyon szívósra lett építve. Meglehetõsen lassú, mivel legfõképp városnézõ hajóként használták, de a tömör váz és a jól megtervezett szénfûtésû gõzgép jó hajóvá teszi a vízi közlekedés infrastruktúrájának gerincébe való választásához.";
+
+$vehicle_dlc01_heli01 = "Skylark III";
+$vehicle_dlc01_heli01_info = "A Skylark a francia hadseregbõl gyökerezik, de az utóbbi idõben polgári használatra módosították. Nagy szélvédõje van, így az utasok élvezetik a kilátást utazás közben. A Skylark nagyon jól manõverezhetõ a továbfejlesztett farokrotorjának és a tartós futómûvének köszönhetõen.";
+

@@ -1,0 +1,501 @@
+
+$building_thomaskirche = "Tamás-templom";
+$building_colognedom = "Kölni dóm";
+$building_koelnmesse = "Koelnmesse";
+
+$cityname_cologne = "Köln";
+$citydescription_cologne_short = "Köln, a legnagyobb város Észak-Rajna–Vesztfáliában számos korszakot élt át a római idõktõl a Hanza-szövetségig és egy gazdag történelemmel rendelkezõ nyüzsgõ ipari központtá fejlõdött.";
+$citydescription_cologne_long = "";
+
+$cityname_leipzig = "Lipcse";
+$citydescription_leipzig_short = "Lipcse már régóta különféle mûvészek találkozóhelye. Az ipari területek a színházak és múzeumok mellett helyezkednek el és az élénk város sok látogatót vonz.";
+$citydescription_leipzig_long = "";
+
+$campaign_germany1_name_text = "A nagy Németország";
+$campaign_germany1_description_text = "Nagy német városoknak van szüksége a segítségedre. Irányítsd Kölnt és Lipcsét nehéz idõkön és jobb napokon keresztül, négy kihívást jelentõ pályán.";
+
+/* SCENARIO1 */
+
+$germany01_name_text = "Második helyezett";
+$germany01_location_text = "Köln 1948-1950";
+$germany01_animation_text = "Nem Kölnt választották Észak-Rajna–Vesztfália fõvárosának,\ntehát azonnali lépéseket kell tenni, hogy biztosítsuk a város népszerûségét és hírnevét.";
+$germany01_briefing_short = "Hozd rendbe Köln tömegközlekedési rendszerét.";
+$germany01_briefing_text = "Jó napot! Konrad Adenauer vagyok, Köln polgármestere. Elszomorított és megdöbbentett, hogy Düsseldorf a térség új fõvárosa! Legnagyobb városként Kölnnek járna ez a megtiszteltetés. Mindazonáltal, bárornak kell lennünk és meg kell tennünk amit tudunk, hogy újra felépítsük hírnevünket. Kezdésként fejleszteni szeretném a tömegközlekedési rendszert, amely igencsak megerõsítené szeretett városunkat.";
+$germany01_completed_text = "Szép munkát végzett és nagyon elégedett vagyok, hogy lehetõségünk volt önnel dolgozni. A városunk jobb, mint valaha, köszönhetõen az erõfeszítéseinek. Majnem olyan fenséges, mint Düsseldorf, állíthatom. Remélem, hogy a jövõben is keresztezik egymást útjaink!";
+
+$germany01_task01_name = "Kapacitás növelése";
+$germany01_task01_text = "Rendben, kezdjünk neki a munkának! Szeretném, ha három viszonylat hozzáadásával kezdené, csak hogy láthassam, hogyan teljesít. A helyet ön választhatja!";
+$germany01_task01_short = "Létesíts három viszonylatot a városban.";
+$germany01_task01_passed = "Kitûnõ kezdés! Tartsuk ezt fenn!";
+
+$germany01_task02_name = "Legjobb park";
+$germany01_task02_text = "Helló! Azon tûnõdtünk, hogy kevésbé zûrössé tudja-e tenni az eljutást a kedvenc parkunkhoz? A város központja mellett van... tehát ez nem probléma, ugye?";
+$germany01_task02_short = "Létesíts két viszonylatot a {0:parkhoz} és szállíts oda %0 utast.";
+$germany01_task02_passed = "Király! Így már bármikor együtt lóghatunk és lazulhatunk!";
+
+$germany01_task03_name = "Vásárolj amíg bírod!";
+$germany01_task03_text = "Enyém a helyi üzletközpont és én abban reménykedek, hogy ön segíthetne több vásárlót bevonzani. Tudna létesíteni oda egy közvetlen járatot?";
+$germany01_task03_short = "Létesíts egy viszonylatot az {0:üzletközponthoz} és szállíts oda %0 utast.";
+$germany01_task03_passed = "Köszönöm! Nagyon hálás vagyok a segítségéért. Így már az üzletház tele van vásárlókkal!";
+
+$germany01_task04_name = "Pont olyan jó mint Düsseldorf";
+$germany01_task04_text = "Düsseldorfnak hatalmas metróhálózata van és úgy gondolom, ez az egyik oka a sikerének. A mi rendszerünkhöz is hozzá kellene adni. Megbízom, hogy építsen pár vonalat stratégiai helyekre!";
+$germany01_task04_short = "Építs két metróvonalat.";
+$germany01_task04_passed = "Akár Düsseldorfban is lehetnénk! Elégedett vagyok és le vagyok nyûgözve.";
+
+$germany01_task05_name = "Metrószerelem";
+$germany01_task05_text = "Építene még egy metróvonalat? A már megépítettek nagyon népszerûnek bizonyulnak és hatalmas tömegeket vonzanak.";
+$germany01_task05_short = "Építs egy metróvonalat.";
+$germany01_task05_passed = "Jó – úgy látszik sok utast fog vonzani!";
+
+$germany01_task06_name = "Fáradt tanulók";
+$germany01_task06_text = "A helyi általános iskolában tanítok és gondunk van késõn érkezõ tanulókkal. Arra panaszkodnak, hogy túl messze van, hogy gyalog jöjjenek és elfáradnak. Ha lenne egy saját metróvonalunk a probléma meg lenne oldva! Megfontolná?";
+$germany01_task06_short = "Építs egy villamosvonalat az {0:iskolához} és szállíts oda %0 utast.";
+$germany01_task06_passed = "Köszönöm! Így már sokkal kevesebb diák késik. Ez nagy segítség volt!";
+
+$germany01_task07_name = "A profil javítása";
+$germany01_task07_text = "Egy villamosvonal javítaná a profilunkat a nagyközönség számára. Úgy hallottam, hogy nemrég ezekbõl sokat építettek Berlinben. Versenyben kell maradnunk, tehát tudna építeni egy pár villamosvonalat és szerezni egy kis nyilvánosságot?";
+$germany01_task07_short = "Építs két villamosvonalat.";
+$germany01_task07_passed = "Szép munka! Pont olyanok, mint a berlini villamosvonalak!";
+
+$germany01_task08_name = "Egy buszt szeretnék";
+$germany01_task08_text = "Egy nemrég végzett közvéleménykutatás azt mutatja, hogy lakosaink támogatják több buszviszonylat létesítését, hogy erõsítsék a várost. Én személy szerint nem vagyok biztos ebben, de hallgatnunk kell a szavazóinkra!";
+$germany01_task08_short = "Létesíts két buszviszonylatot.";
+$germany01_task08_passed = "Biztos vagyok benne, hogy ez majd kielégíti az ügyfeleinket, szép munka!";
+
+$germany01_task09_name = "Kávézóválság";
+$germany01_task09_text = "Jó napot! Gretel vgyok és nemrég nyitottam egy kis kávézót a városközpontban. Bár nincs annyi vendégem, abban reménykedtem, hogy a dolgok javulnának, ha jobb tömegközlekedési kapcsolatai lennének a kávézónak. Gondolnom kellett volna erre, amikor a helyet választottam, de a kilátás fenséges! Létesítene egy viszonylatot a kávézómhoz?";
+$germany01_task09_short = "Létesíts egy viszonylatot a {0:kávézóhoz}.";
+$germany01_task09_passed = "Köszönöm! Az új vendégek csak úgy sereglenek a kis kávézómba!";
+
+$germany01_task10_name = "A jótékonyság otthon kezdõdik";
+$germany01_task10_text = "Tegnap este, miközben egy jótékonysági bálon voltam, beszélgetésbe kerültem Düsseldorf polgármesterével és õ azt mondta, hogy jelentõs növelést terveznek a buszviszonylataik számában. Azt hiszem nekünk is ezt kellene tennünk – és gyorsan! Talán meg is verhetjük õket! Hozza létre azokat a buszviszonylatokat, amilyen gyorsan csak tudja!";
+$germany01_task10_short = "Létesíts négy buszviszonylatot.";
+$germany01_task10_passed = "Kitûnõ! Meg kell mondjam, még Düsseldorfnál is jobb!";
+
+$germany01_task11_name = "A nulla az semmi";
+$germany01_task11_text = "Kérem segítsen! Az új dolgozóim hamarosan megérkeznek és tömegközlekedésre lesz szükségük. Azt hittem, hogy 5 új alkalmazottat kértem, de véletlenül hozzáadtam egy nullát, tehát most 50 új munkás van úton ide. Egy buszviszonylat kisegítene ebbõl a felfordulásból. Hajlandó vagyok fizetni!";
+$germany01_task11_short = "Létesíts egy buszviszonylatot az {0:irodától} a {1:reptérhez}.";
+$germany01_task11_passed = "Hú! Nagyon köszönöm a segítségét! Sikerült pozíciót találnom minden új alkalmazottnak, pont idõben.";
+
+$germany01_task12_name = "Fedd le az egészet";
+$germany01_task12_text = "Az a gyanúm, hogy a düsseldorfi tömegközlekedési osztály a lefedettségének növelését tervezi. Ez jó ötletnek tûnik – tehát mi is megtesszük!";
+$germany01_task12_short = "Legyen %0%%-os lefedettséged.";
+$germany01_task12_passed = "Remek! Nagyon elégedett vagyok a lefedettséggel.";
+
+$germany01_task13_name = "Tudáskapcsolat";
+$germany01_task13_text = "Jó napot! Én vagyok a hallgatói önkormányzat képviselõje a város legnagyobb egyetemétõl és azért vagyok itt, hogy egy új viszonylatot javasoljak. A diákok jobb kapcsolatokat szeretnének a kollégiumuk és a fõ egyetemi terület között. Két kollégium van, de egy viszonylat elég lenne. Utánanézne, hogy mit tudna tenni hogy segíthessen?";
+$germany01_task13_short = "Kösd össze a {0:lakóházat}, a {1:lakóházat} és az {2:egyetemet} egyetlen viszonylattal.";
+$germany01_task13_passed = "Köszönöm! Így már sokkal egyszerûbb eljutni egyik kollégiumból a másikba!";
+
+$germany01_task14_name = "És még több";
+$germany01_task14_text = "A város most nagyon jól fest, de még mindig hasznát látná pár új viszonylatnak. Azt hiszem úgy hallottam, hogy Düsseldorf is létesít párat...";
+$germany01_task14_short = "Létesíts három új viszonylatot.";
+$germany01_task14_passed = "Kitûnõ! Úgy tûnik, hogy minden rendben megy!";
+
+$germany01_task15_name = "Mentsd meg a napot";
+$germany01_task15_text = "Helló! A gyárban dolgozok a város szélén és ideküldtek, hogy a segítségét kérjem. Egy pár kis csomagot kell behoznunk hajóval a tengerentúlról és azt tervezzük, hogy futárainkat a kikötõbe tömegközlekedéssel küldjük. Mivel csak egy pár kis csomagról van szó, egy kissé idõ és üzemanyagpazarlás lenne, ha kocsival küldenénk oda õket. Elintézne nekünk egy közvetlen járatot a gyártól a kikötõig?";
+$germany01_task15_short = "Létesíts egy viszonylatot a {0:gyártól} a {1:kikötõig}.";
+$germany01_task15_passed = "Köszönöm! Így a futáraink könnyen eljuthatnak a gyárba és vissza a kikötõbe!";
+
+$germany01_task16_name = "Az elégedettség kulcsfontosságú";
+$germany01_task16_text = "Azt akarom látni, hogy a viszonylataink tökéletesen mûködnek! Lássuk, hogy biztosítani tudja-e, hogy az egyik viszonylatunk panaszmentesen fusson két hónapig.";
+$germany01_task16_short = "Egy viszonylaton két hónapig ne legyenek elégedetlen utasok.";
+$germany01_task16_passed = "Hmm, most már látom, hogy kell ezt csinálni! Talán én is megpróbálom, egyszer!";
+
+$germany01_task17_name = "Kényeztesd a nyugdíjasokat";
+$germany01_task17_text = "A nyugdíjasok panaszkodnak, hogy senki sem figyel a szükségleteikre. Azt hittem mi igen... de mindenesetre talán nekünk is meg kellene próbálni csinálni valamit, hogy kényeztessük õket.";
+$germany01_task17_short = "Legyen %0%%-os hírneved a nyugdíjasok között.";
+$germany01_task17_passed = "Úgy tûnik, hogy a nyugdíjasok most elégedettek. Lenyûgözõ! Szép munka!";
+
+$germany01_task18_name = "Gretel kérése";
+$germany01_task18_text = "Helló! Gretel vagyok – Sajnos újra itt vagyok. A kávézóm már sokkal jobban fut, ezért nyitottam még egyet, de soha nem hinné el – ugyanaz a problémája van, mint az elsõnek! Ki gondolta volna! Azon tûnõdtem, hogy ön talán egy új viszonylatot tervezhetne azon a területen. Kérem?";
+$germany01_task18_short = "Létesíts egy viszonylatot a {0:kávézóhoz}.";
+$germany01_task18_passed = "Nagyon köszönöm! Egyszerûen nem tudom eképzelni, hogy hogyan követtem el kétszer ugyanazt a hibát. Igérem, hogy nem fog mégegyszer megtörténni!";
+
+$germany01_task19_name = "Villamosok!";
+$germany01_task19_text = "Egy névtelen tippet kaptam arról, hogy Düsseldorf új villamosvonalakat készül építeni. Verjük meg õket!";
+$germany01_task19_short = "Építs két villamosvonalat.";
+$germany01_task19_passed = "Pont amit akartam, köszönöm!";
+
+$germany01_task20_name = "Már majdnem ott vagyunk";
+$germany01_task20_text = "Minden nagyon jónak néz ki. Akár azt is hihetnénk, hogy Düsseldorfban vagyunk! Biztosítaná, hogy minden viszonylat tökéletesen mûködik, hogy átvehessem a gondozásukat a közeljövõben";
+$germany01_task20_short = "Szállíts %0 utast.";
+
+$germany01_task21_name = "Katonai küldetés";
+$germany01_task21_text = "Figyelem! A hadsereg kaszárnyái túl messze vannak a városközponttól. Nagyon sok utast vonzana be, ha létesítene egy közvetlen járatot, biztosíthatom önt.";
+$germany01_task21_short = "Létesíts egy viszonylatot a {0:kaszárnyához}.";
+$germany01_task21_passed = "Szép munka! Elégedett vagyok az erõfeszítésivel. Pihenjen!";
+
+$germany01_task22_name = "Csak egy kis változtatás...";
+$germany01_task22_text = "Helló! Szép városa van! Figyeljen, csak látogatóban vagyunk, de egyszerûen nem tudtuk nem észrevenni, hogy milyen pompásak itt a villamosok. Milyen csodálatos módja a városban való utazásnak! Csak azt szerettem volna javasolni, hogy építhetne többet ezekbõl.";
+$germany01_task22_short = "Építs két villamosvonalat";
+$germany01_task22_passed = "Ó! Megfogadta a tanácsunkat! Milyen kedves!";
+
+$germany01_task23_name = "Autóprobléma";
+$germany01_task23_text = "Helló! Van egy problémám. Megígértem, hogy elviszem a fiamat az állatkertbe, de a kocsim bedöglött és így nem tudunk eljutni oda. Biztos vagyok benne, hogy a viszonylat sikeres lenne – az állatkertet naponta több százan látogtaják – tehát tudna létesíteni egyet? Köszönöm, hogy meghallgatott!";
+$germany01_task23_short = "Létesíts két viszonylatot az {0:állatkerthez}.";
+$germany01_task23_passed = "Köszönöm! Én és a fiam jól éreztük magunkat az állatkertben és úgy tûnik, hogy a viszonylat is nagyon népszerûnek bizonyul!";
+
+/* SCENARIO2 */
+
+$germany02_name_text = "A kulturális fõváros";
+$germany02_location_text = "Lipcse 1920-1923";
+$germany02_animation_text = "Lipcse gyorsan egy fõ kulturális központtá válik zenei és színházi produkciók számára.\nFiatal színészek és színésznõk sereglenek ide egész Németországból és a város lakossága gyorsan növekszik.\nLipcsének jelenleg nincs tömegközlekedési rendszere, de ez meg fog változni!";
+$germany02_briefing_short = "Lipcse gyorsan egy fõ kulturális központtá válik zenei és színházi produkciók számára. Fiatal színészek és színésznõk sereglenek ide egész Németországból és a város lakossága gyorsan növekszik. Lipcsének jelenleg nincs tömegközlekedési rendszere, de ez meg fog változni!";
+$germany02_briefing_text = "Helló! Miriam vagyok, én képviselem a várost. Nagyon sok szívességet fogok öntõl kérni, ebben biztos lehet! A családom, a von Richthofen, generációk óta Lipcse jótevõje és úgy gondolom, hogy most már biztonsággal kijelenthetem, hogy a városunk végre ragyogni fog! A tömegközlekedésrõl már régóta álmodozunk és végre itt van nekünk ön, hogy segítsen. Annyira izgulok";
+$germany02_completed_text = "Nagyon köszönöm hogy segített nekem – és Lipcsének! Kiváló munkát végzett és büszke vagyok, hogy lehetõségem volt önnel dolgozni. Minden jót kívánok és remélem hamarosan újra találkozunk!";
+
+$germany02_task01_name = "A közönség";
+$germany02_task01_text = "Kezdjünk neki! A legfõbb gondom az, hogy a színház nem teltházas. Ha több oda vezetõ viszonylatot létesítenénk, könnyebbé tenné a lakosok számára hogy kihasználják a kulturális lehetõségeket.";
+$germany02_task01_short = "Létesíts két viszonylatot a {0:színházhoz}.";
+$germany02_task01_passed = "Jó! Most pedig jöjjön a következõ feladat!";
+
+$germany02_task02_name = "Szegény lelkek";
+$germany02_task02_text = "Jó napot! A helyi kórháznak iszonyatosan szüksége van jobb kapcsolatokra. Számos páciensünk panaszkodott, hogy nehéz elérni. Szegény lelkek. Már így is van elég gondjuk – kérem, tudna nekik segíteni?";
+$germany02_task02_short = "Létesíts két viszonylatot a {0:kórházhoz} és szállíts oda %0 utast.";
+$germany02_task02_passed = "Nagyon köszönöm, ez nagy segítség!";
+
+$germany02_task03_name = "Okos villamosok";
+$germany02_task03_text = "A villamosok nagyon jól néznek ki, nem gondolja? Biztos vagyok benne, hogy nagyon sok okos embert vonzanának. A barátom a Filmakadémiáról azt mondja, hogy egyszerûen odavannak a villamosokért Berlinben! Építene nekünk pár vonalat, kérem?";
+$germany02_task03_short = "Építs két villamosvonalat.";
+$germany02_task03_passed = "Remek! Pont olyanok, mint ahogy a barátom mesélte, kitûnõ!";
+
+$germany02_task04_name = "Kifogytunk a kávéból?";
+$germany02_task04_text = "Helló! Egy kávézóban dolgozok a városközpontban. A vendégeink száma megcsappant az utóbbi pár hónapban – a törzsvendégek azt mondják, hogy ez azért van, mert a többi kávézót könnyebb elérni. Már mindent megtettem, amit csak tudtam – a kávé és a torták kiválóak – tehát tudna nekem segíteni a kávézó elérhetõbbé tételével? ";
+$germany02_task04_short = "Létesíts egy viszonylatot a {0:kávézóhoz}.";
+$germany02_task04_passed = "Köszönöm! Így sokkal több vendégünk van... és úgy tûnik, hogy önnek is!";
+
+$germany02_task05_name = "Diákok elcsábítása";
+$germany02_task05_text = "Szeretném rávenni a diákokat, hogy többet használják a szolgáltatásainkat. Végül is õk a jövõnk hangjai. Indítana egy hirdetõkampányt, hogy bevonzzuk õket?";
+$germany02_task05_short = "Indíts egy hirdetõkampányt és legyen %0%%-os hírneved a tanulók között.";
+$germany02_task05_passed = "Kitûnõ! A diákok többségét megnyertük magunknak.";
+
+$germany02_task06_name = "A föld alá";
+$germany02_task06_text = "Egyre nagyobb az igény egy földalatti viszonylatra. Mit gondol, illene az a városunkhoz? Én úgy hiszem, hogy nagyszerû lenne, tehát meg kellene próbálnunk.";
+$germany02_task06_short = "Építs egy metróvonalat.";
+$germany02_task06_passed = "Nagyon jól néz ki és népszerûnek is tûnik. Szép munka!";
+
+$germany02_task07_name = "Vadonatúj iroda";
+$germany02_task07_text = "Jó napot! A vállalatom egy fiókot nyit a városban, így reménykedtem, hogy ön tud nekem segíteni. Az irodának kitûnõ kapcsolatra van szüksége a vasútállomáshoz, hogy fogadni tudjuk az összes fontos látogatónkat. Talán egy kis adomány befolyásolja a döntését?";
+$germany02_task07_short = "Létesíts egy viszonylatot az {0:irodától} a {1:vasútállomásig}.";
+$germany02_task07_passed = "Csodás! Ez roppant hasznos lesz a vállalatom számára. Tessék, itt az az adomány, amit korábban említettem!";
+
+$germany02_task08_name = "A város filmezése";
+$germany02_task08_text = "Hamarosan egy új filmstáb érkezik a városba és arról informáltak, hogy tömegközlekedésre van szükségük a vasútállomástól a piacig. Egy pár jelenet hozzáadását tervezik a legújabb filmjükhöz. Kérem álljon neki – gyorsan!";
+$germany02_task08_short = "Létesíts egy viszonylatot a {0:vasútállomástól} a {1:piacig}.";
+$germany02_task08_passed = "A stáb megkért, hogy adjam át köszönetüket a tömegközlekedésért. A városunkat is nagyon kedvelték!";
+
+$germany02_task09_name = "Benzin és italok pazarlása";
+$germany02_task09_text = "Helló! Szeretnék egy alkut kötni. Én és a barátaim a gyárban szeretnénk könnyebben eljutni a munkahelyünkre. Inkább otthonhagynánk az autóinkat és néha sörözni munka után. Ha létrehozná a viszonylatot megígérjük, hogy csak azt fogjuk használni három hónapon keresztül. További kompenzációt is ajánlhatunk önnek, mivel nagyon sok pénzt fogunk megtakarítani azzal, hogy nem kell benzin vennünk.";
+$germany02_task09_short = "Kösd össze a {0:lakóterületet} és a {1:lakóterületet} a {2:gyárral}.";
+$germany02_task09_passed = "Köszönöm! Így már élvezhetjük a sörünket és egy csomó benzint takarítunk meg! Tartozunk önnek!";
+
+$germany02_task10_name = "Jönnek a turisták!";
+$germany02_task10_text = "Egyre több turista látogatja meg a várost, tehát okos dolog lenne biztosítani nekik valamiféle városnézõ viszonylatot. Van egy pár hely, amire gondoltam, ahol érdemes lenne megállnia. Valószínûleg egy busz lenne a legjobb!";
+$germany02_task10_short = "Létesíts egy buszjáratot a {0:Thomaskirche}, az {1:Augustusplatz} és a {2:park} közé.";
+$germany02_task10_passed = "Szép munka! Úgy tûnik, hogy a viszonylat szinte az összes turistát bevonzza, aki a városba látogat!";
+
+$germany02_task11_name = "Egy új elõadás";
+$germany02_task11_text = "Kaptam egy tippet, hogy egy új, forradalmi elõadás hamarosan elkezdõdik a régi könyvtárban. Úgy gondolom, hogy azonnal viszonylatokat kell oda létesítenünk,  hogy elõre ellássuk a közönséget – azt csicsergik, hogy nagy siker lesz! ";
+$germany02_task11_short = "Létesíts két viszonylatot a {0:könyvtárhoz}.";
+$germany02_task11_passed = "Látta az elõadást? Lenyûgözõ volt! Úgy tûnik a viszonylatok is jól mûködnek.";
+
+$germany02_task12_name = "Nyugalom";
+$germany02_task12_text = "Van egy ötletem a számára! Épp most vittem ki a családomat a városból egy nyugis sétára az erdõbe és egyszerûen tökéletes volt. Biztost vagyok benne, hogy sokkal több ember tennné ezt, ha lenne rá lehetõségük. Ha létesítene egy viszonylatot az erdõhöz, mindenki megtapasztalhatná ugyanazt a békét és csendet!";
+$germany02_task12_short = "Létesíts egy viszonylatot az {0:erdõhöz}.";
+$germany02_task12_passed = "Rögtön megcsinálta, ez pont az, mint amit akartam. Egy kiváló viszonylat egy békés területre.";
+
+$germany02_task13_name = "Üzemanyagfogyasztás";
+$germany02_task13_text = "Figyeljen! Egy olyan vállalatnak dolgozok, amely az üzemanyagfogyasztás optimalizálására specializálódott. Tesztelnünk kell a találmányainkat egy pár jármûvön, így jött képbe ön. Ha megengedi hogy teszteljük a gépeinket a jármûvein, megígérjük, hogy megtarthatja a találmányt, ingyen – ha persze mûködik. Mit szól ehhez?";
+$germany02_task13_short = "Érj el -%0%%-os üzemanyagfogyasztást az összes benzint használó jármûveden három hónapig.";
+$germany02_task13_passed = "Egy jó döntést! Azonnal beszerelem a berendezéseket.";
+
+$germany02_task14_name = "Körözés";
+$germany02_task14_text = "Egy kör alakú viszonylat hozzáadásán gondolkozok – Úgy hallottam, hogy Berlinben az emberek megbolondulnak értük. Gondolja ide is építhetünk egyet?";
+$germany02_task14_short = "Létesíts egy viszonylatot, amely összeköti a {0:vasútállomást}, a {1:piacot}, a {2:városházát} és az {3:irodaépületet}.";
+$germany02_task14_passed = "A viszonylat pont jól néz ki! Köszönöm, jó munkát végzett.";
+
+$germany02_task15_name = "Szegény öreg nyugdíjasok!";
+$germany02_task15_text = "Figyeljen csak ide! Nagyon elégedetlen vagyok önnel! A jármûvei szörnyû hangokat adnak ki és néha állva kell várakoznom a megállóban! Felháborító! Azt akarom, hogy létesítsen egy viszonylatot nekem, a bejárati ajtómtól a városházáig. Így a panaszleveleimet gond nélkül le tudom majd szállítani. Már elég dolgon mentem keresztül az életemben – itt az ideje, hogy valaki tegyen értem is valamit!";
+$germany02_task15_short = "Létesíts egy viszonylatot a {0:háztól} a {1:minisztériumi épületig}.";
+$germany02_task15_passed = "Hrrmm... Azt hiszem ez megteszi. De ne próbálkozzon semmi ostobasággal, különben gondja lesz!";
+
+$germany02_task16_name = "A nagyságos Amerika";
+$germany02_task16_text = "Az amerikai barátom arról informált, hogy imádják a villamosokat. Imádnám, ha Lipcse jobban hasonlítana arra a csodás országra – tehát több viszonylatot kell létesítenünk!";
+$germany02_task16_short = "Építs két villamosvonalat.";
+$germany02_task16_passed = "Azt hiszem most már úgy néz ki, mint Amerika, nem? Talán csak egy kicsit?";
+
+$germany02_task17_name = "Új ápolók";
+$germany02_task17_text = "Új ápolókat képzek a kórházban. Sokan közülük szegény családból származik és sokat kell utazniuk hogy elérjék a kórházat. Keményen dolgoznak és örülök, hogy ilyen sokan akarnak ápolókká válni! Bárcsak könnyebbé tehetném a tanulásukat. Talán ön tud segíteni?";
+$germany02_task17_short = "Létesíts egy viszonylatot, amely összeköti a {0:lakóterületet}, a {1:lakóterületet} és a {2:kórházat}.";
+$germany02_task17_passed = "Köszönöm! Ez sokkal könnyebbé teszi az utazást az ápolótanoncok számára. Annyira hálás vagyok!";
+
+$germany02_task18_name = "Irány vásárolni!";
+$germany02_task18_text = "Azt hiszem biztosítanunk kellene, hogy az összes jármûvünk viszonylag új legyen. Készítene egy leltárat a flottáról és lecserélné a régebbi modelleket?";
+$germany02_task18_short = "Ne legyen két évnél idõsebb jármûved.";
+$germany02_task18_passed = "Így a jármûveink sokkal jobban néznek ki – minden vadonatúj!";
+
+$germany02_task19_name = "A diákok imádják a villamosokat";
+$germany02_task19_text = "Helló! Diákok vagyunk és mi vagyunk a jövõ! Van egy nagyzserû ötletünk! A villamosok királyok – gyorsak, hatékonyak és kényelmesek, tehát mit szólna többhöz a városunkban? Mit gondol?";
+$germany02_task19_short = "Építs 3 villamosvonalat és szállíts %0 utast.";
+$germany02_task19_passed = "Köszönöm. Biztos vagyok benne, hogy a városunk az egyik legmodernebb az egész országban!";
+
+$germany02_task20_name = "Az idõsek";
+$germany02_task20_text = "Úgy érzem, hogy az idõsekrõl megfeledkeztek és nem törõdnek velük. Jó üzleti érzékre vallana, ha rávennénk õket hogy a szolgáltatásainkat hasznáják, nem? Tenne valamit ezzel kapcsolatban?";
+$germany02_task20_short = "Legyen %0%%-os hírneved a nyugdíjasok körében.";
+$germany02_task20_passed = "Úgy tûnik, hogy most már nagyon szeretik a vállalatot, szép munka!";
+
+$germany02_task21_name = "Északi lakosok";
+$germany02_task21_text = "Egy új lakóterület van a várostól északra. Szeretném ha létesítene oda viszonylatokat. Olyan modern és elõkelõ lesz, mindenki irigy lesz!";
+$germany02_task21_short = "Létesíts két viszonylatot a {0:lakóterülethez} és szállíts oda %0 utast.";
+$germany02_task21_passed = "Hú, ez tényleg megtette! Az új lakóterület modern, nyílt embereket vonz!";
+
+$germany02_task22_name = "Északi park";
+$germany02_task22_text = "Le vagyok nyûgözve a városától! Egy nap szeretnék itt élni. Nagyon tetszett a park, északra a várostól, de egy kicsit nehéz volt eljutni oda vasútállomástól. Talán lehet tenni valamit ezzel kapcsolatban?";
+$germany02_task22_short = "Létesíts egy viszonylatot a {0:vasútállomástól} a {1:parkig}.";
+$germany02_task22_passed = "Remek! Már alig várom hogy újra meglátogathassam – úgy látszik, hogy a szolgáltatása egyszerûen nagyszerû!";
+
+$germany02_task23_name = "Állj készen!";
+$germany02_task23_text = "Nagy hírek! A Nemzeti Elõadómûvészeti Fesztivált itt tartják, Lipcsében! Örülök, hogy a mi városunkat választották – ez mutatja, hogy haladást értünk el! Meg kell növelnünk az utaskapacitásunkat a fesztivál ideje alatt. Csak gyõzõdjön meg róla, hogy le is tudjuk csökkenteni azt, amint vége a fesztiválnak.";
+$germany02_task23_short = "Létesíts három új viszonylatot.";
+$germany02_task23_passed = "Minden jónak néz ki, biztos vagyok benne, hogy tudja mit csinál!";
+
+$germany02_task24_name = "A Nemzeti Elõadómûvészeti Fesztivált";
+$germany02_task24_text = "Ez az! Az Elõadómûvészeti Fesztivál hamarosan elkezdõdik. Remélem, hogy van elég viszonylatunk, hogy megbírkozzon a helyzettel, de ne hezitáljon újak hozzáadásával ha a létezõek zsúfolttá válnak!";
+$germany02_task24_short = "";
+$germany02_task24_passed = "";
+
+$germany02_task25_name = "Micsoda mûsor!";
+$germany02_task25_text = "Húha, micsoda mûsor! Imádtam minden elõadást amit láttam – Remélem ön is jól érezte magát! Most már eltávolíthatunk pár viszonylatot. Azt hiszem egy-két buszjárat mehet.";
+$germany02_task25_short = "Távolíts el két buszviszonylatot.";
+$germany02_task25_passed = "Jó, így a dolgok visszaálltak a régi kerékvágásba!";
+
+$germany02_task26_name = "Körbe körbe";
+$germany02_task26_text = "Szeretném kikérni a véleményét – Egy buszviszonylat hozzáadását kívántam, amely körbemegy a város körül. Mit gondol? Meg kellene csinálnunk?";
+$germany02_task26_short = "Létesíts egy buszviszonylatot, amely összeköti a {0:stadiont}, az {1:ipari területet}, a {2:székesegyházat}, a {3:szállodát} és a {4:templomot}.";
+$germany02_task26_passed = "Úgy tûnik, kitûnõ döntést hozott, köszönöm!";
+
+$germany02_task27_name = "A végén";
+$germany02_task27_text = "Úgy tûnik minden simán üzemel Lipcsében. Nem zavarná, ha maradna egy kicsit, csak hogy biztosítsa, hogy minden ellenõrzés alatt van?";
+$germany02_task27_short = "Szállíts %0 utast.";
+
+$germany02_task28_name = "Katonai múzem";
+$germany02_task28_text = "Jó munkát végzett a vásot kulturális életével, de itt vagyok én, egy kéréssel a katonai helyzetre vonatkozóan. Egy múzeumot létesítettünk a kaszárnyák mellé, hogy bemutassuk a látogatóknak a város dicsõ katonai múltját. Biztosítaná, hogy az új múzeumunkhoz könnyen el lehessen jutni?";
+$germany02_task28_short = "Létesíts egy viszonylatot a {0:múzeumhoz} a {1:vasútállomástól}.";
+$germany02_task28_passed = "Pihenjen! Úgy tûnik, hogy a katonai múzeum nagyon jól megy és ez az ön érdeme. Köszönöm!";
+
+/* SCENARIO5 */
+
+$germany05_name_text = "Egy új rendszer";
+$germany05_location_text = "Lipcse 1972-1974";
+$germany05_animation_text = "Lipcse új változásokkal néz szembe, ahogy új tömegével érkeznek az új lakosok és az régi tömegközlekedési rendszer egy teljes átalakítást igényel.";
+$germany05_briefing_short = "Lipcse új változásokkal néz szembe, ahogy új tömegével érkeznek az új lakosok és az régi tömegközlekedési rendszer egy teljes átalakítást igényel.";
+$germany05_briefing_text = "Jó napot! Mr. Strauss vagyok, Lipcse polgármestere. Annyira örülök, hogy ilyen hamar ide tudott érni, örülünk hogy itt van. Ahogy már tudhatja, Lipcse nagyon népszerûvé vált és az emberek a vidéki agglomerációból egyre nagyobb mértékben költöznek be a városba. Jelenleg semmi másunk nincs, csak a régi tömegközlekedési rendszer maradványai -- az idejében kiváló volt, manapság sajnos siralmasan idejétmúlt. Segítsen egy új rendszer építésében, mielõtt elárasztanak minket a kocsik!";
+$germany05_completed_text = "Kiválóan kezelte a helyzetet! Nagyon büszke vagyok, hogy önnel dolgoztam és biztos vagyok benne, hogy minden városlakó is hálás az erõfeszítéseiért.";
+
+$germany05_task01_name = "Tiszta lap";
+$germany05_task01_text = "Elõször is szeretném ha eltávolítaná a létezõ viszonylatokat, hogy a semmibõl kezdhessk újra. Nem mûködnek rendesen, tehát nincs értelme megtartani õket.";
+$germany05_task01_short = "Rombolj le 3 viszonylatot.";
+$germany05_task01_passed = "Így már egy csomó helyünk van, amivel játszhatunk!";
+
+$germany05_task02_name = "Töltsd fel a várost";
+$germany05_task02_text = "Most már tényleg nekikezdhetünk! Nem vagyok biztos, hogy mely helyek és jármûvek lennének optimálisak, szóval inkább önre hagyom ezeket a döntéseket. Csak kezdje el megtölteni a várost új viszonylatokkal!";
+$germany05_task02_short = "Létesíts 7 új viszonylatot.";
+$germany05_task02_passed = "Szép munka! Nagyon csípem a stílusát.";
+
+$germany05_task03_name = "Jó minõségû termék";
+$germany05_task03_text = "Jó napot! Nemrég üzletet kötöttem egy helyi étteremmel, hogy jó minõségû tejt és húst biztosítok nekik. Szeretném gond nélkül intézni a szállítmányaimat, tehát egy buszjárat iszonyatosan jól jönne – gyors, olcsó és megbízható. Utánanézne, hogy mit tehet, kérem?";
+$germany05_task03_short = "Létesíts egy viszonylatot a {0:farmtól} az {1:étteremig}.";
+$germany05_task03_passed = "Köszönöm! Így már gyorsan le tudom szállítani a húsom és tejem. Nézzen be valamikor az étterembe, biztos vagyok benne, hogy nem fog csalódni.";
+
+$germany05_task04_name = "Optimalizáció";
+$germany05_task04_text = "Jó! Most valamennyire optimalizálnunk kell a rendszert. A metróvonalak népszerûek és nyereségesek is, tehát létesítene egyet, kérem?";
+$germany05_task04_short = "Építs két metróvonalat.";
+$germany05_task04_passed = "A metró csodálatosan néz ki. Elégedett vagyok, egy kiváló döntés volt, kiválóan végrehajtva!";
+
+$germany05_task05_name = "Különleges tej";
+$germany05_task05_text = "Jó napot! Jelenleg egy különleges tejet termelek, amely nagyon keresett az egész országban. A termelés még mindig kis mértékben folyik és szeretném, ha lenne egy könnyû mód a tej elszállítására a vasútállomáshoz. Talán létesíthetne egy viszonylatot?";
+$germany05_task05_short = "Létesíts egy viszonylatot a {0:vasútállomástól} a {1:farmig}.";
+$germany05_task05_passed = "Köszönöm! Ez sokkal könnyebbé teszi a tej szállítását!";
+
+$germany05_task06_name = "Stadionjáratok";
+$germany05_task06_text = "A stadin egy forgalmas hely, több viszonylatot kellene létesítenünk oda. Azt hiszem kettõ jó kezdés lenne.";
+$germany05_task06_short = "Létesíts két viszonylatot a {0:stadionhoz}.";
+$germany05_task06_passed = "Jó! A viszonylatok pont úgy mûködnek, mint ahogy az tervezve volt.";
+
+$germany05_task07_name = "Költözés";
+$germany05_task07_text = "A családom költözik! Egy kicsit aggódok a közlekedési kapcsolatok miatt a területen – utánanézne nekem? Egy nagyon jó hírû szomszédság – egy szép biztonságos terület – tehát biztos vagyok benne, hogy sok utasa lenne.";
+$germany05_task07_short = "Létesíts két viszonylatot a {0:lakóterülethez}.";
+$germany05_task07_passed = "Köszönöm! Így már sokkal jobban és kívánatosabbnak néz ki a terület. Remélem hogy sok utasa lesz!";
+
+$germany05_task08_name = "A titkos projekt";
+$germany05_task08_text = "Egy titkos projekten dolgozok, ami már a termelési fázisban van. A problémám az, hogy több munkásra van szükségem. Ha jobb közlekedési kapcsolataink lennének sokkal több munkást tudnánk bevonzani. Tudna nekem segíteni?";
+$germany05_task08_short = "Létesíts három viszonylatot a {0:gyárhoz}.";
+$germany05_task08_passed = "Köszöböm! A munkáshiánynak vége és a projekt jól halad!";
+
+$germany05_task09_name = "Pénzhiány";
+$germany05_task09_text = "A város költségvetése egy kicsit szûkös, tehát abban reménykedtem, hogy ön talán képes lesz hozni pár gazdasági döntést és kisegíteni a többi osztályt.";
+$germany05_task09_short = "Szerezz %it d,20 pénzt.";
+$germany05_task09_passed = "Végülis nem is volt akkora hiányunk, de köszönöm, hogy kisegített minket!";
+
+$germany05_task10_name = "Túl közel";
+$germany05_task10_text = "Sajnálom, hogy ezt kell kérnem öntõl, de az egyik buszmegállója nagyon közel van a kávézómhoz és aggódok a zaj és a légszennyezés miatt. Van bármi mód arra hogy elköltöztesse onnan?";
+$germany05_task10_short = "Távolítsd el a következõ buszmegállót: {0:%0}.";
+$germany05_task10_passed = "Nagyon köszönöm! Nem gondoltam, hogy igent fog mondani, de annyira örülök neki! Én és a vendégeim így sokkal boldogabbak vagyunk.";
+
+$germany05_task11_name = "Túl sok ember!";
+$germany05_task11_text = "Túl sok ember várakozik a buszmegállóknál! Nem szeretek várni – fáj a lábam és mást is csinálhatnék ez idõ alatt. Nagyon sok ûrlapot kell kitöltenem! Ragaszkodok ahhoz, hogy létesítsen több viszonylatot, hogy lecsökkentse a várakozási idõket!";
+$germany05_task11_short = "Létesíts két viszonylatot és szállíts %0 utast.";
+$germany05_task11_passed = "Remélem több ember vált át az új viszonylatokra. Még mindig mások is használják a viszonylatomat, amikor szükségem van rá...";
+
+$germany05_task12_name = "Strauss kérése";
+$germany05_task12_text = "Ez a fõ célom: biztosítanom kell, hogy a tömegközlekedési rendszer képes nagy számú utas kezelésére hosszú ideig. Kérem tegyen meg minden szükséges lépést, ha lát bármit, ami nem tetszik önnek";
+$germany05_task12_short = "Szállíts %0 utast.";
+
+$germany05_task13_name = "Északi páciensek";
+$germany05_task13_text = "Jelenleg számos páciensünk tömegközlekedéssel közlekedik, de akik az északi lakóterületrõl érkeznek azt mondták nekem, hogy nincs elég viszonylat, hogy biztosítható legyen egy gyors utazás. Utána tudna nézni?";
+$germany05_task13_short = "Létesíts két viszonylatot az {0:északi lakóterülethez}.";
+$germany05_task13_passed = "Köszönöm! Mindig jobb, ha a páciensek gyorsan el tudnak jutni a kórházba, ha kezelésre van szükségük.";
+
+$germany05_task14_name = "Színházbefektetés";
+$germany05_task14_text = "A legújabb befektetési projektem egy színház – a legnyereségesebbnek kell lennie. Kompenzációt ajánlhatok fel önnek, ha biztosítani tudná a vendégek számára a színház könnyû megközelíthetõségét.";
+$germany05_task14_short = "Létesíts egy viszonylatot a {0:színházhoz}.";
+$germany05_task14_passed = "Jó! A befektetésem így már elég jó nyereséget hoz! Tessék... egy kis jutalom az erõfeszítéseiért.";
+
+/* SCENARIO6 */
+
+$germany06_name_text = "Borzasztó zûrzavar";
+$germany06_location_text = "Köln 1984-1986";
+$germany06_animation_text = "Kölnben a tömegközlekedésért felelõs vezetõnek szörnyen nagy szüksége van segítségre.\nA város káoszban van, köszönhetõen a rosszul üzemeltetett tömegközlekedési rendszerének és te vagy az egyetlen, aki segíteni tud.";
+$germany06_briefing_short = "Kölnben a tömegközlekedésért felelõs vezetõnek szörnyen nagy szüksége van segítségre.\nA város káoszban van, köszönhetõen a rosszul üzemeltetett tömegközlekedési rendszerének és te vagy az egyetlen, aki segíteni tud.";
+$germany06_briefing_text = "Psszt, hé te ott! Igen, én vagyok az aki hívta önt... Én vagyok a tömegközlekedési osztály elnöke. Shh.. csak halkan, oké? Segítségre van szükségem a tömegközlekedési rendszer megjavításában. Úgy gondolja, hogy képes rá?";
+$germany06_completed_text = "Köszönöm, tartozok önnek. Megmentette a bõrömet és segített az egész városnak! Teljes káoszban lennénk, ha ön nem lett volna itt. Ha bármikor szüksége van egy szívességre, tudja hogy hova kell jönnie.";
+
+$germany06_task01_name = "Több és több villamost";
+$germany06_task01_text = "Rendben, a következõt javaslom: elõször is, adjon a rendszerhez több villamost. Nagyon népszerûnek kellene lenniük. Ön választhatja a helyeket, biztos vagyok benne, hogy képes lesz kezelni!";
+$germany06_task01_short = "Építs három villamosvonalat.";
+$germany06_task01_passed = "Gyorsan, létesítsünk még pár viszonylatot!";
+
+$germany06_task02_name = "A következõ, egy metróvonal";
+$germany06_task02_text = "A következõ lépésünknek egy metróvonal építésének kellene lennie. Eléggé drága – csak vegyen fel kölcsönt, ha kell. Nekem kell ez a vonal!";
+$germany06_task02_short = "Építs egy metróvonalat.";
+$germany06_task02_passed = "Épp jókor, reménykedjünk, hogy ez pénzcsináló gép lesz!";
+
+$germany06_task03_name = "Fizikai dolgozók, ugorjatok fel!";
+$germany06_task03_text = "Próbálom rávenni a barátaimat, hogy váltsanak át tömegközlekedésre, de valami oknál fogva vonakodnak megtenni. Biztos vagyok benne, hogy több száz potenciálus utas van a fizikai dolgozók körében, tehát miért nem próbálja meg megnyerni õket?";
+$germany06_task03_short = "Érj el %0%%-os hírnevet a fizikai dolgozók körében.";
+$germany06_task03_passed = "Köszönöm! Most már busszal járhatok munkába a barátaimmal!";
+
+$germany06_task04_name = "A hirdetés mûködik!";
+$germany06_task04_text = "Mit szólna mondjuk egy kis hirdetéshez? Gyorsan sok új utasra van szükségünk!";
+$germany06_task04_short = "Indíts két hirdetõkampányt.";
+$germany06_task04_passed = "Úgy tûnik, hogy mûködik!";
+
+$germany06_task05_name = "Rossz kezelés!";
+$germany06_task05_text = "Jobban kellene bánnia velünk, idõsebb polgárokkal! Van vásárlóerõnk és nagyon hûségesek vagyunk. Úgy gondolom többet kellene tennie értünk!";
+$germany06_task05_short = "Érj el %0%%-os hírnevet a nyugdíjasok között.";
+$germany06_task05_passed = "Talán többet is tehetne, de jelenleg ez megteszi.";
+
+$germany06_task06_name = "Mit szól a buszokhoz?";
+$germany06_task06_text = "Mit szól pár buszhoz következõnek? Bármi ami mozgásban tart minket!";
+$germany06_task06_short = "Létesíts három buszjáratot.";
+$germany06_task06_passed = "Kicsit rövidek, de talán sok pénzt hoznak, lássuk.";
+
+$germany06_task07_name = "Gyorsan, egy helikopter!";
+$germany06_task07_text = "Kedvesem... Szörnyen nagy szükségem van egy helikopterjáratora! Azonnal! Hogyan várhatják el, hogy jelenjek meg a legújabb divatban egy szép helikopter nélkül, ami mellett pózolhatok! Lenne kedves és kisegítene?";
+$germany06_task07_short = "Létesíts egy helikopterjáratot.";
+$germany06_task07_passed = "Köszönöm, kedves! A fotózás pompás volt, a helikopterleszálló elõtti sorokról ítélve, nem fog hiányt szenvedni utasokból a jövõben!";
+
+$germany06_task08_name = "A reptérre";
+$germany06_task08_text = "A reptér nagyon nyüzsgõ helynek tûnik, talán odaterelhetnénk pár utast... Létesítene pár viszonylatot?";
+$germany06_task08_short = "Létesíts három viszonylatot a {0:reptérhez}.";
+$germany06_task08_passed = "Jól néz ki – gyorsan pénzt kell hoznia!";
+
+$germany06_task09_name = "Nagyobb sebességet a metrónak";
+$germany06_task09_text = "Van egy új találmányom – segít a metrószerelvényeknek egy kicsit nagyobb sebességet elérni kis távolságokon. Ha biztosítani tudná a finanszírozást szívesen felszerelném a metrószerelvényeire!";
+$germany06_task09_short = "Fizess %it d,20 pénzt, hogy +%1%%-os sebességnövekedést érj el az összes metrószerelvényen négy hónapig.";
+$germany06_task09_passed = "Elégedett vagyok, hogy a találmányom megfelelõen mûködik!";
+
+$germany06_task10_name = "Még egy metróvonal";
+$germany06_task10_text = "Még egy metróvonal kisegítene minket. Nagyon elégedett vagyok velük.";
+$germany06_task10_short = "Építs egy metróvonalat.";
+$germany06_task10_passed = "Remek, ennek meg kellene növelnie a bevételeinket.";
+
+$germany06_task11_name = "Túl drága!";
+$germany06_task11_text = "Kérem, segítsen ki minket! A kávézó a legjobb diákkedvezményekkel gyalog túl messze van az egyetemtõl. Nem tudunk odamenni ebédelni anélkül, hogy ne késnénk órákról. Ha létesítene egy összekötõ viszonylatot, biztos vagyok benne, hogy sok utasa lenne.";
+$germany06_task11_short = "Létesíts egy buszjáratot a {0:kávézótól} az {1:egyetemig}.";
+$germany06_task11_passed = "Köszönöm! Így már nem kell pénztelennek és éhesnek lennünk tanulás közben! Ön a mi hõsünk!";
+
+$germany06_task12_name = "A villamosok kétszer olyan jók";
+$germany06_task12_text = "Hozzáadhatnánk pár további villamost is – úgy tûnik, nagyon jól mûködnek a városban. Építsen nekünk pár vonalat!";
+$germany06_task12_short = "Építs két villamosvonalat.";
+$germany06_task12_passed = "Jól néz ki, szép munka a megállók elhelyezésével!";
+
+$germany06_task13_name = "Zsúfolt kórház";
+$germany06_task13_text = "A kórház parkolója kezd túlzsúfolt lenni! Tudna létesíteni pár tovább viszonylatot, hogy könnyebbé tegye a pácienseknek az elérésünket?";
+$germany06_task13_short = "Létesíts két viszonylatot a {0:kórházhoz}.";
+$germany06_task13_passed = "Köszönöm! A közlekedési dugók elmúltak, tehát a viszonylatai mûködnek!";
+
+$germany06_task14_name = "Üzletemberek és a pénzük";
+$germany06_task14_text = "Az üzletemberek szívesen költenek utazásra, tehát néhány szolgáltatásunkat nekik kell céloznunk. Biztosítaná, hogy tudják mit tudunk ajánlani nekik?";
+$germany06_task14_short = "Érj el %0%%-os hírnevet az üzletemberek körében.";
+$germany06_task14_passed = "Nagyon jó, kitûnõ munka!";
+
+$germany06_task15_name = "Kedvesemi";
+$germany06_task15_text = "Jó napot! A helyi iskolában tanítok és néhány tanulónknak gyalog kell hazamennie, mert a szüleiknek nincs ideje, hogy felvegyék õket. Annyira sajnálom ezeket a kicsiket, hogy gyalog kell hazajutniuk, tehát arra gondoltam, hogy talán ön megfontol néhány viszonylat létesítését, hogy tömegközlekedést használhassanak... akkor nem kellene kint lenniük az esõben!";
+$germany06_task15_short = "Létesíts két viszonylatot az {0:iskolához}.";
+$germany06_task15_passed = "Nagyon köszönöm! Így a gyerekek gyalog is mehetnek, vagy választhatják a tömegközlekedést is, ha hideg van vagy esik az esõ.";
+
+$germany06_task16_name = "Több viszonylatot, gyorsan!";
+$germany06_task16_text = "Több viszonylatra van szükségünk! Bármilyen régi dolog megteszi, csak bizonyosodjon meg róla, hogy pénzt hoz be.";
+$germany06_task16_short = "Legyen %0 viszonylatod.";
+$germany06_task16_passed = "Szép munk! Ön egy szélvész! Le vagyok nyûgözve a munkájától.";
+
+$germany06_task17_name = "Díszesebb flotta";
+$germany06_task17_text = "Talán több utast vonzanánk be, ha újabb jármûveink lennének? Az emberek imádják az új dolgokat – fizetnének, hogy kipróbálhassanak bármilyen új jármûvet, ami megveszünk. Modernizáljuk a flottát!";
+$germany06_task17_short = "Ne legyen 18 hónapnál öregebb jármûved.";
+$germany06_task17_passed = "Minden nagyon jól néz ki – ennek kényeztetnie kellene az utasokat és a sofõröket.";
+
+$germany06_task18_name = "Egy rakat pénz";
+$germany06_task18_text = "Ha egy kicsit több pénzt kereshetnénk, akkor azt hiszem át tudnám venni az irányítást. Nagy segítség volt!";
+$germany06_task18_short = "Szerezz %it d,20 pénzt.";
+
+$germany06_task19_name = "Múzeumlátogatók";
+$germany06_task19_text = "A múzeum abban reménykedik, hogy több látogatót tud bevonzani. Segítene nekünk több viszonylat építésével, amelyek kijönnek ide? Nagyra méltányolnánk!";
+$germany06_task19_short = "Létesíts három viszonylatot a {0:múzeumhoz}.";
+$germany06_task19_passed = "Köszönet! A következõ kiállításunk a városi legendákról fog szólni, szakítson egy kis idõt rá és nézze meg!";
+
+$germany06_task20_name = "Oktatási vészhelyzet!";
+$germany06_task20_text = "Úgy tûnik, hogy egy kis problémám van. A kocsim lerobbant és most nagyon el vagyok foglalva az iskolában, ahol dolgozok. Tudom, hogy sokat kérek, de tudna létesíteni egy viszonylatot a házamtól az iskoláig, kérem?";
+$germany06_task20_short = "Létesíts egy viszonylatot a {0:tanár házától} az {1:iskoláig}.";
+$germany06_task20_passed = "Köszönöm! Annyira hálás vagyok, ez tényleg nagyon sok gondtól megkímélt. Ön egy angyal!";
+
+$germany_credit_items = [
+  "",
+  "Cities In Motion: Németország",
+  "",
+  "PRODUCER",
+  "-Mariina Hallikainen",
+  "TECHNIKAI VEZETÕ",
+  "-Antti Lehto",
+  "FÕDIZÁJNER",
+  "-Karoliina Korppoo",
+  "TÉRKÉPDIZÁJNER",
+  "-Henri Haimakainen",
+  "-Antti Isosomppi",
+  "-Antti Lehto",
+  "-Juhani Hujala",
+  "VEZETÕ MÛVÉSZ",
+  "-Antti Isosomppi",
+  "MÛVÉSZEK",
+  "-Tuuli Juntunen",
+  "-Henri Haimakainen",
+  "TOVÁBBI MÛVÉSZET",
+  "-Mikko Tyni",
+  "-Aapo Peltola",
+  "KÜLÖN KÖSZÖNET",
+  "-\"Nikke\"",
+  "-Paradox Fórum közössége"
+];
+

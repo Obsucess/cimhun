@@ -1,0 +1,16 @@
+
+$vehicle_dlc03_bus01 = "Stern-Berger Midi";
+$vehicle_dlc03_bus01_info = "A svájci színvonal egy terméke példás minõségben és innovatív külsõvel. A Midi-t elsõsorban sûrûn lakott városi területekre szánták. Könnyû, viszonylag rövid a tengelytávolsága és alacsony a padlója, így könnyû manõverezést és beszállást tesz lehetõvé.";
+
+$vehicle_dlc03_tram01 = "Vagabondo Satellite";
+$vehicle_dlc03_tram01_info = "Az olasz építésû Vagabondo villamosokat elõször Rómában használták a városi hálózat fejlesztése során. A Satellite nagyon megbízható, bár nem épp a legtetszetõsebb. Egy karosszériából álló, hattengelyes villamos, részben alacsonypadlós felépítésben. A váz mindkét végén van vezetõfülkéje.";
+
+$vehicle_dlc03_metro01 = "Crescenta T4 Suburbia";
+$vehicle_dlc03_metro01_info = "Egy dán alkotás, a Crescenta T4 Suburbia egy kombinált metró/könnyûvasúti szerelvénykonfiguráció, amelyet elsõdlegesen forgalmi csomópontok és vidéki városok közötti összeköttetésre szántak. A felépítésében a hagyományos elõvárosi vonatokra hasonlít és vele párhuzamosan létezik egy forgózsámolyos verzió is amely a vasúti hálózatra alkalmas.";
+
+$vehicle_dlc03_waterbus01 = "Stingray Cityjet";
+$vehicle_dlc03_waterbus01_info = "A Stingray Cityjet egy gyors, rövid távra tervezett, ausztrál eredetû katamarán. Nemrég jelentették be, hogy ezenkek a hajóknak a harmadik generációjának hatékony üzemanyagfogyasztása és és különösen alacsony zajkibocsátása lesz. Ezeket a hajókat mind rendszeres kompjárati és városnézõ használatra is tervezték, így kényelmes ülésekkel és egy karbantartó fedélzettel rendelkezik.";
+
+$vehicle_dlc03_heli01 = "Pavlov P-42";
+$vehicle_dlc03_heli01_info = "A Pavlov Aeronautika gyárakat a Pavlov vállalatok részeként hozták létre az 1910-es évek közepén. Ivan Pavlov, egy útörrõ a forgószárnyas légijármûvek tervezésében, személyesen vezette a P-42-t az elsõ tesztrepülésén. Eredetileg tengeralattjárók elleni hadviselésre tervezve hamar népszerûvé vált a légitaxi üzletben is. Egy robosztus helikopter, viszonylag kis önsúllyal és lassú gyorsulással. Különösen alkalmas rövidtávú utas és áruszállítási igények kielégítésére.";
+

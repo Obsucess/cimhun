@@ -1,0 +1,308 @@
+$location_london_name = "London";
+
+$cityname_london = "London";
+$citydescription_london_short = "A temze folyó keresztülfolyik ezen a vibráló, nyüzsgõ városon. A számos keskeny utca és a nagy népsûrûség nagy igényeket támaszt a tömegközlekedési rendszerrel kapcsolatban, amelynek naponta több ezer londoni ingázását kell kezelnie.";
+$citydescription_london_long = "";
+
+$building_blockHouse05  = "Lakóépület";
+$building_blockHouse06  = "Lakóépület";
+$building_detachedHouse04  = "Családi ház";
+$building_basketball_field  = "Kosárlabda pálya";
+$building_skyscraper01  = "Kereskedelmi épület";
+$building_skyscraper02  = "Kereskedelmi épület";
+$building_skyscraper03  = "Kereskedelmi épület";
+$building_lowCommercial01  = "Kereskedelmi épület";
+$building_lowCommercial03  = "Kereskedelmi épület";
+$building_semidetached01  = "Ikerház";
+$building_semidetached02  = "Ikerház";
+$building_semidetached03  = "Ikerház";
+$building_semidetached04  = "Ikerház";
+$building_restaurant  = "Étterem";
+$building_gherkin  = "Az Uborka";
+$building_bigben  = "Big Ben";
+$building_westminster  = "Westminster-apátság";
+$building_londonEye  = "London Eye";
+$building_monument  = "Emlékmû";
+$building_buckinghamPalace  = "Buckingham-palota";
+$building_towerOfLondon  = "A londoni Tower";
+$building_victoriaMemorial  = "Viktória emlékmû";
+$building_waterlooBlock  = "Waterloo Tömb";
+$prop_towerWall  = "A londoni Tower";
+
+$vehicle_londonBus01  = "Roadmaster Classic";
+$vehicle_londonBus01_info  = "Ha elképzelsz egy ikonikus, piros emeletesbuszt London utcáin kanyarogva, akkor valószínûleg a Roadmaster Classicra gondolsz. Nagy számú utas szállítására lett tervezve a város szûk kanyargós utcáin. Ez a busz rendkívül strapabíró és ennek ellenére nagy mértékû utaskényelmes biztosít. Bár nem túl gyors, sebességhiányát kompenzálja a tartós felépítésével és kényelmes belsõ terével.";
+$vehicle_londonBus02  = "Roadmaster Open Top";
+$vehicle_londonBus02_info  = "Ez a nyitott tetejû modell különösen népszerû a turisták körében, mert panorámakilátást biztosít városban. Az Open Top ellátja London számos városnézõ turistáját és egyedi – szellõs – utat biztosít a városban. Nem meglepõ, hogy kevésbõ népszerû esõs napokon!";
+$vehicle_londonBus03  = "Roadmaster Olympic";
+$vehicle_londonBus03_info  = "A Roadmaster Olympic egy jó választás nagy távolságokra. Miközben a Roadmaster emeletesek kitûnõen szerepelnek városi környezetben, az Olympian hosszabb utakra ideális. Az üzemanyagfogyasztás kicsit nagyobb, mint a többi modellé, de ezt kiegyensúlyozza a tartóssága és a robosztus felépítése.";
+$vehicle_londonBus04  = "Roadmaster 2000";
+$vehicle_londonBus04_info  = "A Roadmaster 2000 a flotta zászlóshajója. Speciálisan megtervezet ajtókkal, a tágas belsõ tere kényelmes ülésekkel büszkélkedik, miközben az emeleten található hatalmas ablakok kitûnõ kilátást nyújtanak a városra és biztosítják, hogy a belsõ tér világos és barátságos.";
+$vehicle_londonMetro01  = "1995 Rolling Stock";
+$vehicle_londonMetro01_info  = "Külön a londoni földalatti rendszernek tervezve, ezen metrószerelvény kocsijai alacsontetõsek de tágasak. A modell külön megtervezett belsõ térrel büszkélkedhet, amely úgy lett tervezve, hogy képes legyen kerékpárok és babakocsik szállítására. A londoniak kedvence, nagy utaskapacitása és sebessége miatt.";
+
+$campaign_london1_name_text  = "A nagy füst";
+$campaign_london1_description_text  = "London: egy virágzó fõváros a Temze partjain. A szûk utcái és hídjai egyedi kihívást nyújtanak a tömegközlekedési rendszer számára. A lakók minden nap a városközpontba ingáznak dolgozni, aztán este pedig haza, ami nagy igényeket generál mûködõ viszonylatokra és különbözõ jármûvekre.";
+
+/* SCENARIO1 */
+
+$london01_name_text  = "Esõs napok";
+$london01_location_text  = "London 1972-1974";
+$london01_animation_text  = "London egy nagyon divatos hely és szüksége van egy hozzá illõ tömegközlekedési rendszerre,\ntehát hozd a trapéznadrágodat és kezdjünk neki!";
+$london01_briefing_short  = "Hozz létre egy tömegközlekedési rendszert London számára.";
+$london01_briefing_text  = "Annyira örülünk, hogy itt van! A város teljes felfordulás – mindenhol autók vannak! Létesítenünk kell egy tömegközlekedési rendszert – méghozzá gyorsan! Itt a pénz, csak csinálja azt amit szükségesnek gondol!";
+$london01_completed_text  = "Szép munka! Köszönjük a közbelépését és segítségét – sürgõsen segítségre volt szükségünk és ön nagy elõny volt.";
+
+$london01_task01_name  = "Figyeljenek a hézagra";
+$london01_task01_text  = "A város egyik legnagyobb problémája az, hogy a városközpont bedugul csúcsidõben. Úgy gondolom, hogy a megoldás talán egy földalatti rendszer építése lenne. Tudna építeni egyet nekünk?";
+$london01_task01_short  = "Építs öt metróvonalat.";
+$london01_task01_passed  = "Remek! Úgy látszik, hogy ez tényleg segített lecsökkenteni a forgalmi dugókat – pont ezt akartam.";
+
+$london01_task02_name  = "Teaidõ";
+$london01_task02_text  = "Itt az idõ egy kis teára! Van egy kis teaboltom és épp most kaptam egy szállítmányt a legfinomabb Assam teából, egyenesen Indiából! Sajnos mostanság nincs annyi vásárlóm és a teát addig kellene meginni, amíg az még friss. Tudna nekem segíteni?";
+$london01_task02_short  = "Létesíts két viszonylatot a {0:teaszalonhoz}.";
+$london01_task02_passed  = "Köszönöm! Így már még több vásárló élvezheti a finom teám. Tessék, kóstolja meg!";
+
+$london01_task03_name  = "Ne torlaszold el";
+$london01_task03_text  = "Felbéreltem egy bandát, hogy játsszon a következõ héten! Arra számítok, hogy sok ember jön és hallgatja meg õket és ezért fordulok önhöz. Nem akarom eltorlaszolni az utcákat kocsikkal, szóval tényleg sokat segítene, ha jó közlekedési kapcsolataink lennének.";
+$london01_task03_short  = "Létesíts három viszonylatot a {0:koncertteremhez}.";
+$london01_task03_passed  = "Köszönöm! Az elõadás nagy siker volt!";
+
+$london01_task04_name  = "Nem vadászat";
+$london01_task04_text  = "Többé már nem vadászunk rókákra (kimentek a divatból), de megpróbálunk segíteni a rágcsálóproblémáknál. Azt tervezzük, hogy a vadászatot a város északi részén kezdjük, de sajnos nincs mindegyikõnknek autója. Lehetséges lenne-e pár odavezetõ viszonylat létesítése, hogy mindenki el tudjon menni a vadászatra?";
+$london01_task04_short  = "Létesíts két viszonylatot a {0:lakóterülethez}.";
+$london01_task04_passed  = "Szép munka! Ez majd segít elintézni a rágcsálóproblémát és sokkal lakhatóbbá teszi a várost.";
+
+$london01_task05_name  = "Parkolási problémák";
+$london01_task05_text  = "A gyárnak, ahol dolgozok, nincsen elegendõ parkolóhelye minden alkalmazottjának. Tudna létesíteni egy viszonylatot oda a vasútállomástól? Ez tuti hogy sok munkást boldoggá tenne!";
+$london01_task05_short  = "Létesíts egy viszonylatot a {0:vasútállomástól} a {1:gyárhoz}.";
+$london01_task05_passed  = "Köszönjük, hogy kisegített minket! Így már nagyon sok munkás használja a tömegközlekedést.";
+
+$london01_task06_name  = "Nyüzsgõ buszok";
+$london01_task06_text  = "Úgy tûnik, hogy a földalatti vasút most már szépen az ellenõrzésünk alatt van, tehát mit szólna pár buszhoz, hogy forgalmasak maradjanak a metróvonalak?";
+$london01_task06_short  = "Létesíts hét buszviszonylatot.";
+$london01_task06_passed  = "Kitûnõ munka! Tudtam, hogy számíthatok arra, hogy teljesíteni fog.";
+
+$london01_task07_name  = "A saját vonala";
+$london01_task07_text  = "Hamarosan a vároba érkezem és szeretném használni a metrót. Nem lenne mesés, ha lenne egy viszonylat, amit külön rólam neveztek el? Ha létrehoz nekem egyet, akkor eljövök a megnyitóünnepségre és garantálom hogy több utast fogok önnek szerezni!";
+$london01_task07_short  = "Építs egy metróvonalat.";
+$london01_task07_passed  = "Mily csodás! A megnyitó olyan jól ment, biztos vagyok benne, hogy rengeteg utasa van a vonalon!";
+
+$london01_task08_name  = "Bámulatos kiállítás";
+$london01_task08_text  = "A Brit Múzeum hamarosan egy új kiállításnak ad otthont és szeretnénk javítani a közlekedési kapcsolatainkat, hogy több látogatót vonzzunk be. A kiállítás valóban csodálatos, mindenkinek látnia kellene!";
+$london01_task08_short  = "Létesíts három viszonylatot a {0:múzeumhoz}.";
+$london01_task08_passed  = "Köszönöm! A kiállítás nagyon népszerûnek bizonyul. Nagyon elégedett vagyok, hogy ilyen sok ember el tudott jönni.";
+
+$london01_task09_name  = "Nehezen elérhetõ";
+$london01_task09_text  = "Az irodámat nehéz elérni! Gyorsabban kell eljutnom oda. Eltudná intézni?";
+$london01_task09_short  = "Létesíts egy viszonylatot az {0:irodához}.";
+$london01_task09_passed  = "Az ingázásom így már szupergyors! Köszönöm!";
+
+$london01_task10_name  = "London cserkészei";
+$london01_task10_text  = "Helló! Én London egyik cserkésze vagyok. Egy kirándulást tervezünk a város déli felén lévõ parkba, de sok barátunk a külvárosból fog érkezni, tehát nekik tömegközlekedésre van szükségük. A park tényleg remek, tehát ha létesítene egy viszonylatot oda vasútállomástól, akkor sok más ember is használná.";
+$london01_task10_short  = "Létesíts egy viszonylatot a {0:vasútállomástól} a {1:parkig}.";
+$london01_task10_passed  = "Nagyon köszönöm! A kirándulásunk nagy siker volt, mindenki nagyon élvezte.";
+
+$london01_task11_name  = "Tûnj okosnak";
+$london01_task11_text  = "Minden jónak tûnik! Azt mondom, hogy még mindig szükségünk van pár viszonylatra. Azután azt hiszem képes leszek kezelni a dolgokat egy ideig.";
+$london01_task11_short  = "Létesíts tíz viszonylatot és szállíts 2000 utast.";
+
+$london01_task12_name  = "Parkok és virágok";
+$london01_task12_text  = "Imádom ezt a várost! Konkrétan a park gyönyörû virágainak vagyok a rabja, de azt kívánom, bárcsak könnyebben megtudnám közelíteni õket. Utánanézne, hogy ez lehetséges-e?";
+$london01_task12_short  = "Létesíts egy viszonylatot, ami összeköti a {0:Ruskin parkot}, a {1:Mostyn kerteket}, a {2:Kensington parkot} és a {3:Burgess parkot}.";
+$london01_task12_passed  = "Kitûnõ! Biztos vagyok bene, hogy mások is annyira fogják értékelni, mint én. A parkok annyira csodálatosak az év ezen idõszakában!";
+
+$london01_task13_name  = "Egy kis étterem";
+$london01_task13_text  = "Én és a munkatársaim egyszerûen imádnak, ha ebben a kis étteremben tudnánk ebédelni, de túl messze van a munkahelyünktõl. Talán ön tud segíteni nekünk?";
+$london01_task13_short  = "Létesíts egy viszonylatot a {0:gyártól} az {1:étteremig}.";
+$london01_task13_passed  = "Köszönöm! A menü kiváló, egyszer ön is megkóstolhatná!";
+
+$london01_task14_name  = "Béke!";
+$london01_task14_text  = "Béke, ember! Hé, egy kis lazulást szervezek... és nagyon levinné a hangulatot, ha a népeknek nehéz lenne eljutni oda. Nézze, ez a cím... Ember, kitudna minket segíteni? Ó és igen, ingyenes meghívót kap, hogy csatlakozzon hozzánk!";
+$london01_task14_short  = "Létesíts két viszonylatot a {0:hippi házához}.";
+$london01_task14_passed  = "A lazulás baromi király volt... olyan sok ember jött, és ... ellazultnak tûntek.";
+
+/* SCENARIO2 */
+
+$london02_name_text  = "Helló emeletesek!";
+$london02_location_text  = "London 1995-1997";
+$london02_animation_text  = "London egy nyüzsgõ turistacélpont és a tömegközlekedési rendszernek képesnek kell lennie kiszolgálni az igényeiket.\nFejleszd a rendszert, hogy képes legyne kezelni az új forgalom megnövekedését!";
+$london02_briefing_short  = "Fejleszd London tömegközlekedési rendszerét.";
+$london02_briefing_text  = "A turisták özönlenek a városba! Nem hiszem, hogy valaha is volt már ennyi ember egyszerre a városban. A földalatti tele van és a városközpontot még mindig sújtják a sûrû dugók.";
+$london02_completed_text  = "Nem tudom hogyan köszönhetném meg! Abszolút csodás munkát végzett – a város tömegközlekedési rendszere már sokkal jobb állapotban van. Nagyon örülök, hogy lehetõségem volt önnel dolgozni.";
+
+$london02_task01_name  = "Utazó turisták";
+$london02_task01_text  = "A turisták teljesen odavannak London emeletes buszaiért. Létesíts pár extra viszonylatot, hogy még több ember utazhasson a buszokon és küldhessen képeket haza!";
+$london02_task01_short  = "Létesíts három buszviszonylatot csak \"Roadmaster Classic\" buszok használatával.";
+$london02_task01_passed  = "Szép munka! Micsoda reklám a városképnek látni azokat a csillogó piros emeleteseket a városban járkálni.";
+
+$london02_task02_name  = "Bobby kérelme";
+$london02_task02_text  = "Jó napot! A rendõrségtõl vagyok és és azért küldtek, hogy kérelmezzem a tömegközlekedési hálózat kapacitásának megnövelését. Ha a dolgok nem javulnak, akkor több rendõrt kell felbérelnünk, hogy megbüntesse és lefogassa azt a sok illegálisan parkoló kocsit. Ha több viszonylat lenne elérhetõ, akkor talán a londoniak talán hajlamosabbak lennének a tömegközlekedés használatára és otthon hagynák az autóikat.";
+$london02_task02_short  = "Létesíts három viszonylatot.";
+$london02_task02_passed  = "Kitûnõ, nagyra értékeljük! Az utóbbi idõben már csak feleannyi büntetést kellet kiosztanunk!";
+
+$london02_task03_name  = "Külsõváros";
+$london02_task03_text  = "A város külterületeinek jobb kapcsolatokra van szükségük. Miért nem létesít pár további viszonylatot?";
+$london02_task03_short  = "Létesíts öt viszonylatot.";
+$london02_task03_passed  = "Sokkal jobb! Egy nagyszerû kiegészítés a hálózatunkhoz.";
+
+$london02_task04_name  = "Az esküvõ";
+$london02_task04_text  = "Hamarosan eljõ az esküvõm napja! Egy jóképû taxisofõrhöz megyek hozzá – csodás férfi. Az emberek azt kérdezik, hogy miért akarna egy hercegnõ hozzámenni egy taxishoz, de én azt mondom nekik, hogy ez igaz szerelem! Egy romantikus hintóutat tervezünk a városon keresztül, de az egyik viszonylata épp azon az útonvalon üzemel, ahova terveztük ezt. Lenne kedves és lezárná a viszonylatot? – csak egy kis ideig kell!";
+$london02_task04_short  = "Állítsd le a(z) %0 buszviszonylatot 30 napig.";
+$london02_task04_passed  = "Ez nagyon kedves volt öntõl! A hintóút abszolút csodálatos volt és mindenki integetett és tapsolt nekünk! Úgy éreztük magunkat, mint a királyok.";
+
+$london02_task05_name  = "Villamostámogatás";
+$london02_task05_text  = "Mit szólna egy villamosvonalhoz, ami támogatná a buszviszonylatokat? Azt hiszem kiválóan haladunk, de még mindig hozzá kell adnunk pár viszonylatot.";
+$london02_task05_short  = "Létesíts egy villamosvonalat.";
+$london02_task05_passed  = "Szép munka – a villamosvonal segíteni fog elvonni a nyomást a buszok felõl!";
+
+$london02_task06_name  = "Elegem van a hosszú utakból";
+$london02_task06_text  = "Helló! A Brit Múzeumnál dolgozok és abban reménykedek, hogy megfontolja egy viszonylat létesítését a múzeum és a házam közé. Annyira elegem van a sok ideig tartó ingázással – teljesen más lenne, ha anélkül el tudnék jutni a múzeumba, hogy át kelljen szállnom.";
+$london02_task06_short  = "Létesíts egy viszonylatot a {0:lakóépület} és a  {1:múzeum} közé.";
+$london02_task06_passed  = "Nagyon köszönöm! Annyira kényelmes számomra tömegközlekedéssel munkába járni.";
+
+$london02_task07_name  = "Több buszt – és gyorsan!";
+$london02_task07_text  = "Több buszt! Az utasok még több buszt követelnek – és most AZONNAL látni akarnak valamit elvégezve! A város északi részének különösen nagy szüksége van új viszonylatokra.";
+$london02_task07_short  = "Létesíts három buszviszonylatot.";
+$london02_task07_passed  = "Kitûnõ! Sikerült pont a jó helyeket kiválasztania az új megállók számára!";
+
+$london02_task08_name  = "Dugóba ragadva";
+$london02_task08_text  = "Annyira elegem van, hogy állandóan bent ragadok egy dugóban! Tudna építeni pár további viszonylatot a rendõrséghez, ahol dolgozok?";
+$london02_task08_short  = "Létesíts három viszonylatot a {0:rendõrséghez}.";
+$london02_task08_passed  = "A fenébe is, ez lenyûgözõ! Így már sec-perc alatt eljutok és hazajutok a munkahelyemrõl!";
+
+$london02_task09_name  = "A földalatti";
+$london02_task09_text  = "A földalatti állandóan zsúfolásig tele van – úgy tûnik, hogy a londoniak nagyon szeretik. Miért nem épít egy új vonalat?";
+$london02_task09_short  = "Építs egy új vonalat a földalatti számára.";
+$london02_task09_passed  = "Azt kell hogy mondjam, kiváló helyet választott az új vonal számára!";
+
+$london02_task10_name  = "A Temzén";
+$london02_task10_text  = "Egyszerûen imádom a vízibuszokat – annyira szórakoztatóak! Tudna létesíteni pár viszonylatot a Temzén... kérem?";
+$london02_task10_short  = "Létesíts két vízibusz viszonylatot.";
+$london02_task10_passed  = "Ó! Nézd csak azokat az új vízibuszokat a Temze vizén hajózva – micsoda gyönyörû látvány!";
+
+$london02_task11_name  = "Helyi zenekar";
+$london02_task11_text  = "Felkértem ezt a menõ, új helyi zenekart, hogy lépjenek fel, de õk ökoharcosok és megtagadják a tömegközlekedésen kívül bármi más használatát. Biztosnak kell lennem benne, hogy idõben felbukkannak! Tudna létesíteni egy viszonylatot, ami idõben elszállítja õket koncertteremhez – anélkül hogy tönkretenné az ökológiai lábnyomukat?";
+$london02_task11_short  = "Létesíts egy viszonylatot a {0:zenészek háza} és a {1:koncertterem} közé.";
+$london02_task11_passed  = "Zenészek – mindig túl nagy követeléseket tesznek! Köszönöm, hogy kisegített ebben – tartozom önnek!";
+
+$london02_task12_name  = "Oxford utca";
+$london02_task12_text  = "Egy menõ áruház az Oxford utcából megkeresett egy új viszonylat létesítésének lehetõségével kapcsolatban. A közelben lévõ többi bolt elõnyére is válna a megnövekedett forgalom, tehát csináljuk meg!";
+$london02_task12_short  = "Létesíts két viszonylatot az {0:áruházhoz}.";
+$london02_task12_passed  = "Szép munka. Ez durván megnöveli majd az eladásokat!... Nekünk és az áruháznak!";
+
+$london02_task13_name  = "A folyónál";
+$london02_task13_text  = "A kis kávézóm nagyon jól megy! Konkrétan egy másik kávézó nyitásán gondolkozok, a folyó mellé – a probléma az, hogy jobb kapcsolatokra lenne szükségünk, hogy vendégeket vonzzunk. Tudna segíteni?";
+$london02_task13_short  = "Létesíts két viszonylatot a {0:kávézóhoz}.";
+$london02_task13_passed  = "Nagyon köszönöm! Annyira boldog vagyok, hogy virágoznak a kis kávézóim. Ön nagy segítség volt!";
+
+$london02_task14_name  = "London városa";
+$london02_task14_text  = "Az új technológia vállalatok közül sokan azt választják, hogy irodákat nyitnak a városban. A legjobb kapcsolatokat kell biztosítanunk az üzleti partnereinknek – ha ezt nem tesszük meg, akkor az utcák tele lesznek a BMW-ikkel!!";
+$london02_task14_short  = "Létesíts három viszonylatot a {0:technológiai vállalatokhoz}.";
+$london02_task14_passed  = "Dícséretes! Elõször amiatt aggódtam, hogy az új csúcstechnológiás vállalatok nem fogják használni a szolgáltatásainkat, de úgy tûnik, hogy meggyõztük õket az új viszonylatokkal. Remek!";
+
+$london02_task15_name  = "Öreg csotrogány!";
+$london02_task15_text  = "Lerobbant az autóm... megint. Nincs elég pénzem, hogy újat vegyek, de valahogy még mindig el kell jutnom a munkahelyemre. Gépész vagyok a gyárban a külváros közelében – sok munkatársam is biztosan használna tömegközlekedést, ha lenne egy megfelelõ viszonylat!";
+$london02_task15_short  = "Létesíts egy viszonylatot a {0:gyárhoz}.";
+$london02_task15_passed  = "Köszönöm! Így én és a társaim nagyon könnyen eljuthatunk a munkahelyünkre... Mégsem kell elpazarolnom a nehezen megszerzett pénzemet arra, hogy megjavítsam azt az öreg rozsdafészket...";
+
+$london02_task16_name  = "Viszonylatok és pénz";
+$london02_task16_text  = "Rendkívül jól teljesítünk – önnek tényleg megvan a tehetsége ilyen dolgokhoz! Van még egy további dolog, amire szükségem van öntõl: Azt akarom, hogy létesítsen még pár további viszonylatot és tornázza fel a megtakarításainkat. Elég tõkét akarok félretenni, hogy megcsapolhassam õket késõbb, ha bármiféle problémába ütközök, miután átvettem a vállalat irányítását.";
+$london02_task16_short  = "Létesíts tíz viszonylatot és gyûjts össze 15 000 pénzt.";
+
+$london02_task17_name  = "Egyetemi parkolás";
+$london02_task17_text  = "Az egyetem gondban van – nincs elég parkolóhely az összes diák számára. Mindenhol kocsik és kerékpárok vannak! Kitudna minket segíteni egy viszonylat hozzáadásával?";
+$london02_task17_short  = "Létesíts három viszonylatot az {0:egyetemhez}.";
+$london02_task17_passed  = "5*! Ön kitûnõen teljesítette a feladatát! Így már sokkal könnyebb parkolni a kampuszon és néha még akár tömegközlekedéssel is utazhatok!";
+
+/* SCENARIO3 */
+
+$london03_name_text  = "Londoni Olimpia";
+$london03_location_text  = "London 2011-2013";
+$london03_animation_text  = "Az olimpiai játékokat Londonban tartják, ami hatalmas megterhelést jelent a tömegközlekedés számára.\nTöbb ezer turista fog jönni és megnézni a játékokat és fontos, hogy a londoniak képesek legyenek folytatni mindennapi életvitelüket a nagy ünnepek közepette is.";
+$london03_briefing_short  = "Lásd el az összes tömegközlekedési szükségletet a londoni olimpia alatt.";
+$london03_briefing_text  = "Az olimpia hamarosan itt van! Több ezer városba érkezõ turistára számítanak és gondban vagyok a logisztika kezelésével. Kérem segítsen!";
+$london03_completed_text = "Nagyon köszönöm a összes nyújtott segítségét! A város soha nem kezelte volna ilyen simán és profin az értékes segítsége nélkül. Hálásak vagyunk mindenért, amit tett értünk!";
+
+$london03_task01_name  = "A londoni olimpia";
+$london03_task01_text  = "A reptérnek gyorsan jobb kapcsolatokra van szüsége! Kérem létesítsen oda pár új viszonylatot.";
+$london03_task01_short  = "Létesíts három viszonylatot a {0:reptérhez}.";
+$london03_task01_passed  = "Szép munka! A reptér most már megfelelõbben be van kapcsolva.";
+
+$london03_task02_name  = "Reggeli futás";
+$london03_task02_text  = "Helló! Épp most értem vissza a reggeli élénkítõ futásomból– semmi sem indít be jobban, mint egy két órás reggeli sprint! Szeretném, ha az autómat egy olcsóbb parkolóhelyen hagyni, de a kevésbé drágák túl messze vannak az edzõútvonalam végétõl. Tudna segíteni?";
+$london03_task02_short  = "Létesíts egy viszonylatot, amely összeköti a {0:Larkhall parkot} és a {1:lakóterületet}.";
+$london03_task02_passed  = "Egy jót futottam ma és nagyon könnyû volt utána hazajutni! Köszönöm!";
+
+$london03_task03_name  = "A síneken";
+$london03_task03_text  = "Számos látogató vasúton érkezik, tehát biztosítania kellene, hogy az állomás is jól bekapcsolt legyen.";
+$london03_task03_short  = "Létesíts három viszonylatot a {0:vasútállomáshoz}.";
+$london03_task03_passed  = "Kiváló, a dolgok kezdenek összejönni! Így már a vasutak is le vannak fedve!";
+
+$london03_task04_name  = "Állítsák meg a zsebtolvajokat!";
+$london03_task04_text  = "Úgy tûnik, hogy a városunkat ellepték a zsebtolvajok! A rendõrtisztjeinknek egyszerûen nincsen elég járõrautója, hogy lefedjék a várost és rajta tartsák a szemüket a kicsinyes bûnözõkön. Talán a tömegközlekedési rendszer kisegítene minket?";
+$london03_task04_short  = "Létesíts viszonylatokat a {0:Towerhez}, a {1:Big Benhez} és a {2:Buckingham-palotához}.";
+$london03_task04_passed  = "Köszönöm! Így már ki tudjuk helyezni a tisztjeinket az összes nagy turistalátványossághoz tömegközlekedéssel – és talán még útözben elkapnak pár bûnözõt!";
+
+$london03_task05_name  = "Nagy forgalom";
+$london03_task05_text  = "A város északi részén nagy a forgalom. Több viszonylatra van szükségünk!";
+$london03_task05_short  = "Létesíts öt viszonylatot.";
+$london03_task05_passed  = "Ez sokat segített – köszönöm! Biztos vagyok benne, hogy ez majd segít lecsökkenteni a közlekedési dugók számát.";
+
+$london03_task06_name  = "Különleges kávé";
+$london03_task06_text  = "Mostanában nagyon elfoglalt vagyok! Olyan sok vendégem van és úgy tûnik, hogy mindegyikük azokat a különleges kávékat akarja! Rendeltem egy kevés ínyenc babot és elküldtem az unokaöcsémet, hogy vegye fel õket (nincs elég pénzem, hogy megvárjam míg elküldik õket). Bármikor megérkezhet a vasútállomásra – biztosítaná, hogy legyen egy könnyû módja a kávézóm elérésének? Talán hamarosan vissza kell majd mennie még több szállítmányért!";
+$london03_task06_short  = "Létesíts egy viszonylatot a {0:vasútállomástól} a {1:kávézóhoz}.";
+$london03_task06_passed  = "Köszönöm kedves! Az unokaöcsém egy szempillantás alatt visszaért és úton van, hogy felvegyen nekem egy kevés jó kis francia sültet...";
+
+$london03_task07_name  = "Kezdõdjenek a játékok!";
+$london03_task07_text  = "A játékok hamarosan megkezdõdnek! Gyorsan, adjunk hozzá pár további viszonylatot, csak hogy biztosak legyünk.";
+$london03_task07_short  = "Létesíts három további viszonylatot.";
+$london03_task07_passed  = "Ennek meg kell tennie! Most már csak keresztberakjuk az ujjainkat és reménykedünk, hogy minden simán megy.";
+
+$london03_task08_name  = "Tömegközlekedés biztosítása";
+$london03_task08_text  = "Hamarosan megérkezek a városba, hogy megnézzem a játékokat. Bízok abban, hogy ön elvégezte a megfelelõ dolgokat és képes egy hatékony, megfizethetõ közlekedési mód biztosítására!";
+$london03_task08_short  = "Létesíts egy viszonylatot, amely összeköti a {0:repteret} és a {1:szállodát}.";
+$london03_task08_passed  = "Elsõ osztályú bemutató! Örülök, hogy elfogadta a tanácsomat a tömegközlekedés szervezésével kapcsolatban!";
+
+$london03_task09_name  = "A maraton";
+$london03_task09_text  = "Az ördögbe! Teljesen megfeledkeztem a maratonról! Az útvonala az egyik viszonylatunkon keresztül fut és le kell állítanunk, hogy a futók biztonságosan versenyezhessenek.";
+$london03_task09_short  = "Állítsd le a következõ viszonylatot 14 napra: %0.";
+$london03_task09_passed  = "Ez nagy megkönnyebbülés –  a futók mind biztonságban célba értek.";
+
+$london03_task10_name  = "Könnyûsúlyú";
+$london03_task10_text  = "Ezek a súlyok olyan könnyûnek érzõdnek ma, mint egy toll! Azt hiszem, hogy készen állok egy újabb kihívásra – valamire, ami kihozza belõlem az olimpikont! Mit szólna egy buszviszonylatot amit megpróbálhatnék megverni a reggeli futásom során?";
+$london03_task10_short  = "Létesíts egy buszviszonylatot.";
+$london03_task10_passed  = "Majdnem sikerült utolérnem! Még egy pár hét gyakorlás és képes leszek megverni a buszt, semmi probléma.";
+
+$london03_task11_name  = "Röplabdagondok";
+$london03_task11_text  = "A röplabdacsapatunk egyik tagja a barátja lakásán akar maradni, de biztosnak kell lennünk abban, hogy idõben elér a játékokhoz. Túl sokat kérek, ha egy viszonylatot akarok a házától a stadionhoz?";
+$london03_task11_short  = "Létesíts egy viszonylatot a {0:családi háztól} a {1:stadionhoz}.";
+$london03_task11_passed  = "Ön egy bajnok! Mindenki idõben eljutott a játékok helyszínére és magabiztosnak érezzük magunkat!";
+
+$london03_task12_name  = "Gyógyítás!";
+$london03_task12_text  = "Megsérült a bokám egy bemelegítõ kocogás során. Gyorsan helyre kell hoznom, különben nem leszek képes versenyezni a maratonon! Az otthonom és az orvos között kell rendszeresen utaznom, tehát kisegítene engem és létrehozna egy viszonylatot?";
+$london03_task12_short  = "Létesíts egy viszonylatot, amely összeköti a {0:sportoló házát} és az {1:orvos irodáját}.";
+$london03_task12_passed  = "Mire mentem volna ön nélkül! Gyorsan gyógyulok, köszönhetõen az állandó orvosi látogatásoknak.";
+
+$london03_task13_name  = "Mindenhhol kerékpárok";
+$london03_task13_text  = "A diákok eltorlaszolják az utcákat a kerékpárjaikkal! Megnövelné a hírnevünket az egyetem hallgatói körében, hogy gyakrabban használják a tömegközlekedést?";
+$london03_task13_short  = "Érj el 75%%-os hírnevet a tanulók körében.";
+$london03_task13_passed  = "Ön egy marketingzseni! Meg egy kis nyereséget is bezsebelhetünk!";
+
+$london03_task14_name  = "Nem öreg?";
+$london03_task14_text  = "Azon gondolkoztam, hogy nem öregek-e kissé már a jármûveink? Talán vennünk kellene pár újat.";
+$london03_task14_short  = "Vásárolj öt új jármûvet.";
+$london03_task14_passed  = "Jól néznek ki! Egyszerûen imádom ezt az 'új busz szagot' a reggeli ingázásom során!";
+
+$london03_task15_name  = "Energetikus!";
+$london03_task15_text  = "Úgy érzem, hogy ma annyira tele vagyok energiával! Úgy értem, hogy el tudnék futni a reptérhez és vissza! Hát, talán csak oda – biztos vagyok benne, hogy van egy könnyebb út visszafele a reptértõl, igaz?";
+$london03_task15_short  = "Létesíts egy viszonylatot a {0:reptértõl} a {1:sportoló házáig}.";
+$london03_task15_passed  = "Mily kiváló útvonal! Annyira felpezsdítõ futni, hallgatva a repülõgépeket magasan fenn az égen! Mindenkinek ajánlom ezt az útvonalat!";
+
+$london03_task16_name  = "Folytassa";
+$london03_task16_text  = "A dolgok végre kezdenek lecsendesedni! A játékok egyszerûen lenyûgözõek voltak és rengeteg utasunk volt! Úgy gondolom, hogy most már minden nagyon simán megy. Csak szeretnék megbizonyosodni arról, hogy a rendszert megfelelõ utasmennyiség szállítására tervezték, aztán azt hiszem végeztünk!";
+$london03_task16_short  = "Szállíts 1500 utast.";
+
+$london03_task17_name  = "Otthagyott unokaöcs";
+$london03_task17_text  = "A város annyira zsúfolt, mindenhol emberek vannak – hogy az ördögbe fogom így valaha befejezni a vásárlást, vagy például hogyan vegyem fel az unokaöcsémet a vasútállomásról? Kérem, szükségem van egy segítõ kézre!";
+$london03_task17_short  = "Létesíts egy viszonylatot, amely összeköti az {0:élelmiszerboltot}, a {1:vasútállomást} és a {2:nyugdíjas házát}.";
+$london03_task17_passed  = "Ó, nagyon rendes öntõl, hogy segít az ilyen megfáradt lelkeken, mint én, kedvesem! Az unokaöcsém egy darabban ideért és épp most indulunk el, hogy vásárolni menjünk.";

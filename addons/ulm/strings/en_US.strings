@@ -1,0 +1,134 @@
+
+$building_ulmLibrary = "Library";
+$building_ulmMinster = "Ulm Minster";
+
+$cityname_ulm = "Ulm";
+$citydescription_ulm_short = "Ulm is a small city, but one which has endless possibilities. The Ulm Minster is still standing proud after over 600 years, and remains a popular tourist attraction. The small city atmosphere derives from the factories and residential houses that stand side by side in the city, and the beautiful parks where workers can relax during their lunch hour.";
+$citydescription_ulm_long = "";
+
+$campaign_ulm1_name_text = "The Days Of Ulm";
+$campaign_ulm1_description_text = "The Mayor has decided to hire a new construction company to upgrade Ulm's public transportation network. Are you up for the challenge?";
+
+/* SCENARIO1 */
+
+$ulm01_name_text = "The Days Of Ulm";
+$ulm01_location_text = "Ulm 1956-1959";
+$ulm01_animation_text = "The Mayor has decided to hire a new construction company to upgrade Ulm's public transportation network. Are you up for the challenge?";
+$ulm01_briefing_short = "Upgrade Ulm's public transportation network.";
+$ulm01_briefing_text = "Guten Tag! I am Henrik von Staudingen, the Mayor of Ulm. Your company has been chosen to participate in the construction of Ulm's transportation network. I hope you won't let me down!";
+$ulm01_completed_text = "Well done! Here are the plane tickets and passports you will require to travel abroad. South West Central Positronics has taken care of... let's say... certain things for you... I am looking forward to working with you very soon.";
+
+$ulm01_task01_name = "Opening of an Amusement Park";
+$ulm01_task01_text = "Let's get this show on the road! A new amusement park is opening in Ulm. There is money to be made here, so build two new bus lines for the visitors.";
+$ulm01_task01_short = "Build two bus lines";
+$ulm01_task01_passed = "Wunderbar! Let's keep the money flowing in!";
+
+$ulm01_task02_name = "The New School of Design";
+$ulm01_task02_text = "Guten Morgen! As you may have heard, a new school of design will be opening in Ulm. Needless to say, the students will require some public transportation.";
+$ulm01_task02_short = "Build a bus line to the {0:School of design}, and transport 20 passengers";
+$ulm01_task02_passed = "Thank you! You are welcome to the inauguration ceremony of our new school.";
+
+$ulm01_task03_name = "Work Work Work!";
+$ulm01_task03_text = "Hello, the workers have been complaining about how far the factory is from the employee apartments. As they appear to be too lazy to walk to work and firing them is not a viable solution, could you add a new bus line?";
+$ulm01_task03_short = "Build a bus line connecting the {0:Apartments} and the {1:Factory}";
+$ulm01_task03_passed = "Splendid! That should do the trick.";
+
+$ulm01_task04_name = "Highrollers";
+$ulm01_task04_text = "Ahem! Certain associates of mine have been asking for some transportation to the new casino. They would pay big money for a bus line there.";
+$ulm01_task04_short = "Build a bus line connecting the {0:Townhall} and the {1:Casino}";
+$ulm01_task04_passed = "I'm sure they will be pleased. Here is your reward, as agreed!";
+
+$ulm01_task05_name = "Subway Proposal";
+$ulm01_task05_text = "According to a survey that has been carried out, a new subway line is needed. This is a great opportunity to earn good cash!";
+$ulm01_task05_short = "Build a subway line";
+$ulm01_task05_passed = "Good! It looks like it will be very popular and lots of passengers will use it!";
+
+$ulm01_task06_name = "Shopping Madness";
+$ulm01_task06_text = "Hey there! It would be great to have public transportation to the mall. You would make lots of people happy if you built a new tram line!";
+$ulm01_task06_short = "Build a tram line to the {0:Mall}, and transport 15 passengers";
+$ulm01_task06_passed = "Thank you! I'm sure the mall manager will be pleased too.";
+
+$ulm01_task07_name = "The Ulm Minster";
+$ulm01_task07_text = "You have done really well so far. There has been request to provide new bus lines to Ulm Minster. I'm sure this will attract more tourists to visit this magnificent building!";
+$ulm01_task07_short = "Build two bus lines to {0:Ulm Minster}";
+$ulm01_task07_passed = "Great! Everything is proceeding according to plan.";
+
+$ulm01_task08_name = "The Bundeswehr";
+$ulm01_task08_text = "I was informed by a high ranking Bundeswehr officer that transportation to the military base is required. Could you help them out?";
+$ulm01_task08_short = "Build a line to the {0:Barracks}";
+$ulm01_task08_passed = "I'm sure the commander will be pleased. Thank you.";
+
+$ulm01_task09_name = "The Man In Black";
+$ulm01_task09_text = "Ah, we meet at last! My employers and yours have a business proposal which I am sure will be advantageous for us both. You see, South West Central Positronics has opened new factory in Ulm. Would you kindly build a line for our employees?";
+$ulm01_task09_short = "Build a line to the {0:Factory}";
+$ulm01_task09_passed = "Ah, well now. Excellent work, you will be seeing me again...";
+
+$ulm01_task10_name = "Slush Fund";
+$ulm01_task10_text = "Hello again. As you may know, the elections will soon be held here, and it is vital for the success of both of us that I remain in office. I need more money for my campaign, so here's the deal: I have a certain \"Agreement\" with the local bank. If you can get more customers through their doors, this would be to our mutual benefit.";
+$ulm01_task10_short = "Build two bus lines to the {0:Bank}";
+$ulm01_task10_passed = "Great! I knew I could depend on you!";
+
+$ulm01_task11_name = "E=mc2";
+$ulm01_task11_text = "Ah, hello again. I know you're very busy, but something requires your immediate attention. As you may know, the great inventor Albert Einstein was born here in Ulm. I'm sure it would honor him if you were to build a tram line to his statue so that lots of visitors can come and pay tribute to him.";
+$ulm01_task11_short = "Build a bus line from the {0:Apartment house} to the {1:Albert Einstein Memorial}";
+$ulm01_task11_passed = "Splendid! You have done us all a great service!";
+
+$ulm01_task12_name = "Grand Theft Limo";
+$ulm01_task12_text = "A horrendous setback! My personal driver requested an outrageous 5% rise in salary; he's talking about some silly union rules! Well, I fired this guy, and now he's stolen my limo! I'm going to need a ride back home, so I'll have to use your transportation.";
+$ulm01_task12_short = "Build a line from the {0:Mayor's Villa} to the {1:Townhall}";
+$ulm01_task12_passed = "Well done! I'm sure you will be delighted with the money you earn from this!";
+
+$ulm01_task13_name = "True Love Never Dies";
+$ulm01_task13_text = "Hey there, I've just started work at the gas station, but I live right over on the other side of town, so it takes me a long time to get to work on foot every day. Could you add a new line?";
+$ulm01_task13_short = "Build a line connecting the {0:Apartment house}, the {1:Gas station} and the {2:Church}";
+$ulm01_task13_passed = "Thank you! This means so much to me; I will remember you fondly forever!";
+
+$ulm01_task14_name = "Pressing Matters";
+$ulm01_task14_text = "Good news! We found my driver, but he has already sold the limo to someone in Poland. Now we can move on to more important matters: cash! There's a chance to earn more of it if you connect the train station to our beloved city. I hope you can start work immediately.";
+$ulm01_task14_short = "Build a line connecting the {0:Railway station} and the {1:City center}";
+$ulm01_task14_passed = "Good, this seems to be working extremely well!";
+
+$ulm01_task15_name = "Sombra Corporation";
+$ulm01_task15_text = "Ah, we meet again! I have been monitoring you closely. \"Our Benefactors\" have a commission for us; there has been a company takeover, and the Sombra Corporation is now part of South West Central Positronics. Would you kindly connect the new office to the center of the city? Great things will come to us both if you do this.";
+$ulm01_task15_short = "Build a line from {0:Sombra Corporation} to the {1:City center}";
+$ulm01_task15_passed = "I'm pleased with the results. I will contact you again soon.";
+
+$ulm01_task16_name = "Politics";
+$ulm01_task16_text = "Wunderbar! I have been voted in for another term of office, whew! I promised to do one of my \"supporters\" a favor, and I'm sure you'd love to help me! The first thing is to connect the New Ulm district to the mall.";
+$ulm01_task16_short = "Build a line connecting {0:New Ulm} and the {1:Mall}";
+$ulm01_task16_passed = "Well done! Here's your bonus for all the services you have rendered!";
+
+$ulm01_task17_name = "Pleasing The Crowd";
+$ulm01_task17_text = "The workers in the union are complaining about their salaries! Please raise their overall happiness level so they forget all about this delicate issue, and you will be richly rewarded.";
+$ulm01_task17_short = "Achieve a 70% vote of confidence from the blue collar workers";
+$ulm01_task17_passed = "You have saved me a lot of trouble and financial loss, thank you!";
+
+$ulm01_task18_name = "Some Shady Business";
+$ulm01_task18_text = "Grüss Gott! It's great to meet you finally in person, you have been a great help to me, but there's one last task I'd like you to perform. I have a contract with the local golf club, so if you could connect my mall to the club, they'll give me a free club membership along with lots of other benefits. Pretty please?";
+$ulm01_task18_short = "Build a line connecting the {0:Mall} and the {1:Golf club}";
+$ulm01_task18_passed = "Thanks! Now you too have been granted free membership to the golf club!";
+
+$ulm01_task19_name = "Complications!";
+$ulm01_task19_text = "I'll be quite honest with you: things aren't looking good. The local harbor master is blackmailing me! If certain demands are not met, he's going to report me to the officials for election fraud! I have done absolutely nothing wrong of course, it's just a little misunderstanding, and I wouldn't want to bother the good officers for no reason! It is in the interest of both you and me to keep the harbor master happy, so please start by building new lines for him.";
+$ulm01_task19_short = "Build two lines to the {0:Harbor}";
+$ulm01_task19_passed = "This will keep him happy while I attend to the other demands. This matter isn't over yet though.";
+
+$ulm01_task20_name = "The End of a Dream";
+$ulm01_task20_text = "My employers are quite pleased with your efforts. It's a shame to see talents like yours going to waste. I happen to know about your deal with the Mayor, and that may not end well. That's why I'm here to offer you a way out as part of our... agreement. You have to continue with business as usual, because we don't want the Mayor to  suspect anything. Please carry on as normal while I sort things out.";
+$ulm01_task20_short = "Transport 1,000 passengers";
+
+$ulm01_task21_name = "The Farmer's Problem";
+$ulm01_task21_text = "Howdy partner! I'm so darn lonely with just my cows for company, so could you build a new line from the city to my farm? Maybe then more people would visit me!";
+$ulm01_task21_short = "Build a line connecting the {0:Farm} and the {1:City center}";
+$ulm01_task21_passed = "Great work! My farm is so much better connected now!";
+
+$ulm01_task22_name = "Just Another New Year";
+$ulm01_task22_text = "Hello there! I have organized a massive New Year's party, but my friends live right over on the other side of the town, and some public transportation would really help!";
+$ulm01_task22_short = "Build a line connecting {0:Apartment house} and {1:Apartment house}";
+$ulm01_task22_passed = "Nice! You did as I asked! I really like you and the city!";
+
+$ulm01_task23_name = "Time Is Money!";
+$ulm01_task23_text = "Hi, I have a problem you may be able to help me with. My son loves the amusement park, but I don't have the time to take him. He would be thrilled if you could build a helicopter line near to our villa.";
+$ulm01_task23_short = "Build a helicopter line from the {0:Villa} to the {1:Amusement park}";
+$ulm01_task23_passed = "My son had a great time at the amusement park; thank you so much! I have awarded you a little bonus.";
+

@@ -1,0 +1,134 @@
+
+$building_ulmLibrary = "Könyvtár";
+$building_ulmMinster = "Ulmi székesegyház";
+
+$cityname_ulm = "Ulm";
+$citydescription_ulm_short = "Ulm egy kis város, de egy olyan, amelynek végtelen lehetõségei vannak. Az ulmi székesegyház még mindig büszkén áll 600 év után és népszerû turistaattrakció maradt. A kisváros atmoszférája a gyárakból és a lakóházakból szármaik, amelyek egymás mellett helyezkednek el a városban és a gyönyörû parkok, ahol a dolgozók pihenhetnek ebédidejükben.";
+$citydescription_ulm_long = "";
+
+$campaign_ulm1_name_text = "Ulm napja";
+$campaign_ulm1_description_text = "A polgármester úgy döntött, hogy felbérel egy új vállalatot az ulmi tömegközlekedési rendszer fejlesztésére. Készen állsz a kihívásra?";
+
+/* SCENARIO1 */
+
+$ulm01_name_text = "Ulm napjai";
+$ulm01_location_text = "Ulm 1956-1959";
+$ulm01_animation_text = "A polgármester úgy döntött, hogy felbérel egy új vállalatot az ulmi tömegközlekedési rendszer fejlesztésére. Készen állsz a kihívásra?";
+$ulm01_briefing_short = "Újítsd fel Ulm tömegközlekedési rendszerét.";
+$ulm01_briefing_text = "Jó napot! Henrik von Staudingen vagyok, Ulm polgármestere. Az ön vállalatát választották, hogy részt vegyen Ulm tömegközlekedési rendszerének építésében. Remélem nem hagy cserben!";
+$ulm01_completed_text = "Szép munka! Itt vannak a repõjegyek és az útlevelek, amikre szüksége lesz ha külföldre utazik. A Délnyugati Központi Positronics elintézett... mondjuk úgy... bizonyos dolgokat önnek... Alig várom, hogy hamarosan megint önnel dolgozhassak.";
+
+$ulm01_task01_name = "Egy vidámpark megnyitása";
+$ulm01_task01_text = "Akkor kezdjünk is neki! Egy új vidámpark nyílik Ulmban. Ott pénzt lehet keresni, tehát létesítsen két buszjáratot a látogatók számára.";
+$ulm01_task01_short = "Létesíts két buszjáratot";
+$ulm01_task01_passed = "Csodálatos! Follyon csak be az a sok pénz!";
+
+$ulm01_task02_name = "Új mûvészeti iskola";
+$ulm01_task02_text = "Jó reggelt! Ahogy már hallhatta, egy új mûvészeti iskola fog nyílni Ulmban. Mondanom sem kell, a diákoknak tömegközlekedésre lesz szükségük.";
+$ulm01_task02_short = "Létesíts egy buszviszonylatot a {0:mûvészeti iskolához} és szállíts oda 20 utast";
+$ulm01_task02_passed = "Köszönöm! Örömmel várjuk új iskolánk megnyitóünnepségén.";
+
+$ulm01_task03_name = "Munka munka munka!";
+$ulm01_task03_text = "Helló! A munkások panaszkodnak, hogy a gyár messze van az alkalmazottak lakásaitól. Mivel úgy tûnik, hogy lusták sétálva munkába jönni és a kirúgásuk nem életképes megoldás, tudna létesíteni egy buszviszonylatot?";
+$ulm01_task03_short = "Létesíts egy buszviszonylatot, amely összeköti a {0:lakásokat} és a {1:gyárat}";
+$ulm01_task03_passed = "Nagyszerû! Ez majd megteszi.";
+
+$ulm01_task04_name = "Pénzeszsákok";
+$ulm01_task04_text = "Ühmm! Bizonyos üzlettársaim tömegközlekedést kérnek az új kaszinóhoz. Nagy pénzt fizetnének egy buszjáratért.";
+$ulm01_task04_short = "Létesíts egy buszviszonylatot a {0:városháza} és a {1:kaszinó} közé";
+$ulm01_task04_passed = "Biztos vagyok benne, hogy elégedettek lesznek. Itt van a jutalma, ahogy megegyeztünk!";
+
+$ulm01_task05_name = "Földalatti javaslat";
+$ulm01_task05_text = "Egy felmérés szerint egy új metróvonalra van szükség. Ez egy nagyszerû lehetõség hogy sok pénzt keressünk!";
+$ulm01_task05_short = "Építs egy metróvonalat";
+$ulm01_task05_passed = "Jó! Úgy tûnik, hogy nagyon népszerû lesz és nagyon sok utas fogja használni!";
+
+$ulm01_task06_name = "Vásárlási láz";
+$ulm01_task06_text = "Helló! Jó lenne, ha lenne tömegközlekedés a bevásárlóközponthoz. Nagyon sok embert boldoggá tenne ha építene egy villamosvonalat!";
+$ulm01_task06_short = "Építs három villamosvonalat a {0:bevásárlóközonthoz}és szállíts oda 15 utast";
+$ulm01_task06_passed = "Köszönöm! Biztos vagyok benne, hogy a bevásárlóközpont igazgatója is elégedett lesz.";
+
+$ulm01_task07_name = "Az ulmi székesegyház";
+$ulm01_task07_text = "Eddig nagyon jó munkát végzett. Volt egy kérés, hogy biztosítsunk egy új buszjáratot az ulmi székesegyházhoz. Biztos vagyok benne, hogy ezt több turistát fog vonzani, hogy meglátogassák ezt a fenséges épületet!";
+$ulm01_task07_short = "Létesíts két buszviszonylatot az {0:ulmi székesegyházhoz}";
+$ulm01_task07_passed = "Nagyszerû! Minden a terv szerint halad.";
+
+$ulm01_task08_name = "A Bundeswehr";
+$ulm01_task08_text = "Arról kaptam értesítést egy Bundeswehr tiszttõl, hogy tömegközlekedésre van szüksége a katonai bázishoz. Kitudná segíteni õket?";
+$ulm01_task08_short = "Létesíts egy viszonylatot a {0:kaszárnyához}";
+$ulm01_task08_passed = "Biztos vagyok benne, hogy a parancsnok elégedett lesz. Köszönöm.";
+
+$ulm01_task09_name = "A férfi feketében";
+$ulm01_task09_text = "Á, végre találkoztunk! Az ön és az én munkáltatóinak van egy üzleti ajánlatuk, amiben biztos vagyok, hogy mindkettõnk számára elõnyös lenne. Amint láthatja, a Délnyugati Központi Positronics egy új gyárat nyitott Ulmban. Lenne olyan kedves és létesítene egy viszonylatot az alkalmazottaknak?";
+$ulm01_task09_short = "Létesíts egy viszonylatot a {0:gyárhoz}";
+$ulm01_task09_passed = "Á, így már jó. Kiváló munka, majd még talákozunk...";
+
+$ulm01_task10_name = "Zsíros tõke";
+$ulm01_task10_text = "Helló megint! Ahogy már tudhatja, itt hamarosan választások lesznek, és mindkettõnk sikere szempontjából létfontosságú, hogy én maradjak hivatalban. Több pénzre van szükégem a kampányomhoz, tehát itt az üzlet: Van egy bizonyos \"Megegyezésem\" a helyi bankkal. Ha több ügyfelet tudna bejuttatni az ajtójukon, az mindkettõnk számára elõnyös lenne.";
+$ulm01_task10_short = "Létesíts két buszviszonylatot a {0:bankhoz}";
+$ulm01_task10_passed = "Remek! Tudtam, hogy számíthatok önre!";
+
+$ulm01_task11_name = "E=mc2";
+$ulm01_task11_text = "Á, helló megint! Tudom hogy nagyon elfoglalt, de valami sürgõsen a figyelmét igényli. Ahogy már tudhatja, a nagy feltaláló, Albert Einstein itt született Ulmban. Biztos vagyok benne, hogy megtisztelné, ha építene egy villamosvonalat a szobrához, így sok látogató jöhet és és emlékezhet meg róla.";
+$ulm01_task11_short = "Létesíts egy buszviszonylatot a {0:lakóháztól} az {1:Albert Einstein emlékmûig}";
+$ulm01_task11_passed = "Pompás! Nagy szolgálatot tett mindannyiunk számára!";
+
+$ulm01_task12_name = "A nagy limuzinrablás";
+$ulm01_task12_text = "Hatalmas csalódás! A sofõröm egy felháborító,  5%-os emelést kért a fizetésében: valami idióta szakszervezeti szabályokról beszél! Kirúgtam a fickót és ellopta a limuzinomat! Valahogy haza kell jutnom, így az ön tömegközlekedési rendszerét kell használnom.";
+$ulm01_task12_short = "Létesíts egy viszonylatot a {0:polgármester villájától} a {1:városházáig}";
+$ulm01_task12_passed = "Szép munka! Biztos vagyok benne, hogy elégedett lesz a pénzzel, amit ebbõl szerez!";
+
+$ulm01_task13_name = "Az igaz szerelem soha nem múlik el";
+$ulm01_task13_text = "Helló! Épp most kezdtem el dolgozni a benzinkúton, de a város másik felén lakok, így sokáig tart gyalog, hogy eljussak a munkába. Létesítene egy új viszonylatot?";
+$ulm01_task13_short = "Létesíts egy viszonylatot, amely összeköti a {0:lakóházat}, a {1:benzinkutat} és a {2:templomot}";
+$ulm01_task13_passed = "Köszönöm! Ez olyan sokat jelent nekem; Örökké szeretettel fogok önre emlékezni!";
+
+$ulm01_task14_name = "Sürgõs dolgok";
+$ulm01_task14_text = "Jó hírek! Megtaláltam a sofõrömet, de már eladta valakinek a limuzint Lengyelországban. Most már fontosabb dolgokra is rátérhetünk: a pénzre! Több pénzt szerezhetne, ha összekötné a vasútállomást a szeretett városunkkal. Remélem, hogy azonnal nekiáll a munkának.";
+$ulm01_task14_short = "Létesíts egy viszonylatot, amely összeköti a {0:vasútállomást} és a {1:városközpontot}";
+$ulm01_task14_passed = "Jó! Úgy tûnik, hogy ez nagyon jól mûködik!";
+
+$ulm01_task15_name = "Sombra vállalat";
+$ulm01_task15_text = "Á, újra találkoztunk! Alaposan követem önt. \"A jótevõinknek\" van egy megbízása számunkra; a vállalatot átvették, és a Sombra vállalat most már a Dél-Nyugati Központi Positronics része. Lenne olyan kedves és összekötné az új irodát a város központjával? Mindkettõnk számára jó dolgok jönnek, ha ezt megteszi.";
+$ulm01_task15_short = "Létesíts egy viszonylatot a {0:Sombra vállalattól} a {1:vároközponthoz}";
+$ulm01_task15_passed = "Elégedett vagyok az eredményekkel. Hamarosan újra kapcsolatba lépek önnel.";
+
+$ulm01_task16_name = "Politika";
+$ulm01_task16_text = "Csodálatos! Egy újra megválasztottak, tyûha! Megígértem, hogy a \"támogatóimnak\"  megteszek egy szívességet és biztos vagyok benne, hogy ön szeretne segíteni! Az elsõ elvégzendõ dolog az Új Ulm kerület összekötése a bevásárlóközponttal.";
+$ulm01_task16_short = "Létesíts egy viszonylatot {0:Új Ulm} és a {1:bevásárlóközpont} közé";
+$ulm01_task16_passed = "Gratulálok! Itt a bónusza az összes nyújtott szolgáltatásért!";
+
+$ulm01_task17_name = "A tömeg kényeztetése";
+$ulm01_task17_text = "A szakszervezeti dolgozók panaszkodnak a béreik miatt! Kérem emelje meg az általános elégedettségi szintjüket, hogy megfeledkezzenek errõl a kényes dologról és gazdagon meg lesz jutalmazva.";
+$ulm01_task17_short = "Érj el 70%-os bizalmi szavazatot a fizikai dolgozóknál";
+$ulm01_task17_passed = "Nagyon sok gondtól és pénzügyi veszteségtõl mentett meg, köszönöm!";
+
+$ulm01_task18_name = "Néhány kétes üzlet";
+$ulm01_task18_text = "Jó napot! Jó végre személyesen találkozni önnel, nagy segítség volt számomra, de van még egy utolsó feladat, amit szeretném ha elvégezne. Egy szerzõdésem van a helyi golfklubbal, tehát ha össze tudná kötni a bevásárlóközpontomat a klubbal, akkor ingyenes tagságot adnának sok más egyéb dologgal együtt. Kérem szépen!";
+$ulm01_task18_short = "Létesíts egy viszonylatot a {0:bevásárlóközpont} és a {1:golfklub} közé";
+$ulm01_task18_passed = "Köszönöm! Így már önnek is ingyenes tagsága van a golfklubban!";
+
+$ulm01_task19_name = "Bonyodalmak!";
+$ulm01_task19_text = "Eléggé õszinte leszek önnel: a dolgok nem állnak jól. A helyi kikötõmester zsarol engem! Ha bizonyos követeléseket nem teljesítenek, jelenteni fog a hatóságok felé választási csalással! Természetesen semmi rosszat nem tettem, ez csak egy kis félreértés és nem akarnám zavarni a jóságos tisztviselõket ok nélkül! Mindkettõnk érdeke, hogy a kikötõmestert elégedetten tartsuk, tehát kezdje azt el pár viszonylat létesítésével.";
+$ulm01_task19_short = "Létesíts két viszonylatot a {0:kikötõhöz}";
+$ulm01_task19_passed = "Ez majd elégedetten tartja, miközben más igényeket teljesítek. Bár ennek az ügynek még nincs vége.";
+
+$ulm01_task20_name = "Egy álom vége";
+$ulm01_task20_text = "A munkáltatóim eléggé elégedettek az erõfeszítéseivel. Rossz látni, hogy ilyen tehetségek mint ön, a kukában landolnak. Tudok a polgármesterrel kötött alkujáról és annak lehet hogy nem lesz jó vége. Ezért vagyok itt, hogy felajánljak egy kiutat a... megállapodásunk részeként. Ugyanúgy kell folytatnia az üzletet, mint eddig, mert nem akarjuk, hogy a polgármester megsejtsen bármit is. Kérem folytassa úgy, ahogy eddig miközben elrendezek dolgokat.";
+$ulm01_task20_short = "Szállíts 1,000 utast";
+
+$ulm01_task21_name = "A földmûvelõ problémája";
+$ulm01_task21_text = "Helló partner! Annyira átkozottul magányos vagyok, itt a teheneimmel, tehát építhetne egy új viszonylatot a várostól a farmomig? Talán akkor több ember látogatna meg!";
+$ulm01_task21_short = "Létesíts egy viszonylatot, amely összeköti a {0:farmot} és a {1:városközpontot}";
+$ulm01_task21_passed = "Szép munka! A farmom így már sokkal jobban össze van kötve!";
+
+$ulm01_task22_name = "Csak még egy újév";
+$ulm01_task22_text = "Helló!! Egy hatalmas újévi bulit szerveztem, de a barátaim a város másik felén laknak és egy kis tömegközlekedés igazán segítene!";
+$ulm01_task22_short = "Létesíts egy viszonylatot, amely összeköti a {0:lakóházat} és a {1:lakóházat}";
+$ulm01_task22_passed = "Remek! Megtette amit kértem! Nagyon kedvelem önt és a várost!";
+
+$ulm01_task23_name = "Az idõ pénz!";
+$ulm01_task23_text = "Helló! Van egy problémám, amiben talán tud segíteni. A fiam imádja a vidámparkot, de nincs idõm hogy elvigyem. Nagyon örülnénk, ha tudna létesíteni helikopterjáratot a villánk mellõl.";
+$ulm01_task23_short = "Létesíts egy helikopterviszonylatot a {0:villától} a {1:vidámparkig}";
+$ulm01_task23_passed = "A fiam jól érezte magát a vidámparkban. Nagyon köszönöm! Megjutalmaztam önt egy kis bónusszal.";
+

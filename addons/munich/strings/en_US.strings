@@ -1,0 +1,266 @@
+
+$building_munichRathaus = "Rathaus";
+$building_mariensaule = "Mariensäule";
+
+$cityname_munich = "Munich";
+$citydescription_munich_short = "Munich is the capital of Bavaria, a busy metropolis on the river Isar. Originally named after the Benedictine monks, modern Munich has come a long way since its founding in the Middle Ages.";
+$citydescription_munich_long = "";
+
+$campaign_munich1_name_text = "Massive Munich";
+$campaign_munich1_description_text = "Munich, one of the largest cities in Germany, needs you. The Oktoberfest and a new millennium are tough challenges to overcome and the public transport network needs many changes to be always at its best.";
+
+/* SCENARIO3 */
+
+$germany03_name_text = "The Millionendorf";
+$germany03_location_text = "Munich 2002-2005";
+$germany03_animation_text = "Munich is facing several challenges at the start of the new millennium.\nThe eastern section of the city lacks a public transport network and the city is still expanding.";
+$germany03_briefing_short = "Munich is facing several challenges at the start of the new millennium. The eastern section of the city lacks a public transport network and the city is still expanding.";
+$germany03_briefing_text = "Well hello there! I'm Hugo, the official modernizer of Munich – yes, that's a real title, thanks for asking. I have great expectations for this city, and I hope you can help me make them happen. The east side of the city desperately needs transportation and I think we could do with a few changes in other areas as well. Good to have you here!";
+$germany03_completed_text = "Thank you, it's been a great pleasure working with you. I think we have succeeded in modernizing the city and ensuring the public transport system is sleek and fast. Excellent work!";
+
+$germany03_task01_name = "A Small Task";
+$germany03_task01_text = "Okay, let's start with a small task first. The old trams need to be replaced, so get rid of those and buy some new ones. You can pick which ever model you please, I'm sure you know what we need.";
+$germany03_task01_short = "Have 5 trams with no tram older than two years.";
+$germany03_task01_passed = "Well done, looks like you've done this before!";
+
+$germany03_task02_name = "East Side";
+$germany03_task02_text = "Now on to the east side of the city. It's been a bit neglected in my previous plans, but I'm hoping you will have some ideas on how to connect it with the rest of the city. Please feel free to do as you see fit!";
+$germany03_task02_short = "Have %0%% coverage.";
+$germany03_task02_passed = "Excellent work, this is just what the city needed. Good choices with the lines!";
+
+$germany03_task03_name = "Whatchamacallits";
+$germany03_task03_text = "Afternoon! I'm CEO of one of the biggest companies making whatchamacallits. The market is huge and we're doing extremely well. We have our own industrial area dedicated to manufacturing, but the connections aren't a good as they could be. It would make it easier for us to hire new workers if we could promise them an easy commute. Could you help me? I'm willing to pay!";
+$germany03_task03_short = "Build three lines to the {0:Whatchamacallit factory}.";
+$germany03_task03_passed = "Thank you! The factory is doing much better now and we have plenty of new workers.";
+
+$germany03_task04_name = "Attention to Students";
+$germany03_task04_text = "Students are our future, so we should be focusing on them! I'm thinking in terms of an advertising campaign, but if you have any other ideas, we could use those too.";
+$germany03_task04_short = "Have %0%% reputation with students.";
+$germany03_task04_passed = "Good, this will make sure the majority of students use our services now – and continue to do so once they start working.";
+
+$germany03_task05_name = "Persecuted Pensioner";
+$germany03_task05_text = "Everything's wrong! The sun is shining directly in my eyes and the birds are annoying me with their constant chirping! But worst of all is the blasted traffic. One of your stops is positioned right in the middle of my lovely Sunday walk and I won't stand for it! Remove it immediately, or else!";
+$germany03_task05_short = "Remove the {0:%0} bus stop.";
+$germany03_task05_passed = "Couldn't you have done it faster and with less noise? I suppose it'll have to do. Now be off with you!";
+
+$germany03_task06_name = "Burgeoning Buses";
+$germany03_task06_text = "Bus lines are proving to be excellent for short distances. Could you add a few more to make travelling in the city more efficient?";
+$germany03_task06_short = "Build 3 bus lines, transport %0 people.";
+$germany03_task06_passed = "Good, this looks like a really effective solution.";
+
+$germany03_task07_name = "Marvelous!";
+$germany03_task07_text = "Good day to you! I'm working on a marvelous invention that will greatly reduce the electricity usage of metro trains. Since I've traveled to work on your vehicles for years, I'd like to offer you the chance to try my invention for free. How about it?";
+$germany03_task07_short = "Try out the invention.";
+$germany03_task07_passed = "Wonderful, I'll install the new parameters right away!";
+
+$germany03_task08_name = "Rails to Air";
+$germany03_task08_text = "The airport is so busy these days. If we built a new line there it would surely help reduce traffic considerably. The railway station is another hot spot for congestion, so why not connect the two?";
+$germany03_task08_short = "Build a line from the {0:Airport} to the {1:Railway station}, transport %0 people.";
+$germany03_task08_passed = "This will definitely help prevent traffic jams, good work!";
+
+$germany03_task09_name = "Swamped Stadium";
+$germany03_task09_text = "The stadium manager just informed me that they are swamped with cars. Could you build a few lines out there to help them out?";
+$germany03_task09_short = "Build two lines to the {0:Stadium}.";
+$germany03_task09_passed = "Looks like it's working well! Not so many cars around the stadium any more.";
+
+$germany03_task10_name = "Blood Bank";
+$germany03_task10_text = "Hello! I work for the blood bank here in the city. We have recently experienced a drop in donation numbers, and I was hoping better connections might help. Do you think you could put in a line or two? It's really important to have enough blood stored for all future patients.";
+$germany03_task10_short = "Build two lines to the {0:Blood bank}.";
+$germany03_task10_passed = "Thank you! We have had plenty of new donors recently!";
+
+$germany03_task11_name = "Most Amusing";
+$germany03_task11_text = "A new amusement park is opening! That's good news for the city – tourism brings money, and more money benefits the whole city in terms of better services. Please could you make sure the amusement park has good connections?";
+$germany03_task11_short = "Build three lines to the {0:Amusement park}.";
+$germany03_task11_passed = "Excellent, I think we are making the most of this new trend.";
+
+$germany03_task12_name = "Mogue Magazine";
+$germany03_task12_text = "Listen up! I'm doing a photoshoot for the Mogue magazine, the most important magazine in the whole fashion world! The photographer wanted to shoot on a tram, so I need a tram line with nice bacgrounds. I can offer you a portion of my fee if you can provide us with the vehicle and line!";
+$germany03_task12_short = "Build a Tram line from the {0:Parliament building} to the {1:Isar Gate}.";
+$germany03_task12_passed = "Thank you, the shoot went really well and the magazine was most pleased! Here's a portion of my fee, you were so nice!";
+
+$germany03_task13_name = "Straight to the Museum";
+$germany03_task13_text = "I was just admiring this magnificent statue: what a great work of art! Listen, your museum is equally good, but it's a bit hard to find. Why not build a direct line from the airport, so everyone can travel straight there?";
+$germany03_task13_short = "Build a line from the {0:Airport} to the {1:Museum}.";
+$germany03_task13_passed = "Nice work! I'm sure many tourists will head straight for the museum!";
+
+$germany03_task14_name = "Central Park";
+$germany03_task14_text = "Central park is really popular and the city is planning to have it re-vamped: new flowers, benches and so on. We'd like to encourage more people to visit the park and we are fairly confident that the renovations will do the trick. Could you add a few lines there?";
+$germany03_task14_short = "Built two lines to the {0:Park}, transport %0 people.";
+$germany03_task14_passed = "Well done! Looks like people are already flocking to the park.";
+
+$germany03_task15_name = "Daily Samples";
+$germany03_task15_text = "I represent the biotechnology students here in the city. We've been wondering if it would be possible to have a bus line going to the lake. We need to collect fresh water samples almost daily, and it would be really convenient if we could just hop on a bus to get them. Could you please look into it?";
+$germany03_task15_short = "Build a line from the {0:University} to the {1:Lake}.";
+$germany03_task15_passed = "Thank you! It's so much easier to collect our samples now.";
+
+$germany03_task16_name = "Making More Money";
+$germany03_task16_text = "I'm a bit worried about our financial status. Could you demonstrate your ability to turn a decent profit? The mayor is looking for assurances, and this would safeguard our working relationship.";
+$germany03_task16_short = "Have +%it,d.20 profit for two months.";
+$germany03_task16_passed = "Excellent work! Now they have no qualms hiring you for another couple of years.";
+
+$germany03_task17_name = "Intel from the Internet";
+$germany03_task17_text = "There's an internet petition circulating, demanding a new metro line. I think we could comply with people's wishes – it's evident there would be lots of users. Let's do it!";
+$germany03_task17_short = "Build a metro line.";
+$germany03_task17_passed = "Good, the line is already drawing lots of passengers!";
+
+$germany03_task18_name = "Add a Metro Line";
+$germany03_task18_text = "The metro line seems to be very popular – I think we should add another as soon as possible.";
+$germany03_task18_short = "Build a metro line.";
+$germany03_task18_passed = "Nice work, it's even better than the previous one!";
+
+$germany03_task19_name = "Busy Lines, Busy Lives";
+$germany03_task19_text = "I have planned an excellent new line. It connects some of the busiest places, so it's sure to attract lots of passengers. Would you build it for us?";
+$germany03_task19_short = "Build a line connecting {0:Marienplatz}, {1:Hofgarten} and {2:Shopping center}.";
+$germany03_task19_passed = "Well done, it looks just like I planned it! I hope it does well.";
+
+$germany03_task20_name = "Lovely Shopping Mall";
+$germany03_task20_text = "My family has totally fallen in love with the shopping mall. It has everything we could possibly need – and air conditioning too! I'd like to be able to leave the car at home, since parking is a bit expensive. Could you help me out here?";
+$germany03_task20_short = "Build a line from the {0:Residential building} to the {1:Shopping mall}.";
+$germany03_task20_passed = "Thank you! Now we can go shopping every day!";
+
+$germany03_task21_name = "Senior Services";
+$germany03_task21_text = "The city wants us to make sure our senior citizens are using our lines as much as possible. The council feels it is uneconomical to provide separate transportation for the elderly, so it would be in everyone's interest to make sure that public transport suit their needs. I promised we would try.";
+$germany03_task21_short = "Have %0%% reputation with pensioners.";
+$germany03_task21_passed = "I think this will please the city, well done.";
+
+$germany03_task22_name = "Sure to be Shopping";
+$germany03_task22_text = "The shopping mall at the edge of town is having trouble attracting customers. They asked us to help by building some lines out there, I think this would be a good route business-wise.";
+$germany03_task22_short = "Build two lines to the {0:Shopping Mall}.";
+$germany03_task22_passed = "I'm sure that will do the trick – crowds of people are heading for the supermarket already!";
+
+$germany03_task23_name = "Arriving by Train";
+$germany03_task23_text = "The workers from the industrial area have contacted me asking for better connections to their work places. Some are commute from outside the city, so we should also connect the area to the railway station.";
+$germany03_task23_short = "Build a line connecting the {0:Industrial area} and the {1:Railway station}.";
+$germany03_task23_passed = "I'm sure the workers will be very pleased with this arrangement.";
+
+$germany03_task24_name = "Camping Trip";
+$germany03_task24_text = "My youngest daughter is going on a class camping trip, and while I'm totally confident of the school's capabilities, I'd like to be able to check on her a few times. Could you arrange it so that I could stop by without her noticing? Please?";
+$germany03_task24_short = "Build a line going near the {0:Forest}.";
+$germany03_task24_passed = "Thank you! Now I can easily drop by and make sure everything is fine. I'm so relieved!";
+
+$germany03_task25_name = "Sightseeing Red";
+$germany03_task25_text = "I overheard some tourists in the market square – they were disappointed because there was no sight-seeing line circling the city. Now that would make an excellent addition to our system!";
+$germany03_task25_short = "Have a line connecting {0:Max-Joseph Platz}, {1:Viktualienmarkt}, {2:Karlsplatz} and {3:Olympiapark}.";
+$germany03_task25_passed = "Nice work! This should be just what the tourists want.";
+
+$germany03_task26_name = "The Mayor's Ball";
+$germany03_task26_text = "The mayor is hosting a ball at the theatre. He asked if we could ensure all the guests are able to arrive by public transport, so we can use this event to showcase our work.";
+$germany03_task26_short = "Build two lines to the {0:Theatre}.";
+$germany03_task26_passed = "Looks like the guests have started to arrive, excellent!";
+
+$germany03_task27_name = "Looping Lines";
+$germany03_task27_text = "Hola! I'm just back from my trip abroad, where I saw the most wonderful system. They connected metro stations with looping bus lines, transporting their passengers to the stations by buses. Could we try that here?";
+$germany03_task27_short = "Build two bus lines bringing passengers to metro stations.";
+$germany03_task27_passed = "Looks like it's working nicely! Good thing I mention this system to you.";
+
+$germany03_task28_name = "Office District";
+$germany03_task28_text = "The office district down town is hoping to reduce traffic and office workers would like to have more opportunity to use public transport. This is an excellent development – it seems as though citizens are finally noticing how convenient public transport can be!";
+$germany03_task28_short = "Build three lines going to {0:Office building}, {1:Office building} and {2:Office building}, transport %0 people.";
+$germany03_task28_passed = "I'm sure this is just what they needed. Fewer cars, more public transport options.";
+
+$germany03_task29_name = "Radical Increase";
+$germany03_task29_text = "The last thing I'd like you to do is radically increase the number of lines. The city will continue to expand, so I need to be prepared to handle the growth, even with you gone.";
+$germany03_task29_short = "Build 5 new lines, transport %0 people.";
+
+$germany03_task30_name = "New Pictures!";
+$germany03_task30_text = "Ciao again! I'm having another photo-shoot with a world-famous photographer – this time it's for your advertising campaign! We are planning to shoot at various key locations around the city, while riding a bus. Could you make sure a suitable line is available?";
+$germany03_task30_short = "Build a line connecting the {0:Market square}, the {1:Amusement park} and the {2:Church}.";
+$germany03_task30_passed = "Thank you ever so much! The shoot was fabulous and the photographer super awesome! I'm sure you'll get tons of new passengers once they see me pictured on one of your buses!";
+
+$germany03_task31_name = "Do Something about the Weather";
+$germany03_task31_text = "The weather is simply unbearable! I need to be transported from my doorstep to the railway station, so I can pick up my niece, who is coming to stay with me for a while. I demand to have a new line put in at once!";
+$germany03_task31_short = "Build a line from the {0:Residential building} to the {1:Railway station}.";
+$germany03_task31_passed = "It's still too cold for my arthritis, but if I can get a seat near the bus's radiator, I'll be fine.";
+
+/* SCENARIO4 */
+
+$germany04_name_text = "The Oktoberfest";
+$germany04_location_text = "Munich 1990-1991";
+$germany04_animation_text = "Oktoberfest is coming!\nMunich needs to prepare for the great beer festival that will bring thousands, tourists and locals alike, thronging the city's streets.\nThe public transport system needs to accommodate huge crowds and you are the one tasked with overseeing the operation.";
+$germany04_briefing_short = "Oktoberfest is coming! Munich needs to prepare for the great beer festival that will bring thousands, tourists and locals alike, thronging the city's streets. The public transport system needs to accommodate huge crowds and you are the one tasked with overseeing the operation.";
+$germany04_briefing_text = "Oktoberfest will soon be here! The Munich Oktoberfest is one of the largest festivals in the whole country, and is sure to bring lots of visitors to the city. And that, my friend, is precisely why I am asking for your help!";
+$germany04_completed_text = "Well done, the Oktoberfest is finally over! There were even more visitors than I expected, but everything went really well. Thank you for helping me, it's been good working with you!";
+
+$germany04_task01_name = "Preparing for the Flood";
+$germany04_task01_text = "Let's start by adding more lines to make sure we have sufficient capacity to cope with the incoming surge of visitors.";
+$germany04_task01_short = "Build 5 new lines.";
+$germany04_task01_passed = "Good work, I think all the lines are very well designed.";
+
+$germany04_task02_name = "Festival Fears";
+$germany04_task02_text = "There's a festival scheduled to take place at the park, and me and my friends would like to go, but all the buses are packed and taxis are too expensive. I'm sure there would be a lot of other passengers on the line, not just us, so could you look into it?";
+$germany04_task02_short = "Build a bus line to the {0:Park}, transport %0 passengers.";
+$germany04_task02_passed = "Thanks! Now we'll have no problem getting to the park. My favorite band is playing soon!";
+
+$germany04_task03_name = "Restaurants are Covered";
+$germany04_task03_text = "Since the Oktoberfest restaurants are dotted all over the city, we need excellent coverage to make sure every last one is easy to reach.";
+$germany04_task03_short = "Have coverage of %0%%.";
+$germany04_task03_passed = "Good, this will definitely please the tourists.";
+
+$germany04_task04_name = "A New Favorite";
+$germany04_task04_text = "I've found a new favorite park! It's the perfect place to go for a nice picnic. If only it were easier to reach...";
+$germany04_task04_short = "Build two lines to the {0:Park}, transport %0 people.";
+$germany04_task04_passed = "Thank you! Now I can stop by every day to enjoy the peace and quiet.";
+
+$germany04_task05_name = "Schnitzel Support";
+$germany04_task05_text = "Hello there! I've just opened a new schnitzel restaurant and was hoping you could help me attract more customers. If you could build a few lines brining people to the restaurant, I would be most grateful. There's something in it for you, too!";
+$germany04_task05_short = "Build a line to the {0:schnitzel restaurant}, transport %0 passengers.";
+$germany04_task05_passed = "Thanks a lot! My restaurant is doing much better now and I've even tweaked my schnitzel recipe a bit – it's even more delicious now!";
+
+$germany04_task06_name = "Too Old!";
+$germany04_task06_text = "I'm appalled! Your vehicles are far too old! They pollute the air and make such a racket that I can't get my beauty sleep. Do something about it!";
+$germany04_task06_short = "Have no vehicles older than one year.";
+$germany04_task06_passed = "Well, I should think so. They could do with being a bit cleaner, though!";
+
+$germany04_task07_name = "Hotels Need Attention Too";
+$germany04_task07_text = "The hotel managers have asked me to relay a request: they would like a line connecting all the hotels so they can send guests to each others' hotel if they are fully booked. I think it's a good idea!";
+$germany04_task07_short = "Have a route connecting {0:Hotel A}, {1:Hotel B} and {2:Hotel C}.";
+$germany04_task07_passed = "That should do it; now every one can easily find accommodation. Thanks!";
+
+$germany04_task08_name = "Airport Lines";
+$germany04_task08_text = "The airport is sure to be increasingly busy, so I suggest we add a few lines while we have the chance.";
+$germany04_task08_short = "Build three lines to the {0:Airport}.";
+$germany04_task08_passed = "This will make it much easier to get in and out of the airport, good work!";
+
+$germany04_task09_name = "Recruiting Soldiers";
+$germany04_task09_text = "We have just opened a new recruiting center in the city, but apparently no one can find the place. Totally ridiculous, I picked the site myself and it's an excellent location. But to please these whiners, I've decided to ask if you could provide the office with better connections.";
+$germany04_task09_short = "Build a line to the {0:Office building}.";
+$germany04_task09_passed = "New recruits are lining up, good work! Thank you for ensuring our country's security for years to come.";
+
+$germany04_task10_name = "More Coffee?";
+$germany04_task10_text = "Hello again, I'm afraid I need better connections to my café yet again. The site is so beautiful – I'd like other people to enjoy it too! And maybe buy some coffee at the same time.";
+$germany04_task10_short = "Build a line to the {0:Cafe}.";
+$germany04_task10_passed = "Thanks again! The cafe is attracting many more customers now... and they are enjoying the view too!";
+
+$germany04_task11_name = "Isar beach";
+$germany04_task11_text = "The beaches on the river Isar might be of interest to the visitors. Why not build a few lines so they can get there?";
+$germany04_task11_short = "Build two lines to {0:Beach A} and {1:Beach B}.";
+$germany04_task11_passed = "The lines look excellent, everyone will love the cool river air and great view!";
+
+$germany04_task12_name = "Partying at the Park";
+$germany04_task12_text = "Hello! I'm planning to hold a party at the local park and I've already invited all my friends, but I just noticed the park is pretty hard to reach. Could you please help me out?";
+$germany04_task12_short = "Build two lines to the {0:Park}.";
+$germany04_task12_passed = "Thank you! Everyone managed to make it, thanks to the new lines, I'm so happy!";
+
+$germany04_task13_name = "Better than Oil";
+$germany04_task13_text = "I'm here with a request: I've been working on a project involving trams, but my backer has pulled out. I'm really close to patenting a new lubricant that is better than oil, and would make the rails last longer, with zero deterioration! If you could provide some funding, I could supply you with the proto-type.";
+$germany04_task13_short = "Pay %it,d.20 to get -%1%% to tram energy costs for 3 months.";
+$germany04_task13_passed = "I'll add the lubricant right away, you won't regret this!";
+
+$germany04_task14_name = "Get the Word Out!";
+$germany04_task14_text = "We have had so many people complaining about the hospital parking that I've got a sore throat from apologizing. Everyone travels by car and it takes forever to find a parking spot, resulting in massive traffic jams. I'm not sure people realize they could also use public transport, so it might be a good idea for you to advertise your services. Just thought I'd let you know!";
+$germany04_task14_short = "Launch an advertising campaign on the {0:radio}.";
+$germany04_task14_passed = "Thank you, this has been a great help! Now people are more aware of the public transport options.";
+
+$germany04_task15_name = "Oktoberfest!";
+$germany04_task15_text = "Here we go! The Oktoberfest is due to starting, and thousands of people are expected to show up. Lets hope we can handle the crowds.";
+$germany04_task15_short = "Transport %0 people.";
+
+$germany04_task16_name = "Campus Area";
+$germany04_task16_text = "The technical college's campus is scattered all over the city, and it's hard to get from site to site in time for my lectures. The students might also appreciate a direct connection, so maybe you could see if it's feasible?";
+$germany04_task16_short = "Build a line connecting {0:Area A}, {1:Area B}, {2:Area C} and {3:Area D}.";
+$germany04_task16_passed = "Well done! Fewer students are arriving late for my lectures, so they must also be using your new line. Thank you!";
+
+$germany04_task17_name = "Better Coffee Breaks";
+$germany04_task17_text = "Hello! I work at the local museum. We are currently renovating to make room for a new exhibition and the employee break room has been temporarily moved to the museum headquarters. It's not far away, but it's still quite a walk to have to make several times a day. There are many other museum employees who would also appreciate a new line. Could you please help us?";
+$germany04_task17_short = "Build a line from the {0:Museum} to the {1:Office building}.";
+$germany04_task17_passed = "Thank you so much! This makes our life so much easier – no more long walks to get to the break room.";

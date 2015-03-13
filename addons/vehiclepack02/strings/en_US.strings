@@ -1,0 +1,16 @@
+
+$vehicle_dlc02_bus01 = "Dino Vettore";
+$vehicle_dlc02_bus01_info = "The flagship of a North Italian factory, Vettore is one of the largest buses ever produced. Providing comfortable seating in two floors with stairs installed in front and rear, it can a large amount of passengers.\n\nVettore was originally intended for long-distance transport but recently the factory has began to produce a slightly shortened version for regional route use.";
+
+$vehicle_dlc02_bus02 = "Comet Ambienta";
+$vehicle_dlc02_bus02_info = "Comet Ambienta was introduced to the world in 1995 by the successful Swedish manufacturer. Its design was inspired by smooth forms of nature and recent developments in space engineering. From a technical point-of-view, being environmentally compatible was given a high significance - the result is one of the cleanest buses ever produced with very low level of exhaust emissions and especially noise-abating body construction.";
+
+$vehicle_dlc02_tram01 = "Prospecta Experimental";
+$vehicle_dlc02_tram01_info = "Prospecta Experimental's design aims to break not only the conventions of tram design but those of the public transportation as a whole. It's main features are large windows, smooth surfaces and most notably, the zigzag configuration of the tram cars. The seating layout is designed to encourage social interaction among passengers leaving empty, open spaces in the cars. One peculiar feature in the design is the use of balconies, giving a luxury feeling to the tram. Prospecta Experimental runs on electricity and therefore is a very green choice for the environmentally aware traveller.";
+
+$vehicle_dlc02_metro01 = "Capitol W700 automatic";
+$vehicle_dlc02_metro01_info = "W700 is a 5-car aluminium metro train configuration manufactured by the combined American-Japanese Capitol factories. It is the seventh generation of driverless metro trains which are remote-controlled by Automatic Train Operating system. To better cater the needs of peak hours, the carriages have longitudal seating arrangements, thus allowing more room for standing passengers. W700 has lower maintenance costs than its predecessor models and its modernized construction provides better energy efficiency.";
+
+$vehicle_dlc02_heli01 = "Roto-Tec Leopard";
+$vehicle_dlc02_heli01_info = "Belgian helicopter manufacturer Roto-Tec was formed following a merge of two smaller companies. Leopard was initially designed to meet the growing needs of providing air transport links to oil rigs. It features two reliable turboshaft engines and an especially robust fuselage. In early 1980s, a new version was introduced with an efficient de-icing system to better withstand freezing conditions. Leopard is a medium heavy helicopter with a nice seating capacity.";
+

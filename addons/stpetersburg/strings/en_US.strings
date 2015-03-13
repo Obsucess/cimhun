@@ -1,0 +1,386 @@
+$location_russia_name = "Russia";
+
+$cityname_stpetersburg = "St. Petersburg";
+$citydescription_stpetersburg_short = "St. Petersburg has seen a lot of changes and continues to be an evolving metropolis. The Neva divides the city and its old palaces and narrow streets lending a unique athmosphere.";
+$citydescription_stpetersburg_long = "";
+
+$building_bloodChurch = "Saviour On Blood";
+$building_restaurant = "Restaurant";
+$building_winterPalace = "Winter Palace";
+$building_stIsaacs = "Saint Isaac's Cathedral";
+
+$station_trolley = "Trolley bus stop";
+$track_trolley = "Catenary lines";
+$tool_trolley_hint = "Trolley bus infrastructure";
+$tool_trolley_track_hint = "Trolley bus catenary lines\nCost per segment: %it,d.20";
+$tool_trolley_station_hint = "Trolley bus stop\nPrice: %it,d.20\nMaintenance cost per month: %it,d.21";
+$line_trolley_hint = "Trolley bus lines";
+$policy_trolley_hint = "Trolley bus";
+$budget_trolley_title = "Trolley\nbus:";
+$vehicles_trolley_hint = "Trolley bus";
+$vehicle_trolley_name_pattern = "Trolley bus %0";
+$objectinfo_trolley = ["Weirdos on board", "Seats given to elderly people", "Ticket inspector visited this trolley bus", "Bubblegum cleaned from seat"];
+$newsticker_trolley_broken_text = "A trolley bus has broken down!";
+$newsticker_trolley_angry_text = "Passengers at %0 stop are unhappy!";
+$newsticker_trolley_cannotReach_text = "A trolley bus on line %0 cannot reach the next stop!";
+$newsticker_trolley_jammed_text = "A trolley bus on line %0 seems to be jammed!";
+$newsticker_trolley_new_text = "New trolley bus available! Factory launches the %0!";
+
+$vehicle_stpetersburgBus01 = "Horse carriage";
+$vehicle_stpetersburgBus01_info = "The horse carriage, with it's unique nostalgic ambience, may be slow and small, but tourists love it! What better way there is to see the sights and enjoy the city?";
+$vehicle_stpetersburgTrolley01 = "ZiA-11E";
+$vehicle_stpetersburgTrolley01_info = "The ZiA-11E is of French origin, but fits well in any city. It is very fast, but has a small capacity, making it perform best on longer routes with few passenger. A classic trolley bus with three sets of doors for the passengers' comfort.";
+$vehicle_stpetersburgTrolley02 = "ZiA-5";
+$vehicle_stpetersburgTrolley02_info = "An old classic, the ZiA-5 has lots of room for passengers, but has some flaws in its engine design. Despite frequent breakdowns, it's often used in Eastern-Europe because of it's high passenger capacity and reasonable energy consumption.";
+$vehicle_stpetersburgTrolley03 = "ZiA-9G";
+$vehicle_stpetersburgTrolley03_info = "A newer version of the ZiA-5, the Zia 9G has a higher capacity and is very reliable. The energy consumption is quite high, but the vehicle offers comfortable traveling and is preferred by passengers.";
+$vehicle_stpetersburgMetro01 = "Russisch 741";
+$vehicle_stpetersburgMetro01_info = "An automatic control system is one of the key features of the Russisch 741. The metro is specially designed for the harsh Russian winters, being highly reliable and appropriate for outdoor tracks as well as tunnels. It has plenty of room for passengers and is fairly fast, making it the best choice for many lines, regardless of the weather.";
+
+$campaign_stpetersburg1_name_text = "The Window To The West";
+$campaign_stpetersburg1_description_text = "St. Petersburg, divided by the Neva river, is home to countless narrow streets as well as lofty boulevards that accommodate a variety of vehicles. Experience the fabled East!";
+
+/* SCENARIO1 */
+
+$stpetersburg01_name_text = "Saint Petersburg Again";
+$stpetersburg01_location_text = "St. Petersburg 1991-1993";
+$stpetersburg01_animation_text = "Saint Petersburg has come a long way and once again has its original name.\nWith the falling of the Iron Curtain, new opportunities have arisen, and Saint Petersburg strives to lead Russia on the public transport sector.";
+$stpetersburg01_briefing_short = "Build a public transport system in Saint Petersburg";
+$stpetersburg01_briefing_text = "Privet! So many changes, I'm overwhelmed! New name, new connections, new responsibilities... It's too much! Please help me, if you would handle the public transport, it would take an enormous load off my shoulders!";
+$stpetersburg01_completed_text = "It looks beautiful, look at the boats gliding on the water! I'm sure I can handle the system now. You have been a great help and I am honored to have worked with you.";
+
+$stpetersburg01_task01_name = "Tons To Do";
+$stpetersburg01_task01_text = "Excellent, thank you so much! You have free rein, just do whatever needs to be done. I have a long list of meetings, people to meet and places to go, so I'll just get on with my work.";
+$stpetersburg01_task01_short = "Build 20 lines, transport 500 passengers";
+$stpetersburg01_task01_passed = "Well done! I'm still busy with my duties, but everything is looking really good.";
+
+$stpetersburg01_task02_name = "Business And Pleasure";
+$stpetersburg01_task02_text = "Hello! I'm often on business trips here in your lovely city, and I have been hoping for a way to go and relax in my favourite park. I've been to many big cities, but none are as beautifully landscaped as this one! Please build a line so I can easily get to and from the airport and visit the park, as well.";
+$stpetersburg01_task02_short = "Build a line from the {0:Airport} to the {1:Park}";
+$stpetersburg01_task02_passed = "Thank you! My business trips will be so much more pleasant now!";
+
+$stpetersburg01_task03_name = "Save Him From Starvation!";
+$stpetersburg01_task03_text = "Good day to you! My son lives far away, but he works in the city and I would like to visit him more often. He needs me to wash his dishes and bring him lunch, the poor thing might starve or have to eat from dirty plates otherwise! I'm very concerned. Could you make sure I can get to his office easily?";
+$stpetersburg01_task03_short = "Build two lines to the {0:Office}";
+$stpetersburg01_task03_passed = "Thank you! Now the poor thing is less likely to starve. You are an angel!";
+
+$stpetersburg01_task04_name = "Want Some Lines?";
+$stpetersburg01_task04_text = "Hello dear, I was worried that there are not enough lines in the city. I like to ride different lines just to enjoy the view, so please build a few more!";
+$stpetersburg01_task04_short = "Build three lines";
+$stpetersburg01_task04_passed = "Good, now I can ride around all day long!";
+
+$stpetersburg01_task05_name = "Going Steady";
+$stpetersburg01_task05_text = "Well, I think you should really keep at it, because things are going so well. Please?";
+$stpetersburg01_task05_short = "Build 15 lines, transport 1000 passengers";
+$stpetersburg01_task05_passed = "'Wow! You really know what you're doing!";
+
+$stpetersburg01_task06_name = "Books For Students";
+$stpetersburg01_task06_text = "Good day! I have a small shop here in the city, mostly selling books and comics. I'm aiming for the student market and chose a location with good connections, but it seems like I still don't get enough customers. I think improving your reputation with the students would help tremendously! Could you help me? I can pay you good money if you do!";
+$stpetersburg01_task06_short = "Have 80 reputation with Students";
+$stpetersburg01_task06_passed = "My shop is so much more popular now, thank you!";
+
+$stpetersburg01_task07_name = "A Big City!";
+$stpetersburg01_task07_text = "Oh, what a big city you have here! So much different from the village I come from. Look at all those cars and busses! But aren't there still some routes missing?";
+$stpetersburg01_task07_short = "Build 2 lines";
+$stpetersburg01_task07_passed = "Wow, now that looks really good! I'm impressed!";
+
+$stpetersburg01_task08_name = "Study The Students";
+$stpetersburg01_task08_text = "The university needs better connections! As students, we depend on public transport, so help us out, and we will continue to use your services for a long time.";
+$stpetersburg01_task08_short = "Build two lines to the {0:University}, one of them from the {1:Railway station}";
+$stpetersburg01_task08_passed = "Thank you, now that's excellent student service!";
+
+$stpetersburg01_task09_name = "Trollin'";
+$stpetersburg01_task09_text = "Could you add a trolley bus line? They look so nice and awaken memories of times past... I'm sure it will be very popular, too!";
+$stpetersburg01_task09_short = "Build a Trolley bus line";
+$stpetersburg01_task09_passed = "Well done, the routes are placed perfectly!";
+
+$stpetersburg01_task10_name = "The Theater, Also";
+$stpetersburg01_task10_text = "Though the park is my favourite place, I also like the theater. Their plays have such a fresh new angle! Could you make sure I have an easy route to the theater from the airport?";
+$stpetersburg01_task10_short = "Build a line from the {0:Theater} to the {1:Airport}";
+$stpetersburg01_task10_passed = "Thank you, now I can enjoy the theater, too.";
+
+$stpetersburg01_task11_name = "Seeing The City";
+$stpetersburg01_task11_text = "I'm coming back to your beautiful city! I'll be staying in a hotel and I would very much like to do my site-seeing via public transport. Can you make sure I can do that from the hotel?";
+$stpetersburg01_task11_short = "Build three lines to the {0:Hotel}";
+$stpetersburg01_task11_passed = "Thanks, now I can see all the sites!";
+
+$stpetersburg01_task12_name = "The Important Papers";
+$stpetersburg01_task12_text = "Hello! My accountant's office is very far away from my shop and my home, so it's sometimes hard to get there on time to pick up important papers. Could you build a better route, please?";
+$stpetersburg01_task12_short = "Have two lines going to the {0:Office}";
+$stpetersburg01_task12_passed = "Thank you so much, this makes my life so much easier!";
+
+$stpetersburg01_task13_name = "Maybe Cover Some?";
+$stpetersburg01_task13_text = "I was thinking about coverage. I'm not sure if it's imperative at this point to increase it, but if you think we should, we could do something about it.";
+$stpetersburg01_task13_short = "Have 85% coverage";
+$stpetersburg01_task13_passed = "Well done! That's exactly what I had in mind!";
+
+$stpetersburg01_task14_name = "The Grump";
+$stpetersburg01_task14_text = "Oh, my poor husband has to stay at the hospital for a while! They were all out of cleaning personnel. We don't own a car, so it would be cheapest for him to walk. But he's such a grump and insists on using public transportation. Please help him out!";
+$stpetersburg01_task14_short = "Build three lines to the {0:hospital}";
+$stpetersburg01_task14_passed = "This will save us a lot of money! Thank you!";
+
+$stpetersburg01_task15_name = "Water Away!";
+$stpetersburg01_task15_text = "Now that I've seen the system you built, there's just one thing I would like you to add. A waterbus line over the Neva! The view is so beautiful and reminds me of the good old days...";
+$stpetersburg01_task15_short = "Build a Waterbus line";
+
+$stpetersburg01_task16_name = "Sure Is Big";
+$stpetersburg01_task16_text = "Wow, the city sure is big! My brother has been living here for some time and he keeps complaining that the office workers have been completely overlooked in the public transportation design. Do you think so?";
+$stpetersburg01_task16_short = "Have 80 reputation with office workers";
+$stpetersburg01_task16_passed = "That should please them, well done!";
+
+/* SCENARIO2 */
+
+$stpetersburg02_name_text = "Tweaking The System";
+$stpetersburg02_location_text = "St. Petersburg 1999-2001";
+$stpetersburg02_animation_text = "The great city of St. Petersburg needs your help again.\nThe system needs upgrading. There has been a decline in public transport usage.";
+$stpetersburg02_briefing_short = "Fix the outdated public transport system in St. Petersburg";
+$stpetersburg02_briefing_text = "Good day! I need to renovate the transport system in Saint Petersburg, but it's such a huge and complicated task that I need help. I heard that you are the best!";
+$stpetersburg02_completed_text = "I am very thankful, I couldn't have done this without you! You did a great job, I'm very proud of the system now. I'll take it from here, so you can go and face new challenges!";
+
+$stpetersburg02_task01_name = "Out With The Old";
+$stpetersburg02_task01_text = "We need some new ideas here! Out with the old, and in with the cool, new lines. I have one new line specifically in mind, could you build it for me?";
+$stpetersburg02_task01_short = "Build a route connecting the {0:Railway station}, {1:Pier} and {2:Shopping mall}";
+$stpetersburg02_task01_passed = "Looks really nice and brand new! Excellent job!";
+
+$stpetersburg02_task02_name = "Last Pennies";
+$stpetersburg02_task02_text = "Oh, I'm totally broke! I really need to get to the park, where I can cry my eyes out under the trees. At least that's free. I just got back from Italy, so I will need transportation from the airport.";
+$stpetersburg02_task02_short = "Build a line from the {0:Airport} to the {1:Park}";
+$stpetersburg02_task02_passed = "Well, this will do the trick! Thanks!";
+
+$stpetersburg02_task03_name = "The Hermitage";
+$stpetersburg02_task03_text = "The Eremitage is sacred to our citizens, so I would like to direct even more attention towards it. A new line going there would be really nice.";
+$stpetersburg02_task03_short = "Build a line to the {0:Eremitage}";
+$stpetersburg02_task03_passed = "I'm sure this will bring plenty of new visitors to the museum!";
+
+$stpetersburg02_task04_name = "So Huge!";
+$stpetersburg02_task04_text = "I never get used to the size of this city! But why so are the road so empty? I want more traffic so I can boast to my friends at home!";
+$stpetersburg02_task04_short = "Build ten lines";
+$stpetersburg02_task04_passed = "So many vehicles! This looks much better.";
+
+$stpetersburg02_task05_name = "More Tourists";
+$stpetersburg02_task05_text = "More and more people are coming to see our wonderful city. How about building a few lines to the airport to reduce traffic jams?";
+$stpetersburg02_task05_short = "Build two new lines to the {0:Airport}";
+$stpetersburg02_task05_passed = "Well done! This will ease the traffic a lot.";
+
+$stpetersburg02_task06_name = "Police In Need";
+$stpetersburg02_task06_text = "I represent the local police department. We have had some problems with students walking on the streets and jaywalking. I thought that directing them to use public transportation could help.";
+$stpetersburg02_task06_short = "Have 85 reputation with Students";
+$stpetersburg02_task06_passed = "Thank you! This will surely relieve backed-up traffic in the whole city.";
+
+$stpetersburg02_task07_name = "Cousin Dimitri";
+$stpetersburg02_task07_text = "My cousin Dimitri just moved here. He has found a really nice apartment, but it's a bit far away from our available routes. He asked me to build a route there, so he could show all his friends and visiting family members how wonderful things are in the city. Could you do it?";
+$stpetersburg02_task07_short = "Build a line to {0:Dimitri's house}";
+$stpetersburg02_task07_passed = "Thank you, my cousin is so happy now!";
+
+$stpetersburg02_task08_name = "A Beautiful City";
+$stpetersburg02_task08_text = "Good day! I'm a big fan of your services! It's great to live in a beautiful city with such an efficient transport system! Still, could you add a few more routes? I'd love to see some new lines.";
+$stpetersburg02_task08_short = "Build 2 lines";
+$stpetersburg02_task08_passed = "Thank you so much! I love watching services expand!";
+
+$stpetersburg02_task09_name = "New And Flashy";
+$stpetersburg02_task09_text = "We Russians love all things new and flashy. That's why I think we should update our vehicles to attract more passengers. I'm sure lots of people would simply flock to see anything new!";
+$stpetersburg02_task09_short = "Have no vehicle over 1 year old";
+$stpetersburg02_task09_passed = "Everything looks so nice and new! Good job!";
+
+$stpetersburg02_task10_name = "A Famous Critic";
+$stpetersburg02_task10_text = "Hello, our student theater troupe is presenting a new play at the local theatre. We just got word that a famous critic wants to come and see it! She is very eccentric and only uses public transport. This is a fantastic opportunity for us, so please build a line so she can come and see our play!";
+$stpetersburg02_task10_short = "Build a line from the {0:Theater} to the {1:Airport}";
+$stpetersburg02_task10_passed = "Thanks! Now we just hope the famous critic likes our play. You have been a great help!";
+
+$stpetersburg02_task11_name = "Steep Prices";
+$stpetersburg02_task11_text = "The prices seem a bit too steep for some of the citizens. We should try and lower them for a while. If it raises passenger frequency, we can keep them low!";
+$stpetersburg02_task11_short = "Lower ticket prices by 0.30 for 60 days";
+$stpetersburg02_task11_passed = "That looks much better, well done! If you feel like it, you can now raise the prices.";
+
+$stpetersburg02_task12_name = "Too Expensive?";
+$stpetersburg02_task12_text = "I'm staying at the hotel, but taxis and chauffeurs are just too expensive! I want to have full access to different parts of the city at an affordable price. Please do something!";
+$stpetersburg02_task12_short = "Build three lines to the {0:Hotel}";
+$stpetersburg02_task12_passed = "Oh, that's perfect! Make sure the vehicles are clean and comfortable, too.";
+
+$stpetersburg02_task13_name = "Discount Coupons";
+$stpetersburg02_task13_text = "Hi! I'm starting a new advertising campaign. My nieces will get on trolley busses and distribute discount coupons for my shop! I've already printed all the coupons, but there aren't enough lines to distribute them all on. Maybe you can help me out?";
+$stpetersburg02_task13_short = "Build 4 trolley bus lines";
+$stpetersburg02_task13_passed = "Thank you so much! I hope I will get lots of new customers with the coupons!";
+
+$stpetersburg02_task14_name = "Choose Freely";
+$stpetersburg02_task14_text = "We need more lines! I have marked a few strategic spots for stops, but otherwise you can choose freely where to build!";
+$stpetersburg02_task14_short = "Build three lines with stops at {0:Hospital}, {1:Factory} and {2:Stadion}";
+$stpetersburg02_task14_passed = "Good! Those are some lines you got there!";
+
+$stpetersburg02_task15_name = "Naturally";
+$stpetersburg02_task15_text = "Nice to meet you! I'm setting up a new office in the city, and would naturally want it to have good connections. I can give you a nice bonus for helping me out!";
+$stpetersburg02_task15_short = "Have three lines going to the {0:Office}";
+$stpetersburg02_task15_passed = "Thank you! My doctors will have it much easier now.";
+
+$stpetersburg02_task16_name = "The Souvenir Shop";
+$stpetersburg02_task16_text = "My cousin owns the souvenir shop and he called me asking for some help. He doesn't have enough customers and might have to close shop. That would be dreadful! You will help her, won't you? Please?";
+$stpetersburg02_task16_short = "Build a line to the {0:Souvenir Shop}";
+$stpetersburg02_task16_passed = "This will surely bring lots of customers to buy souvenirs! Thank you!";
+
+$stpetersburg02_task17_name = "Avoiding Traffic Jams";
+$stpetersburg02_task17_text = "Good day! As office workers, we are fond of using public transport because it avoids traffic jams.  But there are still a few of us who don't grasp how great it is to simply take the bus or trolley bus. I wan't to go to work in my own car, and the others should get off the road, too. Surely you can do something?";
+$stpetersburg02_task17_short = "Have 75 reputation with office workers";
+$stpetersburg02_task17_passed = "Good work! I'll be seeing a lot more of my colleagues commuting!";
+
+$stpetersburg02_task18_name = "Tons Of Money?";
+$stpetersburg02_task18_text = "I boasted to my brother that the company has tons of money, and now he wants proof. Since we should save for the future, I'm sure piling up some money will do us well!";
+$stpetersburg02_task18_short = "Have 15,000 money";
+$stpetersburg02_task18_passed = "Whew, now he's finally happy!";
+
+$stpetersburg02_task19_name = "Busy Bee";
+$stpetersburg02_task19_text = "I'm in a hurry! Always! So I need extra lines going to my office, so I can always catch a vehicle when I need one. Gotta go! Please build some!";
+$stpetersburg02_task19_short = "Build two lines to the {0:Office}";
+$stpetersburg02_task19_passed = "Thanks, gotta go now! I'll catch one of the new lines!";
+
+$stpetersburg02_task20_name = "Nevsky Prospect";
+$stpetersburg02_task20_text = "Nevski Prospect is the most popular shopping area in the whole city. We should get in on the action and get some lines going there!";
+$stpetersburg02_task20_short = "Place three new stops on the {0:Nevski Prospect}";
+$stpetersburg02_task20_passed = "Buy, buy, buy! This will make getting around the city much easier.";
+
+$stpetersburg02_task21_name = "In Training";
+$stpetersburg02_task21_text = "Hello! I'm a trainee nurse at the local hospital. It's just very hard to get there, since it's a really busy place with lots of people coming and going all the time. We could really use some extra lines there!";
+$stpetersburg02_task21_short = "Build three lines to the {0:hospital}";
+$stpetersburg02_task21_passed = "Thank you, well done! I'm sure people won't be late for work as often anymore.";
+
+$stpetersburg02_task22_name = "Gliding On Neva";
+$stpetersburg02_task22_text = "The Neva is becoming very fashionable, everyone wants to gently glide on it and enjoy the view. Add some waterbus lines so we can make some money!";
+$stpetersburg02_task22_short = "Build two waterbus lines";
+$stpetersburg02_task22_passed = "Well done, look at them go!";
+
+$stpetersburg02_task23_name = "I Can Handle It";
+$stpetersburg02_task23_text = "I think we are almost done here! Just build me a few more lines, and I'm sure I can handle the rest by myself for a while. I'll be sure to give you a call if anything comes up!";
+$stpetersburg02_task23_short = "Build six lines";
+
+$stpetersburg02_task24_name = "Get To Decide";
+$stpetersburg02_task24_text = "I've bought some of your company stock! This means I get what I want now, doesn't it? I want more office workers as customers, I'm sure they pay best! I saw it in a dream, so it must be true.";
+$stpetersburg02_task24_short = "Have 80 reputation with office workers";
+$stpetersburg02_task24_passed = "Looks decent. Now make me lots of money!";
+
+/* SCENARIO3 */
+
+$stpetersburg03_name_text = "Into The Future";
+$stpetersburg03_location_text = "St. Petersburg 2015-2017";
+$stpetersburg03_animation_text = "The grand city of Saint Petersburg has flourished throughout the years,\nbut it's public transport system hasn't held up and needs some work.";
+$stpetersburg03_briefing_short = "Update the St. Petersburg public transport system";
+$stpetersburg03_briefing_text = "Good day, my name is Irina, but please call me Irishka as we will surely become friends while working together. I'm the mayor of Saint Petersburg and your job is to upgrade the transport system. There's a lot to do, so let's get on with it!";
+$stpetersburg03_completed_text = "You have helped me so much! The system is marvellous, I've never seen anything as smoothly running in any other city. You have my eternal gratitude.";
+
+$stpetersburg03_task01_name = "The Way To The Airport";
+$stpetersburg03_task01_text = "The airport is a good place to start. There are always people coming and going. Build a line there!";
+$stpetersburg03_task01_short = "Build a line to the {0:Airport}";
+$stpetersburg03_task01_passed = "Good! Let's keep up the pace.";
+
+$stpetersburg03_task02_name = "One Small Problem";
+$stpetersburg03_task02_text = "Hello! We at the university are doing a short film about how the campus has evolved, but we have one small problem. When the campus was built, there was no public transport yet. Could you help us and temporarily stop one of the lines that passes our shooting location?";
+$stpetersburg03_task02_short = "Stop bus line %0 for 30 days";
+$stpetersburg03_task02_passed = "Thank you! The film will surely be a success!";
+
+$stpetersburg03_task03_name = "Just Use It Later";
+$stpetersburg03_task03_text = "Let's save up some money! We can later use it to expand our system.";
+$stpetersburg03_task03_short = "Have 25,000 money";
+$stpetersburg03_task03_passed = "Well done, this will keep us going for a long time.";
+
+$stpetersburg03_task04_name = "Yes You Can!";
+$stpetersburg03_task04_text = "My consulting office is in the center of the city, but I visit other companies regularly to advise them on one thing or another. I need easy access, so public transport would be a good choice. Could you look at the locations I've marked and see if you can build some lines?";
+$stpetersburg03_task04_short = "Build lines to {0:Office building A}, {1:Office building B}, {2:Office building C} and {3:Office building D}";
+$stpetersburg03_task04_passed = "Thanks! This really shortens the travel time around the city!";
+
+$stpetersburg03_task05_name = "Boom Boom Boom!";
+$stpetersburg03_task05_text = "Industry is booming! The workers are requesting more lines to their work places, so they can leave their cars at home on some days.";
+$stpetersburg03_task05_short = "Build two lines to the {0:Industrial area}";
+$stpetersburg03_task05_passed = "Good work, this will give us some capital to use in future projects.";
+
+$stpetersburg03_task06_name = "Her Daughter";
+$stpetersburg03_task06_text = "My daughter is working at a local factory, and she refuses to take public transport because she says it's not cool and everyone would laugh at her if she took a bus. It's so silly! Why don't you try and get some more customers from the factory workers?";
+$stpetersburg03_task06_short = "Have 80 reputation with Blue Collar Workers";
+$stpetersburg03_task06_passed = "Well done! This will convince those silly youngsters to use public transport!";
+
+$stpetersburg03_task07_name = "The Neighbor";
+$stpetersburg03_task07_text = "There's one stop that's bothering me. Or actually, it bothers my neighbor, but she has very good reasons for wanting to discontinue it. I hope it doesn't disrupt the system too much! ";
+$stpetersburg03_task07_short = "Remove stop: {0:%0}";
+$stpetersburg03_task07_passed = "Thank you! She was really becoming a pain in the neck with her constant nagging. We can build a new stop close by, I'm sure!";
+
+$stpetersburg03_task08_name = "Noble Heritage";
+$stpetersburg03_task08_text = "The museum is presenting a few paintings from my late husband's collection, and I simply must see them! I'm sure they represent the splendor of our noble heritage, even though the paintings had to be sold a few decades ago. In spirit, they still belong to me! But I still need affordable transportation.";
+$stpetersburg03_task08_short = "Build two lines to the {0:museum}";
+$stpetersburg03_task08_passed = "Good, I can swing that! Now I can go and see the paintings. Good thing they have a senoir citizen discount!";
+
+$stpetersburg03_task09_name = "A Lot More Lines";
+$stpetersburg03_task09_text = "Let's build a lot more lines. People want to move around, but there are no demands for any special routes, just better connections in general.";
+$stpetersburg03_task09_short = "Build six lines";
+$stpetersburg03_task09_passed = "Looking good! People always want more lines, this ought to please them for a while.";
+
+$stpetersburg03_task10_name = "Seeing Granny";
+$stpetersburg03_task10_text = "Nice to meet you again after such a long time! Listen, I have a favor to ask. My old grandmother lives close by, but I really love traveling by bus. Could you please build a bus line to the house? I love taking a bus ride after seeing my granny.";
+$stpetersburg03_task10_short = "Build a Bus line to {0:Grandmother's house}";
+$stpetersburg03_task10_passed = "Thank you so much! I'll take the bus to my granny's house every day!";
+
+$stpetersburg03_task11_name = "Get To The Goal!";
+$stpetersburg03_task11_text = "Capacity is looking good. I want you to transport lots of people! So if you want, build a few new lines to meet your goal faster!";
+$stpetersburg03_task11_short = "Transport 350 passengers";
+$stpetersburg03_task11_passed = "Good! The system is really working at full capacity now.";
+
+$stpetersburg03_task12_name = "Hot Dogs";
+$stpetersburg03_task12_text = "We need more metro lines! I'm selling hot dogs to metro passengers and there are just not enough customers!";
+$stpetersburg03_task12_short = "Build a metro line";
+$stpetersburg03_task12_passed = "My hot dogs are now selling like... well, like hot cakes! Thank you for helping me out.";
+
+$stpetersburg03_task13_name = "Office Connection";
+$stpetersburg03_task13_text = "The new office buildings are requesting better connections, I think it's a good idea. Please build a few lines there!";
+$stpetersburg03_task13_short = "Build two lines to the {0:Office}";
+$stpetersburg03_task13_passed = "Good job, the commuters are likely to use our services a lot!";
+
+$stpetersburg03_task14_name = "Pollution? In My City?";
+$stpetersburg03_task14_text = "Hello there! I'm thinking of selling my car to avoid polluting the city. I thought you could maybe help me with an easier trip to work? I'm terrible at getting up early, so I could really use a direct line to work!";
+$stpetersburg03_task14_short = "Build a line from the {0:Shop} to the {1:Shopkeeper's house}";
+$stpetersburg03_task14_passed = "Good job! Now I can avoid causing pollution and still get to work on time!";
+
+$stpetersburg03_task15_name = "Classic Trolleys";
+$stpetersburg03_task15_text = "Trolley busses are a classic vehicle in this city, so I think we should promote them. The locals like them and tourists are delighted!";
+$stpetersburg03_task15_short = "Build four Trolley bus lines";
+$stpetersburg03_task15_passed = "Trolley busses look so nice in the streets! I'm sure we will get lots of new passengers with these!";
+
+$stpetersburg03_task16_name = "A Lovely Cafe";
+$stpetersburg03_task16_text = "I have a lovely cafe on a quiet street corner, and I just love watching the trolley busses go around the city. How about a few more lines for my customers to enjoy?";
+$stpetersburg03_task16_short = "Build two Trolley bus lines";
+$stpetersburg03_task16_passed = "Thanks! I have many more customers now! Come and have a nice cup of tea someday!";
+
+$stpetersburg03_task17_name = "The Ballet";
+$stpetersburg03_task17_text = "The ballet company will be performing at the theatre soon, so we should add more lines going there. We want to look good to all the foreigners coming to see the show!";
+$stpetersburg03_task17_short = "Build two lines to the {0:Theatre}";
+$stpetersburg03_task17_passed = "Well done! The ballet is very popular, and now more people can see the performance.";
+
+$stpetersburg03_task18_name = "By Train";
+$stpetersburg03_task18_text = "I'm a busy man and often come to town by train. Could you build some lines going to the railway station so I can get around better?";
+$stpetersburg03_task18_short = "Build two new lines to the {0:Railway station}";
+$stpetersburg03_task18_passed = "Thank you! I'm sure this will help your other customers, too.";
+
+$stpetersburg03_task19_name = "Connecting Places";
+$stpetersburg03_task19_text = "There are a few places I would like you to interconnect. Many people travel these routes, so making public transport available would be good for business.";
+$stpetersburg03_task19_short = "Build a line connecting {0:Factory}, {1:Stadion}, {2:Park} and {3:Shopping center}";
+$stpetersburg03_task19_passed = "Looks like the line is going to be a success! Good work!";
+
+$stpetersburg03_task20_name = "The Shopping Mall";
+$stpetersburg03_task20_text = "I want to do some shopping, and the cheapest shops are at the mall. It's just a bit hard to get there, and the transportation should be very cheap.";
+$stpetersburg03_task20_short = "Build three bus lines to the {0:Shopping mall}";
+$stpetersburg03_task20_passed = "Thanks! Now I can shop 'til I drop! Or until my wallet is empty...";
+
+$stpetersburg03_task21_name = "The Proposition";
+$stpetersburg03_task21_text = "This proposition for a new route arrived today. I think it looks very good, although I did make a few changes. Here is the final version for you to should build.";
+$stpetersburg03_task21_short = "Build a line connecting {0:Residential area}, {1:Railway station} and {2:Industrial area}";
+$stpetersburg03_task21_passed = "Well done! You even improved on the initial plan!";
+
+$stpetersburg03_task22_name = "Seems Solid";
+$stpetersburg03_task22_text = "And now for your final task. The system seems solid and you have done a great job! But before we close the project, we want to make one more test, to ensure that everything's running smoothly!";
+$stpetersburg03_task22_short = "Transport 3000 passengers";
+
+$stpetersburg03_task23_name = "Poor Old Feet";
+$stpetersburg03_task23_text = "My old feet are getting too tired for walking around the city! My friends like busses, but I'm more of a metro lady. Why don't you build a few metro lines so I can get around more easily?";
+$stpetersburg03_task23_short = "Build two metro lines";
+$stpetersburg03_task23_passed = "Thank you, dear. I much prefer the metro!";
+
+$stpetersburg03_task24_name = "Need Of Connections";
+$stpetersburg03_task24_text = "I have bought new office space for our company and I was hoping you could make sure the office has good connections so our employees can come in by public transport.";
+$stpetersburg03_task24_short = "Build three lines to the {0:Office}";
+$stpetersburg03_task24_passed = "Good work, here's a token of my gratitude!";
+

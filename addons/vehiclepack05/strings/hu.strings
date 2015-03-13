@@ -1,0 +1,16 @@
+
+$vehicle_dlc05_bus01 = "Pavlov 677M";
+$vehicle_dlc05_bus01_info = "A Pavlov 677M egy gyors jármû jó befogadóképességgel. Erõs motorja és kényelmes ülései vannak, valamint hely babakocsik és álló utasok számára. A motor, erejének dacára, hajlamos a meghibásodásra, de a 677M kompenzálja ezt az alacsony üzemanyagfogyasztásával és jó átlagsebességével.";
+
+$vehicle_dlc05_tram01 = "Bergstrom Light";
+$vehicle_dlc05_tram01_info = "A Bergstrom gyár arról hírhedt, hogy jármûvei még a mostoha körülményeket és képesek kezelni és a Bergstrom Light az egyik legfõbb példa erre. Nagyon vonzó az utazók számára a kényelmes berendezése és nagy ablakai miatt. Egy kiváló jármû a legtöbb város számára és jól teljesít rövid távokon.";
+
+$vehicle_dlc05_metro01 = "Galaxie Berliner";
+$vehicle_dlc05_metro01_info = "A Berliner, ahogy a neve is mutatja, kifejezetten a berlini U-Bahn rendszerre lett tervezve. Nagyon robosztus, gyors és nagyon jó befogadóképessége van. Egy jó választás a legtöbb városi járatra, ahol sokan használják a szolgáltatást.";
+
+$vehicle_dlc05_metro02 = "Ohm M1";
+$vehicle_dlc05_metro02_info = "Az Ohm M1 egy erõs jármû, sok hellyel az utasok számára. A sima és modern külseje vonzóvá és aerodinamikussá is teszi a jármûvet így csökkentve az energiafogyasztását.";
+
+$vehicle_dlc05_heli01 = "LI-8";
+$vehicle_dlc05_heli01_info = "Az LI-8-at eredetileg katonai használatra tervezték, de a kitûnõ szerkeztét gyorsan más célokra is használni kezdték. Nagyon sok hely van benne az utasok számára és megbízhatóra lett építve, az egyetlen hátránya a magas üzemanyagfogyasztás. Ez még így is kis áldozat e kiváló jármû használatáért.";
+

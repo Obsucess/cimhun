@@ -1,0 +1,309 @@
+$location_london_name = "London";
+
+$cityname_london = "London";
+$citydescription_london_short = "The river Thames runs right through the middle of this vibrant, bustling city. The numerous narrow streets and dense population places huge demands on the transport system, which has to handle the daily commute of thousands of Londoners.";
+$citydescription_london_long = "";
+
+$building_blockHouse05  = "Apartment building";
+$building_blockHouse06  = "Apartment building";
+$building_detachedHouse04  = "Detached house";
+$building_basketballField  = "Basketball field";
+$building_skyscraper01  = "Commercial building";
+$building_skyscraper02  = "Commercial building";
+$building_skyscraper03  = "Commercial building";
+$building_lowCommercial01  = "Commercial building";
+$building_lowCommercial03  = "Commercial building";
+$building_semidetached01  = "Semi-detached house";
+$building_semidetached02  = "Semi-detached house";
+$building_semidetached03  = "Semi-detached house";
+$building_semidetached04  = "Semi-detached house";
+$building_restaurant  = "Restaurant";
+$building_gherkin  = "The Gherkin";
+$building_bigben  = "Big Ben";
+$building_westminster  = "Westminster Abbey";
+$building_londonEye  = "London Eye";
+$building_monument  = "Monument";
+$building_buckinghamPalace  = "Buckingham Palace";
+$building_towerOfLondon  = "The Tower of London";
+$building_victoriaMemorial  = "Victoria Memorial";
+$building_waterlooBlock  = "Waterloo Block";
+$prop_towerWall  = "Tower of London";
+
+$vehicle_londonBus01  = "Roadmaster Classic";
+$vehicle_londonBus01_info  = "When you picture the iconic, red double decker bus driving through the streets of London, you are probably thinking of the Roadmaster Classic. Designed to carry a high volume of passengers through the city's narrow, winding streets, this bus is remarkably sturdy yet still offers a high degree of passenger comfort. Although not very fast, it makes up for its lack of speed with its solid build and comfortable interior.";
+$vehicle_londonBus02  = "Roadmaster Open Top";
+$vehicle_londonBus02_info  = "This open top model is particularly popular among tourists since it provides a panoramic view of the city. The Open Top caters to the demands of London's many sightseers and provides a unique – and airy – way of seeing the city. Unsurprisingly, it is less popular on rainy days!";
+$vehicle_londonBus03  = "Roadmaster Olympic";
+$vehicle_londonBus03_info  = "Roadmaster Olympic is a good choice for longer distances. While Roadmaster double deckers perform excellently in city environments, the Olympian is ideal for longer journeys. Its fuel consumption is somewhat higher than the other fleet models, but this is offset by its durability and sturdy construction.";
+$vehicle_londonBus04  = "Roadmaster 2000";
+$vehicle_londonBus04_info  = "The Roadmaster 2000 is the flagship of the fleet. With specially designed doors, its roomy interior boasts comfortable seating for the passengers, while the large windows on the upper floor afford an excellent view of the city, and ensure that the interior is bright and welcoming.";
+$vehicle_londonMetro01  = "1995 Rolling Stock";
+$vehicle_londonMetro01_info  = "Specially designed for the London underground system, the cars on this metro train are low-roofed but spacious, boasting specially designed interiors which have been engineered to carry bikes and prams. A Londoners' favourite,  due to its large capacity and speed.";
+
+$campaign_london1_name_text  = "The Big Smoke";
+$campaign_london1_description_text  = "London: a thriving metropolitan city on the banks of the river Thames. Its narrow streets and bridges pose unique challenges for the public transport system. Its residents commute to the city center every day to work, then head home in the evening, creating a high demand for working lines and a variety of different vehicle options.";
+
+/* SCENARIO1 */
+
+$london01_name_text  = "Rainy Days";
+$london01_location_text  = "London 1972-1974";
+$london01_animation_text  = "London is the happening place to be and it needs a transportation system to match,\nso grab your bell-bottoms and let's go!";
+$london01_briefing_short  = "Build a public transport system for London.";
+$london01_briefing_text  = "We're so glad you're here! The city is a mess – there are cars everywhere! We need to build a public transport system – and fast! Here's the money, just do whatever you think is necessary!";
+$london01_completed_text  = "Good work! Thank you for stepping in and helping – we were in urgent need of assistance and you were a huge asset.";
+
+$london01_task01_name  = "Please Mind the Gap";
+$london01_task01_text  = "One of the city's biggest problems is that the center gets jammed with cars during peak traffic hours. I think the solution might be to build an underground system. Could you build one for us?";
+$london01_task01_short  = "Build five metro lines.";
+$london01_task01_passed  = "Well done! Looks like that really helped cut down on the traffic jams – that's just what I wanted.";
+
+$london01_task02_name  = "Time for Tea";
+$london01_task02_text  = "It's time for tea! I own a little tea shop and I've just received a shipment of the most delicious Assam tea, straight from India! Sadly, I don't seem to be getting many customers lately and the tea really should be drunk while it's still fresh. Could you help me?";
+$london01_task02_short  = "Build two lines to the {0:Tea Parlour}.";
+$london01_task02_passed  = "Thank you! Now even more customers can enjoy a cup of my delicious tea. Here, do try a cup!";
+
+$london01_task03_name  = "Don't Clog It";
+$london01_task03_text  = "I've booked a fabulous band to play next week! I'm expecting lots of people to come and listen to them, and that's why I've come to you. I don't want to clog the streets with cars, so it would really help if we had some good connections.";
+$london01_task03_short  = "Build three lines going to the {0:Concert Hall}.";
+$london01_task03_passed  = "Thanks, the performance was a great success!";
+
+$london01_task04_name  = "No Hunting";
+$london01_task04_text  = "We don't hunt foxes anymore (it's out of fashion) but we do try to help with the rodent problems. We plan to start the hunt on the northern side of town but, unfortunately, not all of our party own cars. Would it be possible to set up a few lines going there, so everyone can make the hunt?";
+$london01_task04_short  = "Build two lines to the {0:Residential area}.";
+$london01_task04_passed  = "Well done! That will help take care of the rodent problem and make the city a much nicer place to live.";
+
+$london01_task05_name  = "Parking Problems";
+$london01_task05_text  = "The factory where I work doesn't have sufficient parking space for all its employees. Could you build a line out there from the railway station? That would definitely make a lot of workers very happy!";
+$london01_task05_short  = "Build a line from the {0:Railway Station} to the {1:Factory}.";
+$london01_task05_passed  = "Thank you for helping us out! Lots of workers use public transport now.";
+
+$london01_task06_name  = "Bustling Buses";
+$london01_task06_text  = "The underground railway system seems to be well under control now, so how about some buses to keep the metro lines busy?";
+$london01_task06_short  = "Build seven bus lines.";
+$london01_task06_passed  = "Excellent work! I knew I could count on you to deliver.";
+
+$london01_task07_name  = "A Line of Her Own";
+$london01_task07_text  = "I'm coming to town soon, and was looking forward to riding the underground. Wouldn't it be fabulous if there was a line specially named after me? If you build a new one just for me, I'll come to the opening ceremony and I guarantee I'll get you more customers!";
+$london01_task07_short  = "Build a metro line.";
+$london01_task07_passed  = "How wonderful! The opening went so well, I'm sure you'll have plenty of passengers on the line!";
+
+$london01_task08_name  = "Marvellous Exhibition";
+$london01_task08_text  = "The British Museum will soon be hosting a new exhibition, and we were hoping to improve our transport connections in order to attract more visitors. The exhibition is truly wonderful; everyone should see it!";
+$london01_task08_short  = "Build three lines to the {0:Museum}.";
+$london01_task08_passed  = "Thank you! The exhibition is proving immensely popular. I'm very pleased that so many people have been able to visit.";
+
+$london01_task09_name  = "Hard to Reach";
+$london01_task09_text  = "My office is so hard to reach! I need to be able to get there faster. Can you take care of it?";
+$london01_task09_short  = "Build a line to the {0:Office}.";
+$london01_task09_passed  = "My commute is now super fast! Thanks!";
+
+$london01_task10_name  = "Boy Scouts of London";
+$london01_task10_text  = "Hello! I'm one of London's many boy scouts. We are planning a trip to the park on the south side of town, but many of our friends will be arriving from the suburbs, so they'll need transportation. The park is really lovely, so maybe if you put in a line from the railway station to the park, it would be used by lots of other people, too.";
+$london01_task10_short  = "Build a line from the {0:Railway Station} to the {1:Park}.";
+$london01_task10_passed  = "Thank you so much! Our trip to the park was a great success; everyone enjoyed it tremendously.";
+
+$london01_task11_name  = "Look Smart";
+$london01_task11_text  = "Everything's looking good! I'd say we still need a few more lines. After that, I think I can handle things for a while.";
+$london01_task11_short  = "Build ten lines and transport 2000 passengers.";
+
+$london01_task12_name  = "Parks and Flowers";
+$london01_task12_text  = "I really love this city! I'm particularly fond of the beautiful flowers in the parks, but I wish I was able to visit them more easily. Do you think you could see if that's possible?";
+$london01_task12_short  = "Build a line connecting {0:Ruskin Park}, {1:Mostyn Gardens}, {2:Kensington Park} and {3:Burgess Park}.";
+$london01_task12_passed  = "Perfect! I'm sure other people will appreciate this as much as I do; the parks are so lovely this time of year!";
+
+$london01_task13_name  = "A Small Restaurant";
+$london01_task13_text  = "My colleagues and I would just love to eat our lunches at this small restaurant, but it's a bit too far from our workplace. Maybe you could help us?";
+$london01_task13_short  = "Build a line from the {0:Factory} to the {1:Restaurant}.";
+$london01_task13_passed  = "Thanks! The menu is superb, you should try it some time!";
+
+$london01_task14_name  = "Peace!";
+$london01_task14_text  = "Peace, man! Hey, I'm, like, organizing this chillout... and it would be a real downer if folks had a hassle getting here. Look, this is the address... Do you think you could help us out, man? Oh, yeah, and like, you've got a free invite to join us!";
+$london01_task14_short  = "Build two lines to the {0:Hippie's House}.";
+$london01_task14_passed  = "The chillout was totally amazing... so many folks came round, and like... chilled.";
+
+/* SCENARIO2 */
+
+$london02_name_text  = "Double Deckers Ahoy!";
+$london02_location_text  = "London 1995-1997";
+$london02_animation_text  = "London is a thriving tourist hot-spot and the transport system has to be capable of serving their needs.\nUpdate the system to handle the influx of new traffic!";
+$london02_briefing_short  = "Update the London public transport system.";
+$london02_briefing_text  = "Tourists are flocking to the city! I don't think we've ever had this number people in the city all at once. The underground is packed and there are still frequent traffic jams in the city center.";
+$london02_completed_text  = "I don't know how to thank you enough! You've done an absolutely marvellous job – the city transport system is in much better shape now. I'm delighted to have had the opportunity of working with you.";
+
+$london02_task01_name  = "Touring Tourists";
+$london02_task01_text  = "Tourists are going crazy over London's double decker buses. Build a few extra lines so even more tourists can ride the buses and send pictures home of their trip!";
+$london02_task01_short  = "Build three bus lines using only \"Roadmaster Classic\" buses.";
+$london02_task01_passed  = "Well done! And what a boost for the cityscape, seeing those bright red double deckers driving around the city.";
+
+$london02_task02_name  = "Bobby's Plea";
+$london02_task02_text  = "Good day to you! I'm from the police department and I've been sent to request that you increase the capacity of the public transport network. If things don't improve, we'll have to hire more policemen to ticket and clamp all those illegally parked cars. If there were a few more lines available, maybe Londoners would be more inclined to use public transport and leave their cars at home.";
+$london02_task02_short  = "Build three lines.";
+$london02_task02_passed  = "Excellent, much appreciated! We haven’t had to issue half as many tickets recently!";
+
+$london02_task03_name  = "Outer City";
+$london02_task03_text  = "The outskirts of the city need better connections. Why not build a few extra lines?";
+$london02_task03_short  = "Build five lines.";
+$london02_task03_passed  = "Much better! A fine addition to our network.";
+
+$london02_task04_name  = "The Wedding";
+$london02_task04_text  = "My wedding day is coming up! I'm marrying a handsome taxi driver – a lovely man. People ask me why a Duchess would want to marry a cabbie, but I tell them it's true love! We're planning a romantic carriage ride through the city, but one of your lines happens to operate on just the route we've chosen. Would you be an absolute dear and close down the line – it'd only be for a short while?";
+$london02_task04_short  = "Stop bus line %0 for 30 days.";
+$london02_task04_passed  = "That was so kind of you! The carriage ride was absolutely divine and everyone waved and cheered for us! We felt just like royalty.";
+
+$london02_task05_name  = "Tram Support";
+$london02_task05_text  = "How about a tram line to support the buses? I think we're making excellent progress, but we still need to add a few more lines.";
+$london02_task05_short  = "Build a tram line.";
+$london02_task05_passed  = "Good work – the tram line will help take some of the pressure away from the buses!";
+
+$london02_task06_name  = "Tired of Long Trips";
+$london02_task06_text  = "Hello! I work at the British museum and I was hoping you would consider running a line between there and my house. I'm so fed up of my long commute to work – it would make all the difference if I were able to get there without having to change buses.";
+$london02_task06_short  = "Build a line from {0:Apartment building} to the {1:Museum}.";
+$london02_task06_passed  = "Thank you ever so much! It's so convenient for me to get to work by public transport now.";
+
+$london02_task07_name  = "More Buses – and Fast!";
+$london02_task07_text  = "More buses! Passengers are clamouring for even more buses – and they want to see something done about it NOW! The north side of the city in particular is in urgent need of new lines.";
+$london02_task07_short  = "Build three bus lines.";
+$london02_task07_passed  = "Perfect, you managed to pick out just the right locations for the new additions!";
+
+$london02_task08_name  = "Stuck in Traffic";
+$london02_task08_text  = "I'm so tired of ending up stuck in traffic! Please could you build some more routes going past the police station where I work?";
+$london02_task08_short  = "Build three lines going to the {0:Police Station}.";
+$london02_task08_passed  = "Blimey, that's amazing! These days I can get to and  from work in no time!";
+
+$london02_task09_name  = "The Underground";
+$london02_task09_text  = "The underground is always jam packed – seems like Londoners are pretty fond of it. Why not build a new line?";
+$london02_task09_short  = "Build a new line for the underground.";
+$london02_task09_passed  = "I have to say you chose an excellent place for the new line!";
+
+$london02_task10_name  = "On the Thames";
+$london02_task10_text  = "I just love waterbuses – they are so much fun! Could you add a few lines on the Thames... Please?";
+$london02_task10_short  = "Build two waterbus lines.";
+$london02_task10_passed  = "Oh, just look at those new waterbuses sailing on the Thames – what a beautiful sight!";
+
+$london02_task11_name  = "Local Band";
+$london02_task11_text  = "I've booked this hot, new local band to perform but they're eco-warriors and they refuse to travel by any other means than public transport. I need to be certain they'll show up on time! Do you think you could make a route that will deliver them to the concert hall on time – without compromising their ecological footprint?";
+$london02_task11_short  = "Build a line from the {0:Musicians' House} to the {1:Concert Hall}.";
+$london02_task11_passed  = "Musicians – always making unreasonable demands! Thanks for helping me out with this one – I owe  you!";
+
+$london02_task12_name  = "Oxford Street";
+$london02_task12_text  = "A posh department store on Oxford Street has approached me concerning the possibility of running a new route along there. The other shops in the area would also benefit from the increased traffic, so lets do it!";
+$london02_task12_short  = "Build two lines going to the {0:Department Store}.";
+$london02_task12_passed  = "Nicely done. This will boost sales big time!... For us and the department store!";
+
+$london02_task13_name  = "By the River";
+$london02_task13_text  = "My little cafe is doing really well! In fact I've been thinking of opening a second cafe near the river – the problem is we'd need better connections in order to attract customers. Could you help?";
+$london02_task13_short  = "Build two lines to the {0:Cafe}.";
+$london02_task13_passed  = "Thank you so much! I'm so happy my little cafes are thriving, you've been a great help!";
+
+$london02_task14_name  = "The City of London";
+$london02_task14_text  = "Many of the new technology companies are choosing to open offices in the City. We need to provide our business partners with the very best connections – if we don't, our streets will be jammed with their BMWs!!";
+$london02_task14_short  = "Build three lines to {0:Technology Companies}.";
+$london02_task14_passed  = "Most commendable! Initially, I was concerned that the new high tech companies wouldn't take to our services, but we seem to have won them over with the new lines. Well done!";
+
+$london02_task15_name  = "Old Clunker!";
+$london02_task15_text  = "My car broke down... again. I can't afford to buy a new one, but I still need to get to work. I'm a machinist at the factory near the outskirts of town – a lot of my workmates would definitely use public transportation too, if there was a convenient line!";
+$london02_task15_short  = "Build a line going to the {0:Factory}.";
+$london02_task15_passed  = "Thanks! Now me and me mates can get to work real easy... I won't have to waste my hard earned cash on fixing that old rust bucket after all...";
+
+$london02_task16_name  = "Lines and Money";
+$london02_task16_text  = "We're doing remarkably well – you really have a talent for this sort of thing! There's something further I need from you: I want you to build a few more lines, and then build up our savings. I want sufficient funds set aside so I can tap them if I run into any difficulties later, when I take over.";
+$london02_task16_short  = "Build ten lines, accumulate 15,000 money.";
+
+$london02_task17_name  = "Academic Parking";
+$london02_task17_text  = "The university's in trouble – there's not enough parking space for all the students. There are cars and bikes everywhere! Could you help us out by adding a few lines out here?";
+$london02_task17_short  = "Build three lines going to the {0:University}.";
+$london02_task17_passed  = "A++! You really aced your assignment! Now it's much easier to park on campus, and I can even travel by public transport, occasionally!";
+
+/* SCENARIO3 */
+
+$london03_name_text  = "London Olympics";
+$london03_location_text  = "London 2011-2013";
+$london03_animation_text  = "The Olympic games are being held in London, putting a huge strain on the public transportation system.\nThousands of tourists will be coming to see the games, and it is important that Londoners are able to go on with their daily lives throughout all the festivities.";
+$london03_briefing_short  = "Handle all public transportation needs during the London Olympics.";
+$london03_briefing_text  = "The Olympics will be here soon! Thousands of tourists are expected to flock to the city and I'm in having trouble handling the logistics. Please help!";
+$london03_completed_text = "Thank you so much for all your help! The city would never have handled the games so smoothly and professionally without your valuable input. We're grateful for everything you've done for us!";
+
+$london03_task01_name  = "The London Olympics";
+$london03_task01_text  = "The airport needs better connections and fast! Please build some new lines out there.";
+$london03_task01_short  = "Build three lines to the {0:airport}.";
+$london03_task01_passed  = "Good job! The airport is more than adequately connected now.";
+
+$london03_task02_name  = "Morning Run";
+$london03_task02_text  = "Hello there! I'm just back from my invigorating morning run – nothing like a quick two hour sprint to get you going! I'd like to be able to leave my car at a cheaper parking lot, but the less expensive ones are too far away from the end of my training route. Do you think you could help?";
+$london03_task02_short  = "Build a line connecting {0:Larkhall Park} and {1:Residential area}.";
+$london03_task02_passed  = "I had an awesome run today and it was so easy to get back home afterwards! Thanks!";
+
+$london03_task03_name  = "On the Rails";
+$london03_task03_text  = "A lot of visitors will be arriving by rail, so you should also make sure the railway station is well connected.";
+$london03_task03_short  = "Build three lines to the {0:Railway station}.";
+$london03_task03_passed  = "Excellent, things are coming along! Now we have the railways covered as well!";
+
+$london03_task04_name  = "Stop the Pickpockets!";
+$london03_task04_text  = "Our city seems to be plagued with pickpockets! Our police officers don't simply have enough patrol cars to cover the city and keep an eye on the petty criminals. Perhaps the public transport system could help us?";
+$london03_task04_short  = "Build lines going to {0:Tower of London}, {1:Big Ben} and {2:Buckingham Palace}.";
+$london03_task04_passed  = "Thank you! We can now deploy our officers to all the major tourist attractions via public transport – and maybe they'll even finger a few criminals on their way there!";
+
+$london03_task05_name  = "Heavy Traffic";
+$london03_task05_text  = "The north side of the city is experiencing heavy traffic. We need more lines!";
+$london03_task05_short  = "Build five lines.";
+$london03_task05_passed  = "That's made a huge difference – thank you! I'm sure this will help reduce our traffic jams.";
+
+$london03_task06_name  = "Special Coffee";
+$london03_task06_text  = "I'm run off my feet these days! I've got so many customers and they all seem to want those special coffees! I've ordered some gourmet beans, and I've send my nephew to pick them up (I can't afford to wait for them to be delivered by mail). He'll be arriving at the railway station any time now – could you make sure there's an easy way for him to reach my cafe? He might have to go back for more supplies soon!";
+$london03_task06_short  = "Build a line from the {0:railway station} to the {1:cafe}.";
+$london03_task06_passed  = "Thank you, dearie! My nephew made it back quick as a wink, and now he's on his way to pick up some nice French Roast for me...";
+
+$london03_task07_name  = "Let the Games Begin!";
+$london03_task07_text  = "The games are due to start! Quick, lets add a few extra lines, just to be on the safe side.";
+$london03_task07_short  = "Build three more lines.";
+$london03_task07_passed  = "That ought to do it! Now all we can do is cross our fingers and hope everything goes smoothly.";
+
+$london03_task08_name  = "Providing Transport";
+$london03_task08_text  = "I'll be arriving in the city shortly, to see the games. I trust you have made suitable arrangements and are able to provide me with efficient, affordable transportation?";
+$london03_task08_short  = "Build a line connecting the {0:Airport} and the {1:Hotel}.";
+$london03_task08_passed  = "First class show all round! I'm glad you took my advice regarding the transportation arrangements – I'm most particular how I travel!";
+
+$london03_task09_name  = "The Marathon";
+$london03_task09_text  = "Blimey, I clean forgot about the marathon! Their route runs past one of our lines and we'll have to shut it down so the runners can compete safely.";
+$london03_task09_short  = "Shut down bus line %0 for 14 days.";
+$london03_task09_passed  = "That's a big relief –  the runners all made it safely.";
+
+$london03_task10_name  = "Light-Weight";
+$london03_task10_text  = "These weights feel as light as a feather today! I think I'm ready for a new challenge – something that will bring out the Olympian in me! How about adding a new bus line that I can try to beat on my morning run?";
+$london03_task10_short  = "Build a bus line.";
+$london03_task10_passed  = "I've nearly caught up with it! Just a few more weeks of training and I'll be able to beat the bus, no problem.";
+
+$london03_task11_name  = "Volleyball Woes";
+$london03_task11_text  = "One of our volleyball team members insists on staying at her friends' place, but we need to make sure she makes it to the games on time. Is it asking too much to add a line from her house to the stadium?";
+$london03_task11_short  = "Build a line from the {0:Detached house} to the {1:Stadium}.";
+$london03_task11_passed  = "You're a champion! Everyone made it to the games on time and we're feeling confident!";
+
+$london03_task12_name  = "Repair!";
+$london03_task12_text  = "I hurt my ankle while doing a warm-up jog. I need it to repair quickly, otherwise I won't be able to compete in the marathon! I have to travel between the doctor's and home frequently, so maybe you could help me out and arrange an easy route?";
+$london03_task12_short  = "Build a line connecting the {0:Sportsman's house} and the {1:Doctor's office}.";
+$london03_task12_passed  = "What would I have done without you! I'm healing fast, thanks to those regular doctor's visits.";
+
+$london03_task13_name  = "Bikes Everywhere";
+$london03_task13_text  = "Students are blocking the streets with their bikes! Can you raise our profile with the university demographic, so they are more likely to use public transportation?";
+$london03_task13_short  = "Gain 75%% reputation with the students.";
+$london03_task13_passed  = "You're a marketing genius! We should make a tidy profit, too, I'm sure!";
+
+$london03_task14_name  = "Getting a Bit Old?";
+$london03_task14_text  = "I've been thinking – aren't our vehicles getting a bit dated? Maybe we should buy some new ones.";
+$london03_task14_short  = "Buy five new vehicles.";
+$london03_task14_passed  = "Looking good! I just love that 'new bus smell' on my morning commute!";
+
+$london03_task15_name  = "Energetic!";
+$london03_task15_text  = "I'm feeling so energized today! I feel as though I could... run to the airport and back! Well, maybe only one way – I'm sure there's an easier way to get back from the airport, right?";
+$london03_task15_short  = "Build a line from the {0:Airport} to the {1:Sportsman's house}.";
+$london03_task15_passed  = "What an excellent route! It's so invigorating, running along, listening to the planes high up in the sky! I'll be recommending this run to everyone I know!";
+
+$london03_task16_name  = "Carry On";
+$london03_task16_text  = "Finally things are quieting down! The games were simply amazing and we had plenty of passengers! I think everything is running really smoothly now. I'd just like to make sure that the system is designed to carry a big enough passenger volume and I think we're done!";
+$london03_task16_short  = "Transport 1500 passengers.";
+
+$london03_task17_name  = "Stranded Nephew";
+$london03_task17_text  = "The city's so crowded, people everywhere – how ever am I going to get my shopping done? Or pick up my nephew from the train station, for that matter? Please, I need a helping hand!";
+$london03_task17_short  = "Build a line connecting the {0:Grocery store}, the {1:Railway station} and the {2:Pensioner's house}.";
+$london03_task17_passed  = "Oh, it's so nice of you to help a poor old soul like me, dearie! My nephew got here in one piece and we're just leaving to do a spot of shopping.";
+

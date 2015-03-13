@@ -1,0 +1,352 @@
+$location_france_name = "France";
+
+$cityname_paris = "Paris";
+$citydescription_paris_short = "Any person designing something in Paris will face problems with the city's unique architecture and infrastructure. Are you up to it?";
+$citydescription_paris_long = "";
+
+$building_eiffelTower = "Eiffel tower";
+$building_louvre = "Louvre";
+$building_notreDame = "Notre Dame";
+$building_arcOfTriumph = "Arc of triumph";
+$building_restaurant = "Restaurant";
+$building_lowCommercial01 = "Commercial building";
+
+$vehicle_parisTram01 = "TTS Tramcar";
+$vehicle_parisTram01_info = "The TTS Tramcar is a good vehicle for the city environment. It is highly attractive to passengers and offers comfortable seating and large windows. The vehicle has some issues with its engine, but the nice interiors make up for the discomfort.";
+$vehicle_parisTram02 = "Bertrand";
+$vehicle_parisTram02_info = "Bertrand trams are named after their designer and are excellent on short city lines. They are fast, reliable vehicles with a decent capacity. The view from the top floor is breathtaking on most routes!";
+$vehicle_parisMetro01 = "Asparagus-Thomson";
+$vehicle_parisMetro01_info = "Named after the designer's favorite food, the Asparagus-Thomson metro offers high average speeds and comfortable furnishings. It's reliable and doesn't consume much energy.";
+$vehicle_parisMetro02 = "MF-69";
+$vehicle_parisMetro02_info = "The MF-69 metro is the pride of French vehicle design. It has a high capacity for handling busy city center lines, is sturdily built and doesn't consume too much energy. The interior isn't superb, but it's comfy enough.";
+
+$campaign_paris1_name_text = "La Ville-Lumière";
+$campaign_paris1_description_text = "Paris is old and beautiful, but its citizens still have needs concerning public transport. How do you build a working, flexible system while respecting Paris's architecture and uniqueness?";
+
+/* SCENARIO1 */
+
+$paris01_name_text = "City Of Lovers";
+$paris01_location_text = "Paris 1920-1923";
+$paris01_animation_text = "Paris, the city of love and lovers!\nFortunately, even those in love will need transport .\nHow else are they to get to all the lovely, romantic bridges over the Seine, or the lovely parks?\nFinally, Parisian authorities have also seen the need and want to hire you to sort out the public transport system.";
+
+$paris01_briefing_short = "Build a public transport system for Paris.";
+$paris01_briefing_text = "Bonjour! The name is Henry Durand, a pleasure to meet you! I am responsible for the idea of bringing public transport to Paris. I have heard so much about you and I'm sure you can make it happen!";
+$paris01_completed_text = "Thank you so much! I never could have done this without you. I'll be sure to spread the word and tell everyone how well you did in a city as complicated as Paris.";
+
+$paris01_task01_name = "Lines, Lines, Lines";
+$paris01_task01_text = "What I would like you to do first is just build lines. If we can show the people how wonderful and modern our vehicles are, they are sure to be interested later on, when we expand the network.";
+$paris01_task01_short = "Build five lines";
+$paris01_task01_passed = "Oh yes, that's how I like it! I'm sure passengers will flock to our services now.";
+
+$paris01_task02_name = "Crêpe Café";
+$paris01_task02_text = "Hello there! My new café is opening, and I was hoping you could provide it with better connections. I will make you the tastiest crêpes in Paris if you do it, please!";
+$paris01_task02_short = "Build a line to the {0:Café}";
+$paris01_task02_passed = "Thank you so much! Please stop by any day and I'll always offer you a free crêpe!";
+
+$paris01_task03_name = "The Public Loves Trams";
+$paris01_task03_text = "I just love the trams, and so does the public! Please, they fit so well into our lovely city. Build a few more lines.";
+$paris01_task03_short = "Build three tram lines";
+$paris01_task03_passed = "It looks so nice! I like what you did with the lines there.";
+
+$paris01_task04_name = "A Small Budget";
+$paris01_task04_text = "What a lovely city! But it was so hard getting to the center from the {0:Airport}. My budget is small, so I think some lines going to the Airport would be an excellent addition.";
+$paris01_task04_short = "Build two lines to the {0:Airport}";
+$paris01_task04_passed = "Good, good! This is just as I wanted it!";
+
+$paris01_task05_name = "Make Them Love Us";
+$paris01_task05_text = "Now we need to get our reputation up. The citizens know we are here, but we must make them love us!";
+$paris01_task05_short = "Have 70 reputation";
+$paris01_task05_passed = "Good, I'm getting compliments where ever I go! Lets keep going.";
+
+$paris01_task06_name = "Complementing";
+$paris01_task06_text = "We are doing very well. Could we do a few bus lines next? They would complement our tram lines nicely.";
+$paris01_task06_short = "Build three bus lines";
+$paris01_task06_passed = "Very good, I like the buses and I hope our customers feel the same!";
+
+$paris01_task07_name = "So Unfashionable";
+$paris01_task07_text = "I would like to be able to travel to work by public transport, but right now it's just too unfashionable and boring! If you would like me and my colleagues to use your services, something needs to be done.";
+$paris01_task07_short = "Have 80 reputation with Business people";
+$paris01_task07_passed = "Nicely done, traveling is much less boring now! Maybe it will even be a new trend some day.";
+
+$paris01_task08_name = "To See Paris";
+$paris01_task08_text = "I was thinking about a sightseeing route, since Paris is so pretty and everyone wants to see it. Can you do it?";
+$paris01_task08_short = "Build a route connecting {0:Eiffel tower}, {1:Statue}, {2:Triumph arch} Arc de Triomphe and {3:Obelisk}";
+$paris01_task08_passed = "Perfect! This will show everyone the beauty of Paris!";
+
+$paris01_task09_name = "François From The Theater";
+$paris01_task09_text = "Nice to meet you, I am François, owner of one of the local theaters. I recently opened a new box office to sell more tickets to plays. It's very nice, but needs more customers and also the employees have asked for better connections. Could you help me? I can pay you handsomely!";
+$paris01_task09_short = "Build two lines to the {0:Office}";
+$paris01_task09_passed = "Thank you! Now I have lots of customers and my employees are also happier. Here is the reward I promised you!";
+
+$paris01_task10_name = "Rails And Lines";
+$paris01_task10_text = "The main railway station draws a lot of people. Could you build a few lines there?";
+$paris01_task10_short = "Build two lines to the {0:Railway station}";
+$paris01_task10_passed = "Well done, this will ease the traffic jams and make it easy for people to get to the station.";
+
+$paris01_task11_name = "An Aspiring Poet";
+$paris01_task11_text = "Good day to you! I am an aspiring poet, but at the moment I still have to go to work as well. Soon I will be able to support myself with only my lovely poetry, but right now I have a problem getting to work. Could you make a line from my house to the {0:factory} I work in? That way I could write the whole way to work.";
+$paris01_task11_short = "Build a line from the {0:poet's house} to the {1:Factory}";
+$paris01_task11_passed = "Excellent! Now I can write poems all the way to work. Thank you!";
+
+$paris01_task12_name = "Fashion, Naturally";
+$paris01_task12_text = "Hey, you! I'm organizing a fashion show, and I'd like to have it in the midst of nature. It's all part of this spring's collection! I was hoping you might be able to help me, since I don't want the site to get clogged up with vehicles, so a nice and efficient line would be nice. Could you look into it?";
+$paris01_task12_short = "Build a line from the {0:Railway station} to the {1:Fashion show site}";
+$paris01_task12_passed = "The show was a great success, thank you so much! Not too many cars and everything went perfectly.";
+
+$paris01_task13_name = "The Wonders Of Transport";
+$paris01_task13_text = "Now I'm just worried whether we can serve all the customers who want to use our wonderful services. Please make sure we can transport them all!";
+$paris01_task13_short = "Transport 400 passengers";
+$paris01_task13_passed = "That looks much better. I'm really convinced now!";
+
+$paris01_task14_name = "A Play!";
+$paris01_task14_text = "I wrote a play! My poems are also doing well, but the play is a true masterpiece. The première is due soon, so could you make sure there are plenty of lines going to the theater? I'm aiming at poor young workers, whose souls yearn for culture.";
+$paris01_task14_short = "Build two lines to the {0:Theater}, transport 40 passengers to the Theater";
+$paris01_task14_passed = "There were a lot of factory workers at the première, so our plan worked! I set aside some money from my pay check, so you can continue building the wonderful transport network.";
+
+$paris01_task15_name = "Fond Of Trams";
+$paris01_task15_text = "How lovely it all looks! I'm very fond of the trams. Could you build a few more still?";
+$paris01_task15_short = "Build four tram lines";
+$paris01_task15_passed = "I love trams! Thank you for building the routes.";
+
+$paris01_task16_name = "Many Macaroons";
+$paris01_task16_text = "Bonjour! It's me again! I now also have some lovely macaroons and confectionery in my café, and I'm hoping to get even more nice, sophisticated customers. Would you be so kind as to build a new line to the café?";
+$paris01_task16_short = "Build a line connecting {0:Villa}, {1:Semidetached house}, {2:Detached house} and the {3:Café}";
+$paris01_task16_passed = "Thank you! The macaroons are selling like hotcakes! I'm so happy. Here, I made some just for you!";
+
+$paris01_task17_name = "Point To It";
+$paris01_task17_text = "I have picked a few points of interest that you would do well to connect. Here, look and see if you agree. I'd like it to be done as fast as possible!";
+$paris01_task17_short = "Build a line connecting {0:Department store}, {1:University} and {2:Railway station}";
+$paris01_task17_passed = "Good, this is a line I would ride on every day!";
+
+$paris01_task18_name = "Where Are The Employees?";
+$paris01_task18_text = "Oh, poor me! My restaurant is a problem. It would be doing fine, except that I'm having problems attracting employees and my other restaurants are too far away for me to use the same employees when they have the time. Oh, who can save me...";
+$paris01_task18_short = "Build a line connecting {0:Restaurant 1}, {1:Restaurant 2} and {2:Restaurant 3}";
+$paris01_task18_passed = "That's much better, now I can save some money by asking my old employees to stop at the new restaurant to do some shifts there as well. Thank you!";
+
+$paris01_task19_name = "Tour Of Churches";
+$paris01_task19_text = "A tour of all the lovely churches would be a nice addition! Notre Dame and Sacré Coeur are very beautiful this time of year.";
+$paris01_task19_short = "Build a line connecting {0:Notre Dame}, {1:Cathedral} and {2:Church}";
+$paris01_task19_passed = "Good work, this will bring plenty of people to the churches and money  in our pockets!";
+
+$paris01_task20_name = "Once Again In Trouble";
+$paris01_task20_text = "It's a disaster! My new restaurant is opening soon, but it's too far away from the center! Oh, poor me, no one will come and try my excellent dishes... If only someone could help!";
+$paris01_task20_short = "Build a new line to the {0:Restaurant}";
+$paris01_task20_passed = "Thank you, now I have at least a few customers. Oh, why did I build it in such a horrible place?";
+
+$paris01_task21_name = "Blue Service";
+$paris01_task21_text = "The blue-collar workers are saying we don't provide them good enough services. Could you see to the problem, please?";
+$paris01_task21_short = "Have 70 reputation with blue-collar workers";
+$paris01_task21_passed = "That ought to please them! Good job!";
+
+$paris01_task22_name = "A Very Important Line";
+$paris01_task22_text = "Listen up. I've just been on a holiday in this lovely city, and I think you lack one very important line! This is the one I would take every time, I'm sure it will have plenty of passengers.";
+$paris01_task22_short = "Build a line connecting {0:Hospital}, {1:Hotel}, {2:Library} and {3:Government building}";
+$paris01_task22_passed = "That's the route I wanted to see! It's excellent! And look, you already have lots of people on it!";
+
+$paris01_task23_name = "So Many Citizens";
+$paris01_task23_text = "I think we are nearly finished, but could you make sure there is large enough capacity? There are so many citizens, and also tourists, who want to see the city of lovers.";
+$paris01_task23_short = "Transport 1000 passengers";
+
+$paris01_task24_name = "A Complaint!";
+$paris01_task24_text = "Good day to you! I want to issue a complaint! There are lots of lines for the office workers, and even students, but we blue-collar workers feel left out. We make stuff for you, so you need to make us happy, right?";
+$paris01_task24_short = "Have 80 popularity with Blue Collar Workers";
+$paris01_task24_passed = "That looks much better! Many of my colleagues now take the bus or tram to work. Well done!";
+
+/* SCENARIO 2 */
+
+$paris02_name_text = "Prudence In Paris";
+$paris02_location_text = "Paris 1950-1952";
+$paris02_animation_text = "After so many years, Paris's public transport system has become outdated and is in need of upgrading.";
+
+$paris02_briefing_short = "Upgrade Paris's transport system";
+$paris02_briefing_text = "Nice to meet you again! You did so well last time, we are sure you can also help us now. I have made some changes, but I'm afraid I was not nearly as good at it as you. Please, could you help me fix the system and maybe do some upgrades?";
+$paris02_completed_text = "You did well! I'm sure I can handle the system for a while now, but I'll be sure to drop you a call if I run into problems. Thank you very much for all your help.";
+
+$paris02_task01_name = "Many New Lines";
+$paris02_task01_text = "Thank you! The first thing I think we should do is to build lots of new lines. The old ones aren't so good, but they can stay.";
+$paris02_task01_short = "Build ten lines";
+$paris02_task01_passed = "Good, the city looks so much more lively now! Let's continue the work.";
+
+$paris02_task02_name = "Price Check";
+$paris02_task02_text = "Good day! I was wondering when you last checked the ticket prices? The trams are so expensive. Why not try to see how many passengers you might attract with lower prices?";
+$paris02_task02_short = "Lower ticket price for Trams by 0,20 for one 30 days";
+$paris02_task02_passed = "Well done, I'm sure you'll gain many more passengers now!";
+
+$paris02_task03_name = "Coverage?";
+$paris02_task03_text = "How about upping the coverage? We are doing pretty well, but there's still room for improvement.";
+$paris02_task03_short = "Have 45 coverage";
+$paris02_task03_passed = "Well done! Looks like you haven't lost your edge!";
+
+$paris02_task04_name = "The Eiffel Park";
+$paris02_task04_text = "The Eiffel park is so wonderful! Why don't you have more lines going there? I want everyone to see how beautiful it is!";
+$paris02_task04_short = "Build three lines to the {0:Park}";
+$paris02_task04_passed = "Beautiful, that's what it is! Both your lines and the park.";
+
+$paris02_task05_name = "The Elders";
+$paris02_task05_text = "I'm worried about the elderly. Please make sure our services also cater to their needs!";
+$paris02_task05_short = "Have 75 reputation with Pensioners";
+$paris02_task05_passed = "Excellent, I see we have a lot of pensioners using our services now.";
+
+$paris02_task06_name = "Quickly, Before The Chinese!";
+$paris02_task06_text = "Quickly! I have two very important business contacts coming from China, and they want a cruise on the Seine! We just need enough options for at least one of the lines to satisfy them. Please help me!";
+$paris02_task06_short = "Build two water bus lines";
+$paris02_task06_passed = "Phew, just in time. The business partners really loved the cruise and asked me to give you a small token of their gratitude.";
+
+$paris02_task07_name = "Metropolitan";
+$paris02_task07_text = "How about the Metropolitan? It's very fashionable around the world so it would be nice to have a network here also.";
+$paris02_task07_short = "Build a metro line";
+$paris02_task07_passed = "The Metropolitan looks superb, good work!";
+
+$paris02_task08_name = "A Play For Students";
+$paris02_task08_text = "Hello there! I was hoping you could help me. A new play is premiering soon, and it's about green values and the environment. I'm expecting it to draw crowds of students, so good public transport connections are a must. I bet you could make some money out of it, too!";
+$paris02_task08_short = "Have three lines going to the {0:Theater}";
+$paris02_task08_passed = "Thank you! I had plenty of attendees at the première, many of them students.";
+
+$paris02_task09_name = "Attract Students";
+$paris02_task09_text = "The Metropolitan is really nice! Students seem to like it the most, but with this excellent design I'm sure we will attract all kinds of customers. Could you ensure we don't lose the students? They bring in good money.";
+$paris02_task09_short = "Have 70 reputation with Students";
+$paris02_task09_passed = "Good, lots of students are flocking to use our services.";
+
+$paris02_task10_name = "Oh, Frolicking Squirrels!";
+$paris02_task10_text = "I am working on my new collection of poems, but I desperately need to feel connected to nature. Beautiful trees with green leaves, delightful little flowers and playful squirrels frolicking in the midst of vegetation, what a sight! My only problem is money. It's too far  to walk and I don't have a car. I'm sure that when my book comes out, everyone will want to visit the site that inspired it, so you will have lots of passengers on the line!";
+$paris02_task10_short = "Build a line from the {0:Poet's house} to the {1:Forest}";
+$paris02_task10_passed = "The little squirrels now have enough nuts to last through the winter, thanks to all the people visiting the forest!";
+
+$paris02_task11_name = "Parks In Paris";
+$paris02_task11_text = "We have such lovely parks here in Paris, it would be good to provide people easy access to them. Maybe a line connecting the most beautiful parks would be good?";
+$paris02_task11_short = "Build a line connecting {0:Jardin du Luxembourg}, {1:Jardin des Tuileries} and {2:Jardin des Plantes}";
+$paris02_task11_passed = "So many people are visiting the parks, just as I imagined it! And most are also bringing us profit.";
+
+$paris02_task12_name = "Reach Out!";
+$paris02_task12_text = "I just bought an advertising campaign that's shown on your vehicles, but I'm not reaching the people I want to! You need more blue-collar workers aboard so they will know how exquisite the new work shirt designed by moi is.";
+$paris02_task12_short = "Have 80 reputation with Blue Collar Workers";
+$paris02_task12_passed = "Oh, I have sold so many of my awesome unconstructed t-shirts. Have you seen people with only the shirt collars on? That's my work! And you helped sell it, thank you!";
+
+$paris02_task13_name = "Sacré Coeur";
+$paris02_task13_text = "I really like what I'm seeing. I was just visiting the cathedral the other day, and I thought it would be wonderful to be able to travel there by tram. Could that be arranged?";
+$paris02_task13_short = "Build a tram line to the {0:Cathedral}";
+$paris02_task13_passed = "Good, now we can also get some profit from people going to see the sights.";
+
+$paris02_task14_name = "Café In The Louvre";
+$paris02_task14_text = "I have opened a new café  in the lobby of the Louvre! I overheard the museum curator saying how he was worried about the education of young people, because visitor numbers are not as high as they used to be. I thought you might be interested in making the museum better connected. How about it?";
+$paris02_task14_short = "Build two new lines to the {0:Museum}";
+$paris02_task14_passed = "Thank you, I've been seeing a lot more young people in the museum lately, so we've achieved our goal!";
+
+$paris02_task15_name = "Clear The Jams";
+$paris02_task15_text = "The airport gets lots of traffic. We could maybe help to clear the traffic jams by building a new line there. I would prefer a bus, but you can choose as you wish!";
+$paris02_task15_short = "Build a line to the {0:Airport}";
+$paris02_task15_passed = "Good, it looks like it's working! Soon the traffic jams near the airport will be history.";
+
+$paris02_task16_name = "Pricey Present";
+$paris02_task16_text = "It's a disaster! Oh, what will I do? I was invited to a friend's party, but after buying a present for him, I noticed I had no money left for gasoline! Woe on me, how will I manage!";
+$paris02_task16_short = "Build a line from the {0:Manager's house} to the {1:Friend's House}";
+$paris02_task16_passed = "Thank you! He really loved the present, a new woolen shirt that I picked specifically just for him. Thanks for making the party a success!";
+
+$paris02_task17_name = "Build A Few";
+$paris02_task17_text = "I think a few more tram lines would complement the system very well. Would you build a few?";
+$paris02_task17_short = "Build four tram lines";
+
+$paris02_task18_name = "Metro, My Love";
+$paris02_task18_text = "Bonjour! I have been traveling to work by public transport for quite some time now, but I've discovered that the Metropolitan is the best option. Could you build one line?";
+$paris02_task18_short = "Build a metro line";
+$paris02_task18_passed = "Thanks! The metro is very convenient, I'm glad you like it too.";
+
+/* SCENARIO 3 */
+
+$paris03_name_text = "The New Modern Time";
+$paris03_location_text = "Paris 1998-2000";
+$paris03_animation_text = "Paris needs to raise its profile to attract more tourists and generally take its place once again as one of Europe's most attractive cities.\nNew transport options are one of the cornerstones of a friendly, open city.";
+
+$paris03_briefing_short = "Modernize the Paris public transport system";
+$paris03_briefing_text = "Welcome again! Good that you could make it. I have made many plans, so let's just choose the best of them. Do you think this would do? Excellent, let's start!";
+$paris03_completed_text = "You have been a great help! Thank you for making the transport system efficient and fashionable again. I couldn't have done it without you. I wish you success in all you decide to do!";
+
+$paris03_task01_name = "An Excellent Spot";
+$paris03_task01_text = "The first step would be to add two metro lines. I think the railway station would be an excellent place for the lines to start from.";
+$paris03_task01_short = "Build two metro lines going to the {0:Railway station}";
+$paris03_task01_passed = "Good, let's get on with the plan.";
+
+$paris03_task02_name = "Old But Traveling";
+$paris03_task02_text = "Hello dear, I have a favor to ask.. I'm getting so old and tired, but I would still like to travel around the city. Could you build more lines, so that it's easier?";
+$paris03_task02_short = "Build three lines";
+$paris03_task02_passed = "Thank you, dear, nice of you to grant my wish!";
+
+$paris03_task03_name = "According To My Plan...";
+$paris03_task03_text = "Now on to the trams. According to my plan, we should need around five lines to cover the center of the city.";
+$paris03_task03_short = "Build five Tram lines";
+$paris03_task03_passed = "Really nice siting. Now on to the next step.";   
+
+$paris03_task04_name = "Promoting A Play";
+$paris03_task04_text = "Hello! I'm sorry I have to ask you this, but I'm having pictures taken to promote a new play that's coming soon. My problem is that we need a certain backdrop, and one of your lines is in the way. If you could just pause it for some time, it would help us tremendously. I'll make it worth your while!";
+$paris03_task04_short = "Pause tram line %0 for three weeks";
+$paris03_task04_passed = "Thank you! The pictures were perfect, no extra vehicles in the background or other problems!";
+
+$paris03_task05_name = "Build Bus Lines!";
+$paris03_task05_text = "The next step in my plan would be to make sure the buses are up to date. Add a few lines, and I'm sure they'll please our customers!";
+$paris03_task05_short = "Build four Bus lines";
+$paris03_task05_passed = "It's looking good, I'm sure the passengers will love these lines!";
+
+$paris03_task06_name = "His Favorite Spots";
+$paris03_task06_text = "Good day! I'm having friends over, and I'd like to show them my favorite spots in the city. The problem is that we don't have a lot of time, so the tour would need to be quick. I was hoping you could make a line that goes to all the nicest places. I'm sure lots of other people want to see them too. Please?";
+$paris03_task06_short = "Build a line connecting the {0:Railway station}, {1:Pier} and {2:Shopping mall}";
+$paris03_task06_passed = "Great job. We managed to see all my favorite spots in time, and my friends made it on to their flight back.";
+
+$paris03_task07_name = "Why Not Helicopters?";
+$paris03_task07_text = "What about helicopters? They are not so popular, but I'm sure the tourists will love them. My plan has a line leaving from this marketplace.";
+$paris03_task07_short = "Build a Helicopter line going to the {0:Marketplace}";
+$paris03_task07_passed = "Well done, that looks so nice! Now on with the plan.";
+
+$paris03_task08_name = "It's So Modern";
+$paris03_task08_text = "Bonjour! I'm photographing pieces of modern art, but I need to do this in a factory so as to capture their unique look and feel. Even of the three identical pieces. My worry is that the factory workers' cars will disrupt my plans, and I need them out of the way. Maybe if you build a line there, the workers will leave their cars at home?";
+$paris03_task08_short = "Build a line to the {0:Factory}, transport 20 passengers";
+$paris03_task08_passed = "The art pictures were a success. Thank you for your help!";
+
+$paris03_task09_name = "Seeing Seine";
+$paris03_task09_text = "The Seine is so beautiful, and I was thinking that we could also make a nice profit from river cruises. Please build a few lines; you can choose where!";
+$paris03_task09_short = "Build two Water bus lines";
+$paris03_task09_passed = "Very nice! People will love these boats!";
+
+$paris03_task10_name = "Think About The Environment!";
+$paris03_task10_text = "Have you thought about the environment? I just joined an organization that promotes health and wants to keep our cities clean, so I'm asking you to upgrade your fleet. It's for the best for all of us!";
+$paris03_task10_short = "Have no vehicle older than two years";
+$paris03_task10_passed = "Well done, everything runs smoothly now and the air is so pure and clean!";
+
+$paris03_task11_name = "One More Metro Line";
+$paris03_task11_text = "We still have room for a new metro line. Just choose a good spot and go ahead with it!";
+$paris03_task11_short = "Build a Metro line";
+$paris03_task11_passed = "Excellent siting. This line will earn us a lot of money!";
+
+$paris03_task12_name = "Having Dinner, Need Wine";
+$paris03_task12_text = "Me and my work buddies are planning on having dinner together one evening, but we would want to take the bus there so that we can leave our cars at home. Other vehicles are also fine, so allow us just a few glasses of wine!";
+$paris03_task12_short = "Build two lines to the {0:Restaurant}";
+$paris03_task12_passed = "Good, now we can have a few glasses of wine! Thank you so much.";
+
+$paris03_task13_name = "Make It Look Fashionable!";
+$paris03_task13_text = "I want more business people to use our system. They make taking the bus look fashionable, and that's just what we need in order to get more customers! You know, Parisians and fashion...";
+$paris03_task13_short = "Have 80 reputation with Business people";
+$paris03_task13_passed = "Good, I see lots of people in suits using our services.";
+
+$paris03_task14_name = "Deep Trouble?";
+$paris03_task14_text = "I'm in trouble! My car broke down and I have no way of getting to work! My employees will be so lost, poor things. How will they know what to do? Please help me. I can pay you?";
+$paris03_task14_short = "Build a line from the {0:Manager's house} to the {1:Restaurant}";
+$paris03_task14_passed = "Oh thank you, thank you! I'm so happy I can guide my employees nicely, yet firmly, so they won't feel lost.";
+
+$paris03_task15_name = "Our Lady";
+$paris03_task15_text = "Notre Dame cathedral is holding an exhibition of its history, and they asked us to help them get lots of visitors. Naturally, I promised them that we would take care of it, so could you maybe build a line there? Please? ";
+$paris03_task15_short = "Build a line going to {0:Notre Dame}, transport 40 passengers to Notre Dame";
+$paris03_task15_passed = "Great job. I'm happy that people will go and see the exhibition! Getting some money is also nice.";
+
+$paris03_task16_name = "Finding Work";
+$paris03_task16_text = "I see you have some people out of work here! No problem, every city has them! Everyone falls on hard times every once in a while. The way I found my last employer was by bumping into her on the bus. Maybe if these people rode on these vehicles they would also benefit by making contacts.";
+$paris03_task16_short = "Lower bus ticket prices by 0,30, have 75 reputation with Dropouts";
+$paris03_task16_passed = "I'm sure this will help the unemployed, thanks!";
+
+$paris03_task17_name = "I Should Have Been In The Plan";
+$paris03_task17_text = "Our coverage should be better, but it seems I somehow didn't mention it in my plan... Oh well, I'm sure you know what to do! Just make the coverage better, please?";
+$paris03_task17_short = "Have 80 coverage";
+
+$paris03_task18_name = "An Idea Comes Forth";
+$paris03_task18_text = "How about this route? I'm not sure if it would work, but have a look and decide.";
+$paris03_task18_short = "Build a line connecting {0:Airport}, {1:Railway station} and {2:Louvre}";
+$paris03_task18_passed = "Very good! Nice that my plan worked so well!";
+

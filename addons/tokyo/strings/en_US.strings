@@ -1,0 +1,737 @@
+$location_japan_name = "Japan";
+
+$cityname_tokyo = "Tokyo";
+$citydescription_tokyo_short = "Tokyo, the capital city of Japan, is one of the largest cities in the world.\nIt had faced many different eras and gone through changes unseen in the west.\nPublic transport is always a challenge, but offers great opportunities and new vehicles.";
+$citydescription_tokyo_long = "";
+
+$station_mono = "Monorail station";
+$station_monoPlatform1 = "Monorail platform A";
+$station_monoPlatform2 = "Monorail platform B";
+$passing_mono = "Monorail passing place";
+$track_monorail = "Monorail track";
+
+$building_commercial01 = "Commercial building";
+$building_commercial02 = "Commercial building";
+$building_commercial03 = "Commercial building";
+$building_commercial04 = "Commercial building";
+$building_commercial05 = "Commercial building";
+$building_cornerbuilding01 = "Commercial building";
+$building_cornerbuilding02 = "Commercial building";
+$building_cornerbuilding03 = "Commercial building";
+$building_cornerbuilding04 = "Commercial building";
+$building_highschool = "Highschool";
+$building_kabukiTheatre = "Kabuki theatre";
+$building_office05 = "Office building";
+$building_office06 = "Office building";
+$building_office07 = "Office building";
+$building_ryokan = "Ryokan";
+$building_semidetachedHouse01 = "Semidetached house";
+$building_semidetachedHouse02 = "Semidetached house";
+$building_sensojinGate = "Senso-ji gate";
+$building_sensojinTemple = "Senso-ji temple";
+$building_parkTower = "Park tower";
+$building_tokyoTower = "Tokyo tower";
+$building_skyTree = "Sky tree";
+$building_tenement_01 = "Tenement";
+$building_tenement_02 = "Tenement";
+$building_tenement_03 = "Tenement";
+$building_tenement_04 = "Tenement";
+$building_temple01 = "Temple";
+$building_temple02 = "Temple";
+$building_apartment04 = "Apartment building";
+$building_tokyoPalace = "Palace";
+
+$prop_bambooFence = "Bamboo fence";
+$prop_parkFence = "Park fence";
+$prop_stoneWall = "Stone wall";
+$prop_lantern = "Lantern";
+$prop_luckyCat = "Lucky cat";
+$prop_robot = "Robot";
+$prop_parkPillar = "Park pillar";
+$prop_parkGate = "Park gate";
+$prop_samuraiStatue = "Samurai statue";
+$prop_utilityPole = "Utility pole";
+$prop_directionSign = "Direction sign";
+$prop_vendingMachine = "Vending machine";
+$prop_vendingMachines = "Vending machines";
+$prop_shopFlag = "Shop flag";
+$prop_moviePoster = "Movie poster";
+$prop_animAd = "Animated ad";
+$prop_antennaMast = "Antenna mast";
+
+$foliage_cherryTree = "Cherry tree";
+
+$vehicle_tokyoSpecial = "Special";
+$vehicle_tokyoKei = "Kei";
+
+$tool_mono_hint = "Monorail infrastructure";
+$tool_mono_track_hint = "Monorail track\nCost per segment: %it,d.20";
+$tool_mono_station_hint = "Monorail station\nPrice: %it,d.20\nMaintenance cost per month: %it,d.21";
+$tool_mono_passing_hint = "Monorail passing place\nPrice: %it,d.20";
+
+$line_mono_hint = "Monorail lines";
+
+$policy_mono_hint = "Monorail";
+
+$budget_mono_title = "Monorails:";
+
+$vehicles_mono_hint = "Monorails";
+
+$vehicle_mono_name_pattern = "Monorail %0";
+
+$vehicle_tokyoBus01 = "Toyoka Juutai";
+$vehicle_tokyoBus01_info = "The Juutai, pride of the Toyoka factories, is a relatively cheap option for city lines. It's excellent on short distances due to its high attractiveness and economic energy consumption. Its price is reflected in the motor, which requires constant maintenance.";
+$vehicle_tokyoHeli01 = "Tancho D17";
+$vehicle_tokyoHeli01_info = "Tancho D17 is named after the red-crowned crane common in Japan. It is very sturdy and boasts excellent maneuverability, making it as graceful as its namesake. With a high passenger capacity, the Tancho D17 is a very popular choice for most short routes.";
+$vehicle_tokyoWaterbus01 = "Hana-Bi Dolphin";
+$vehicle_tokyoWaterbus01_info = "Hana-Bi factories released the Dolphin after a sudden spike in the demand for sight-seeing boats for river use. This waterbus is named after the legendary dolphin seen in the Arakawa River in 2007. The Dolphin is a reliable craft with a remarkably low fuel consumption.";
+$vehicle_tokyoWaterbus02 = "Toyoka Sakura";
+$vehicle_tokyoWaterbus02_info = "Toyoka factories hired one of the top designers in the country to work on this latest model. The result was the astoundingly beautiful, sleek and ecological Sakura. The Sakura is considered the most elegant vessel ever to grace the waterways of Japan. It is highly attractive and draws many customers with its looks alone.";
+$vehicle_tokyoMetro01 = "Stern-Berger Octavio";
+$vehicle_tokyoMetro01_info = "With the Octavio model, the Stern-Berger design team created a true work of art. It boasts superior capacity, but is attractive and reliable nevertheless. Its fuel consumption is quite high, but its other attributes easily make up for this.";
+$vehicle_mono01 = "Hana-Bi Challenger";
+$vehicle_mono01_info = "The Challenger is one of the first monorail train models. It's a well-rounded vehicle that works well for any line. It boasts a good capacity and a modest price. Many airports have chosen the Challenger as their internal shuttle, helping passengers move from one terminal to another, swiftly and comfortably.";
+$vehicle_mono02 = "Toyoka Cyberia City";
+$vehicle_mono02_info = "Cyberia City is the Toyoka factories' answer to the growing popularity of the monorail. It has greatly increased capacity compared the previous models, and it is very attractive due to unique seat arrangements and the care taken in providing comfortable seating. It's a popular choice for short routes, but can handle longer lines as well.";
+
+$objectinfo_mono = ["Weirdos on board", "Seats given to elderly people", "Ticket inspector visited this monorail", "Bubblegum cleaned from seat"];
+$objectinfo_temple = ["Bell rung", "Bonsai trees trimmed", "Stone garden raked", "Tea ceremony held"];
+$objectinfo_baseball = ["home runs", "foul balls"];
+$objectinfo_kabuki = ["Noh plays shown", "pots of face paint used", "ounces of powder used", "fans lost"];
+$objectinfo_tokyoFastfood = ["bento boxes filled", "sushi meals prepared", "plates of natto consumed", "boxes of chopsticks used"];
+$objectinfo_tokyoFactory = ["mobile phones found faulty", "breaks taken", "electronic devices finished", "boxes of electronics shipped out"];
+$objectinfo_highSchool = ["trading cards traded", "pens dropped", "friend book pages filled"];
+$objectinfo_tokyoTower = ["new antennas leased", "tourists in awe"];
+$objectinfo_sensojinTemple = ["tourists visited the temple", "worshippers visited the temple", "bonsai trees trimmed", "tea ceremonies held"];
+
+$newsticker_mono_broken_text = "A monorail train has broken down!";
+$newsticker_mono_angry_text = "Passengers at %0 station are unhappy!";
+$newsticker_mono_cannotReach_text = "A monorail train on line %0 cannot reach the next stop!";
+$newsticker_mono_jammed_text = "A monorail train on line %0 seems to be jammed!";
+$newsticker_mono_new_text = "New monorail train available! Factory launches the %0!";
+
+$newsticker_random700_text = "New age of robotics: waitress robots make their debut!";
+$newsticker_random701_text = "Sushi surprise – whole makis grown in vats!";
+$newsticker_random702_text = "Cybernetics evolve - now advertisements can be sent directly to the retina!";
+$newsticker_random703_text = "70%% of the world's population receives all mail digitally.";
+$newsticker_random704_text = "Watch out – robots on the loose! Two experimental cyborgs escape from factory!";
+$newsticker_random705_text = "Whales on the verge of extinction – is synthetic tuna the answer?";
+$newsticker_random706_text = "Bigger eyes, smaller mouth – exciting new plastic surgery options now available!";
+$newsticker_random707_text = "Animal cafes more popular than ever – growing demand for baby bunnies!";
+$newsticker_random708_text = "Vintage manga sales reach new heights – fans fight to collect back issues.";
+$newsticker_random709_text = "Digital marketplaces draw record-breaking crowds – but there's still room for more!";
+$newsticker_random710_text = "New banking solutions offered to customers – have your portfolio managed by a parrot!";
+$newsticker_random711_text = "More than half of the current police force are cyborgs – government considering introduction of free oil changes.";
+$newsticker_random712_text = "Mr. Stud implant gains popularity among the youth.";
+$newsticker_random713_text = "Robotic koi fish ranked number one pet in Japan – closely followed by the mini-mechasaurus.";
+$newsticker_random714_text = "Electronics production experiences high demand.";
+$newsticker_random715_text = "Pocket computers now rapidly replacing the mobile phone.";
+$newsticker_random716_text = "Modern samurai movement attracts thousands of followers.";
+$newsticker_random717_text = "Electric cars currently the fashionable choice.";
+$newsticker_random718_text = "Transparent plastic clothing proves an unexpected hit: ”It keeps me dry in the rain”, one happy user reports.";
+$newsticker_random719_text = "Japan disbands army. Soldiers replaced by giant robots.";
+$newsticker_random720_text = "Anime series' huge success continues.";
+$newsticker_random721_text = "New MyPhone in sparkle-bright finish released – eager customers camp out to be first in line!";
+$newsticker_random722_text = "Light-up katana makes 'Toy of the Year'!";
+$newsticker_random723_text = "Soda dispensers run dry: rumors of a lemonade draught prompt fans to stock-pile supplies!";
+$newsticker_random724_text = "Cosplay convention draws scantily dressed crowds! Ooh la la!";
+$newsticker_random725_text = "Genetically altered plants escape to the wild – ”Come back this instant!”, lead scientist instructs.";
+$newsticker_random726_text = "Space flights prove a popular holiday choice.";
+$newsticker_random727_text = "New orbiting space station opens its hatches, offering luxury suites, pool and casino.";
+$newsticker_random728_text = "Stock market experiences problems due to a bug in system: likely culprit – a fly!";
+$newsticker_random729_text = "Human cloning takes a leap forward – ”We now have a whole leg!”, scientists enthuse.";
+$newsticker_random730_text = "Nuclear power: obsolete, at last!";
+$newsticker_random731_text = "Enhanced reality games sold out nationwide – or so it appears...";
+$newsticker_random732_text = "3D-movies now widely available.";
+$newsticker_random733_text = "Social networks connect people from around the world.";
+$newsticker_random734_text = "Weekend trips to Venus, available now!";
+$newsticker_random735_text = "New mail company promises safe delivery of parcels anywhere in the universe!";
+$newsticker_random736_text = "Universum-wide beauty pageant attracts unlikely attendants.";
+$newsticker_random737_text = "Cancer cure found in gecko skin cells!";
+$newsticker_random738_text = "Large tentacled mass spotted on ocean floor – speculation runs wild!";
+$newsticker_random739_text = "Bug juice extract proves new elixir of youth – worth braving yucky taste?";
+$newsticker_random740_text = "World population 100%% literate.";
+$newsticker_random741_text = "Sarif Industries release new biomechanical enhancements.";
+$newsticker_random742_text = "World population exceeds 8 billion.";
+$newsticker_random743_text = "Volcanic eruption disrupts flights.";
+$newsticker_random744_text = "Jupiter's moon, Callisto, is hot new holiday destination.";
+$newsticker_random745_text = "Robots now out-number humans in most western countries.";
+$newsticker_random746_text = "Asteroid passes close to Earth – watch out for falling stars tonight!";
+$newsticker_random747_text = "Boom in airport expansion as demand for flights increase.";
+$newsticker_random748_text = "Public Security Section 9 established to handle new security issues.";
+$newsticker_random749_text = "Dr. Markus Vaughn receives prestigious prize.";
+$newsticker_random750_text = "John Fredersen factories flooded – situation now under control.";
+$newsticker_random751_text = "India's population now greater than China's.";
+$newsticker_random752_text = "Underground cities provide much needed relief for overcrowded countries.";
+$newsticker_random753_text = "Artificial livers now widely available – for both medical and culinary use.";
+$newsticker_random754_text = "Rabicat makes public debut – this cat and rabbit hybrid must surely be the world's cutest pet!";
+$newsticker_random755_text = "Solar eclipse sweeps over northern Europe.";
+$newsticker_random756_text = "Heavy rain expected.";
+$newsticker_random757_text = "Fancy sporting a pair of pointy ears? Now's your chance: genetic enhancement is currently all the rage!";
+$newsticker_random758_text = "Faster way to reach orbit – handy new space elevator introduced.";
+$newsticker_random759_text = "Police expose plot to place human souls in cyborgs.";
+$newsticker_random760_text = "New cyborg models out now!";
+$newsticker_random761_text = "Global warming makes Australia's beaches a bit too warm!";
+$newsticker_random762_text = "Super-sonic aircrafts make traveling even easier.";
+$newsticker_random763_text = "Thailand now one of the most popular holiday resorts – but space stations still number one!";
+$newsticker_random764_text = "Genom releases new model of cyborg designed for physical labor.";
+$newsticker_random765_text = "Cyborgs to replace majority of human employees in Stern-Berger factories over the next three years.";
+$newsticker_random766_text = "Spaceship Gloria Mundi leaves for nearest solar system.";
+$newsticker_random767_text = "Ares IV spacecraft mysteriously lost – have you seen this craft?";
+$newsticker_random768_text = "Former president of Peru released from prison.";
+$newsticker_random769_text = "Virus alert spreads throughout London – millions affected. The flu is still with us!";
+$newsticker_random770_text = "Blonde starlet becomes infamous for not wearing panties.";
+$newsticker_random771_text = "Demand for soy increases.";
+$newsticker_random772_text = "World hunger finally defeated – this calls for a celebratory feast!";
+$newsticker_random773_text = "Rainforests now growing at a promising rate – scientists believe they are doing better than ever.";
+$newsticker_random774_text = "3D printers become standard – now people can print from home!";
+$newsticker_random775_text = "Happa-Yai voted Japan's most successful boy band!";
+$newsticker_random776_text = "Happa-Yai latest album release eagerly anticipated.";
+$newsticker_random777_text = "Happa-Yai fans swarm Kyoto airport after rumors of a lead singer, Masaki Ohno, sighting spread.";
+$newsticker_random778_text = "Happa-Yai singer Masaki Ohno makes literary debut: romantic novel in stores now!";
+$newsticker_random779_text = "Masaki Ohno, of boy band Happa-Yai fame, performs to millions.";
+$newsticker_random780_text = "Trading card games grow increasingly popular.";
+$newsticker_random781_text = "Lunar eclipse and Hapa-Yai concert scheduled for tonight – can this be a coincidence?";
+$newsticker_random782_text = "Maxi-strength superglue invented – now you really can glue your children to the ceiling!";
+$newsticker_random783_text = "Dare-devil performance artist plans to scale Eiffel tower, equipped with only toothpicks and superglue.";
+$newsticker_random784_text = "Hybrid cars are the new standard.";
+$newsticker_random785_text = "Oil prices plummet in response to record low demand.";
+$newsticker_random786_text = "New table computer encourages reading – comics top list of reading material choice, but any increase is good news, say experts.";
+$newsticker_random787_text = "Artificial heart transplants extend life expectancy.";
+$newsticker_random788_text = "Metro proves most popular public transport vehicle.";
+
+$campaign_tokyo1_name_text = "Land Of The Rising Sun";
+$campaign_tokyo1_description_text = "Tokyo, the capital city of Japan, is one of the largest cities in the world. It had faced many different eras and gone through changes unseen in the west. Public transport is always a challenge, but offers great opportunities and new vehicles.";
+
+/* SCENARIO1 */
+
+$tokyo01_name_text = "Rapid Expansion";
+$tokyo01_location_text = "Tokyo 1975-1977";
+$tokyo01_animation_text = "Tokyo, the capital of Japan, is entering a growth phase.\nNew inhabitants flood the city, eager to participate in the economic boom.\nThe city is engaged in providing housing for the influx of citizens;\nit is up to you to modify the public transport system to handle the increased demand.";
+$tokyo01_briefing_short = "Successfully steer Tokyo through this period of growth.";
+$tokyo01_briefing_text = "Good day to you! I am Mr. Minobe, the governor of Tokyo. We are expecting a large number of new citizens and I have already zoned some land for new housing, so development should be underway any day now. Do you think you could help me with the public transport? I'm afraid it will require quite a bit of work over the next few years.";
+$tokyo01_completed_text = "Thank you, thank you! It's so hard to put my gratitude into words – as the seed is grateful to the soil, I too thank you. Until we meet again!";
+
+$tokyo01_task01_name = "Haven of Peace";
+$tokyo01_task01_text = "My first priority is to ensure our new inhabitants feel relaxed and comfortable after their long journey. The park in the city center provides a real haven of peace in this busy urban setting. Please could you build two direct lines to the park?";
+$tokyo01_task01_short = "Build two lines to the {0:Park}; transport %0 passengers.";
+$tokyo01_task01_passed = "Excellent! Just look how happy the people are, enjoying the peace and quiet. Well done!";
+
+$tokyo01_task02_name = "Bright Lights";
+$tokyo01_task02_text = "Now we have a fine new shopping center! Those bright lights and inviting stores make me feel like shopping! Could you build a line there… quickly?!";
+$tokyo01_task02_short = "Build a line to the {0:Shopping Centre}; transport %0 passengers.";
+$tokyo01_task02_passed = "Business seems to be booming at the mall! People love to shop!";
+
+$tokyo01_task03_name = "New Students";
+$tokyo01_task03_text = "Hi, I'm Kana, and I've been sent to represent my school. We'd like to have a monorail connection to handle all the new students we're expecting. Could you help us out?";
+$tokyo01_task03_short = "Build a monorail to the {0:School}; transport %0 passengers.";
+$tokyo01_task03_passed = "Thanks ever so much! Everyone thinks the monorail is Totally Awesome and it's much easier to get to school now.";
+
+$tokyo01_task04_name = "Downtown Sushi";
+$tokyo01_task04_text = "Konnichiwa! I own a sushi bar in the downtown area, but times are tough and I'm not getting many customers. If there was a direct line, with a stop right outside my restaurant, it would make all the difference. I can offer you all the sushi you can eat, in return!";
+$tokyo01_task04_short = "Build a line to the {0:Sushi bar}.";
+$tokyo01_task04_passed = "Thank you! Now I'm selling so much sushi the sea's just about fished out! No, only joking... but the restaurant is doing really well, thanks to you.";
+
+$tokyo01_task05_name = "Military Maneuvers";
+$tokyo01_task05_text = "Hello! I'm planning to organize tours of the old military sites for interested tourists. I'm sure it will be a great success – everyone enjoys learning about Japan's military past! There's only one problem... no doubt you've already guessed what it is? That's right: transportation! Could you set something up? Any type would be fine!";
+$tokyo01_task05_short = "Build a line to the {0:Barracks}.";
+$tokyo01_task05_passed = "The first tour was a resounding success! I've already got people signing up for the next one. I hope the line proves profitable for you, too.";
+
+$tokyo01_task06_name = "Cultural Guidance";
+$tokyo01_task06_text = "Goodness me! New citizens are arriving daily! I would dearly love to guide them towards Tokyo's various cultural activities. For instance, there is a series of ancient kabuki plays scheduled at the theatre. Could you please make sure it's easy for people to travel there?";
+$tokyo01_task06_short = "Build a line to the {0:Theatre}.";
+$tokyo01_task06_passed = "I went to see the plays, too... Magnificent! I can just imagine how life used to be in those ancient times. I'm happy to say that the theatre was packed, so the line seems to be working very well. Good work!";
+
+$tokyo01_task07_name = "To Space and Beyond!";
+$tokyo01_task07_text = "The space research center is setting up offices in the city. They have asked me personally to make sure they have excellent access to the airport, so their foreign visitors can reach their office as quickly as possible.";
+$tokyo01_task07_short = "Build a line from the {0:Office} to the {1:Airport}.";
+$tokyo01_task07_passed = "Well, well... the leader of the space research center was more than delighted the line! You did a first rate job; in fact I couldn't have done better myself.";
+
+$tokyo01_task08_name = "Lemonade for the People!";
+$tokyo01_task08_text = "Hello, I'm Reiko, and my company fills lemonade dispensers all around the city. If we had the proper transportation, we could offer partial refills on a daily basis. But we would need a specific route for the plan to work – our workers have to travel to several different locations.";
+$tokyo01_task08_short = "Connect {0:Commercial building}, {1:Market square} and {2:Kiosk} with one line.";
+$tokyo01_task08_passed = "Perfect! Now our dispensers will never run empty! Thank you so much!";
+
+$tokyo01_task09_name = "Blossoming Forth";
+$tokyo01_task09_text = "The city is growing nicely, just like a cherry blossom coming to full bloom. I'm here to request some extra lines: the harbor to the east of town would like to hire more workers, but they have run out of parking space. Do you think you could build a line out there?";
+$tokyo01_task09_short = "Build a line to the {0:east Harbor}.";
+$tokyo01_task09_passed = "sun over ocean industrious worker makes anthill happiness";
+
+$tokyo01_task10_name = "More Monorails";
+$tokyo01_task10_text = "The monorail is really popular, you know. How about adding another couple of lines? We must keep the people happy, hai!";
+$tokyo01_task10_short = "Build two monorail lines.";
+$tokyo01_task10_passed = "Good! The monorail is so popular that tourists and people from outside town come just to see it. We'll  certainly see a huge profit!";
+
+$tokyo01_task11_name = "Most Amusing!";
+$tokyo01_task11_text = "I just received a very nice letter from the owner of the amusement park. He was asking if we could build two lines going directly to his park. He's hoping to attract more visitors and intends to hire a lot of new workers to handle the rush. Do you think we could accommodate him?";
+$tokyo01_task11_short = "Build two lines to the {0:Amusement park}.";
+$tokyo01_task11_passed = "Good work! The amusement park owner just sent me a follow-up letter expressing his gratitude. A fine gentleman, and so good with words!";
+
+$tokyo01_task12_name = "Lines, Lines and more Lines";
+$tokyo01_task12_text = "You have really done a wonderful job! But the city is so large, and I'll have to keep the transport system up to date after you've gone, so perhaps you ought to put in another, hmm... say, ten lines, so I won't have to worry about things in the future.";
+$tokyo01_task12_short = "Build ten new lines; transport %0 passengers.";
+
+$tokyo01_task13_name = "Pandas Galore!";
+$tokyo01_task13_text = "There's a new panda exhibition at the museum! It's bound to be popular and we are expecting tons of visitors, so it would be a good idea to extra lines to the museum. Could you help us? I can promise you a free ticket!";
+$tokyo01_task13_short = "Build two lines to the {0:Museum}; transport %0 passengers.";
+$tokyo01_task13_passed = "Fine work! The panda exhibition has attracted a record number of visitors! I'm sure this will also benefit the pandas, since people will be more aware of their plight.";
+
+$tokyo01_task14_name = "Sushi Chef";
+$tokyo01_task14_text = "I've just opened a new sushi restaurant in the city! I'm hosting a launching party and I've invited a first class sushi chef, all the way from Kyoto. She insists on travelling by public transport, so I'd appreciate it if you could build a line from the airport directly to the restaurant.";
+$tokyo01_task14_short = "Build a line from the {0:Airport} to the {1:Restaurant}.";
+$tokyo01_task14_passed = "The new chef is outstanding! Customers are queuing round the block, all eager to taste her masterpieces. Drop by anytime – we'll always have a table available for you!";
+
+/* SCENARIO2 */
+
+$tokyo02_name_text = "The Lost Decade";
+$tokyo02_location_text = "Tokyo 1989-1992";
+$tokyo02_animation_text = "Unemployment is on the rise, due to a world wide depression.\nTokyo struggles to manage its budget now many of its residents have less money to spend, while still maintaining services.\nThe hard times will pass, but until then, you must steer the city's transportation system through these difficult times.";
+$tokyo02_briefing_short = "Tokyo is experiencing hard times, but a well-planned public transportation network is key to helping the city regain its glory.";
+$tokyo02_briefing_text = "Delighted to see you again! I am honored to be working with you once more. I'm sorry to say that we have been experiencing a few problems. Unemployment is high, and the city is having a hard time maintaining services with the recent budget cuts. We were rather hoping you might be able to make the transport system more cost-effective.";
+$tokyo02_completed_text = "Excellent work! I can't thank you enough! I'm sure this will help Tokyo emerge from its hard times and set everything back on the right track. This could never have happen without your help. You have my most sincere thanks!";
+
+$tokyo02_task01_name = "Bye Bye Buses!";
+$tokyo02_task01_text = "Well, the first job is obviously to remove all the bus lines. Feel free to build something to replace them, if you want to, but the buses simply have to go. They use way too much fuel.";
+$tokyo02_task01_short = "Remove all bus lines.";
+$tokyo02_task01_passed = "Good work, this will improve our air quality, as well as our budget.";
+
+$tokyo02_task02_name = "Geisha Training";
+$tokyo02_task02_text = "Konnichiwa! I am Yumeko, and I am training to be a geisha. All students at the geisha school would be very pleased if you could build a bus line directly to our school. We have several new skills, such as behaving modestly on buses, which we need to practice but we have no place to train.";
+$tokyo02_task02_short = "Build a line to the {0:Geisha school}; transport %0 passengers.";
+$tokyo02_task02_passed = "Thank you so much! We are very grateful. Now we will have no difficulty ensuring our geishas master the correct behavior when travelling on public transport.";
+
+$tokyo02_task03_name = "Peace and Harmony";
+$tokyo02_task03_text = "In these hard times people are seeking some form of solace. I feel it is our duty to help them find peace and harmony. Could you set up a line to the temple?";
+$tokyo02_task03_short = "Build a line to the {0:Temple}; transport %0 passengers.";
+$tokyo02_task03_passed = "frog ignores dark clouds a place of serenity helps man do the same";
+
+$tokyo02_task04_name = "Are You Koi?";
+$tokyo02_task04_text = "Ah, the people are flocking to the temple, like koi to fish food. I feel the harmony and well-being increasing in the city. Please, add another line!";
+$tokyo02_task04_short = "Build a line; transport %0 passengers.";
+$tokyo02_task04_passed = "I just fed my koi in their pond in my beautiful garden. I'm sure they are as contented as our customers!";
+
+$tokyo02_task05_name = "A Powerful Association";
+$tokyo02_task05_text = "Good day to you. I represent a very powerful association and we would like you to assist us. Naturally, we will show our gratitude by offering a substantial reward if the job is well done. We require a means of public transportation directly to the harbor, so if you could build a line there we would be most appreciative.";
+$tokyo02_task05_short = "Build a line to the {0:Harbor}; transport %0 passengers.";
+$tokyo02_task05_passed = "We respect you for being co-operative. This venture has been a success for both of us.";
+
+$tokyo02_task06_name = "Cherry Blossoms";
+$tokyo02_task06_text = "Nothing cheers people up like a cherry tree in full bloom! Personally, I like to take a walk in a park when ever I'm feeling out of balance or stressed. The cherry orchard is so beautiful at this time of year that I would like you to build a couple of lines out there so everyone can enjoy it. Please do so.";
+$tokyo02_task06_short = "Build two lines to the {0:Park}; transport %0 people.";
+$tokyo02_task06_passed = "every day should see the peace of mind and body, cherry tree in bloom";
+
+$tokyo02_task07_name = "Sushi Chain";
+$tokyo02_task07_text = "Hello again! My sushi restaurant chain is doing very well, but one of my restaurants is a bit too far from the city center. Do you think you could have a line going out there? I'm sure people would love the place – the view is great – they just need an easy way to get there.";
+$tokyo02_task07_short = "Build a line to the {0:Sushi restaurant}; transport %0 passengers.";
+$tokyo02_task07_passed = "Excellent! Now I have lots of customers and business is booming!";
+
+$tokyo02_task08_name = "Electronic Efficiency";
+$tokyo02_task08_text = "Excellent news! A company specializing in computer electronics is planning to set up offices in the city. They would like to ensure that they have good transportation access. Finally – new jobs!";
+$tokyo02_task08_short = "Build a line to the {0:Office building}.";
+$tokyo02_task08_passed = "Good, good! This is bound to create a lot of new jobs in the area.";
+
+$tokyo02_task09_name = "Robotics!";
+$tokyo02_task09_text = "Good day! My name's Yoshida, and I work for New Robotics Inc. We are currently working on a robotic driver, capable of operating metro trains. Would you be interested in participating in the project? It would entail the installation of a few robots on your metro trains – it's likely to cut your costs.";
+$tokyo02_task09_short = "Pay %it,d.20 to get -%1%% to metro energy costs for 3 months";
+$tokyo02_task09_passed = "A wise decision! This will save you a lot of money!";
+
+$tokyo02_task10_name = "Blood is Thicker";
+$tokyo02_task10_text = "I have a special request: my daughter, bless her heart, is coming to for a visit – all the way from London! I want her to see the city in its full glory! Make sure we don't have any vehicles over a year old.";
+$tokyo02_task10_short = "Have no vehicles older than one year.";
+$tokyo02_task10_passed = "Thank you! My daughter was delighted with the city, and she praised the public transport system in particular. She sends you her regards!";
+
+$tokyo02_task11_name = "Hangin' in the Park";
+$tokyo02_task11_text = "Konnichiwa! We city kids have a favor to ask: we like hanging out the parks, but recently the traffic's been really bad and it's a really long walk for a lot of us. Could you build a few lines there? After all, we're your future customers, so it makes sense to bring us on-board early!";
+$tokyo02_task11_short = "Build two lines to the {0:Park}.";
+$tokyo02_task11_passed = "Arigato! We been having an awesome time in the park, especially now all the gang can make it there easily! We owe you, man!";
+
+$tokyo02_task12_name = "Minister Alert!";
+$tokyo02_task12_text = "We need more money, pronto! We need at least %it,d.20 to cover the expenses of the Prime Minister's visit!";
+$tokyo02_task12_short = "Earn %it,d.20 money.";
+$tokyo02_task12_passed = "Whew, the Prime Minister was very pleased with us, and praised the company's fiscal management. Good thing we saved up! Now we can revert to our old ways: feel free to spend as you choose!";
+
+$tokyo02_task13_name = "Fireworks";
+$tokyo02_task13_text = "Hello! The annual firework festival is coming up, and I'm planning to take a group of tourists to see it. They've already seen a lot of the city – and they just loved the monorail! Just imagine, it's something exotic to them! Do you think it would it be possible to run a monorail line to the park where the festival is to be held? The tourists would be thrilled and I'm sure other people will use it, too.";
+$tokyo02_task13_short = "Build a monorail line to the {0:Park}; transport %0 passengers.";
+$tokyo02_task13_passed = "The firework festival was so beautiful this year! I'm sure many of the tourists will come back again to see it next year.";
+
+$tokyo02_task14_name = "Advertising";
+$tokyo02_task14_text = "And so the sun sets on our lovely city, its golden rays caressing the delicate structures that make up the transport network... Oh, didn't notice you there! But since you are here, there's something I've been meaning to ask: Now that we've got so many excellent lines, I'd like you to launch a television advertising campaign, encouraging passengers to use them.";
+$tokyo02_task14_short = "Launch an advertising campaign on television.";
+$tokyo02_task14_passed = "The advertisement looked great – I saw it on TV the other night. I particularly liked the serious cat... you know, I think it really captured the spirit of our company: firm and trustworthy like the Fuji mountain, yet soft and sweet like a kitten. Excellent choice!";
+
+$tokyo02_task15_name = "Mobile Police";
+$tokyo02_task15_text = "Good day, sir! We are launching an operation to catch more criminals. Our key strategy is to avoid using police cars, so plain-clothed officers can monitor citizens unnoticed. In general everything seems set, but there are one or two areas that need better transportation coverage so we can get a full view of the city.";
+$tokyo02_task15_short = "Build a line connecting {0:School}, {1:Shopping center}, {2:Commercial building} and {3:Office building}.";
+$tokyo02_task15_passed = "Well done, this is proving a tremendous help! We've already caught a number of crooks and villains!";
+
+$tokyo02_task16_name = "Sing the Praises";
+$tokyo02_task16_text = "The executives are flocking back to the city once again! Oh, joy, we are saved! Quickly, build a line to the new company office building, so they can see how much we respect and appreciate them!";
+$tokyo02_task16_short = "Build a line to the {0:Office building}.";
+$tokyo02_task16_passed = "The president of the new company sent me a letter with this beautiful poem to thank us: ”Like the petals of the flower open, so opens the checkbook of the executive, when good deeds are done.” Quite a masterpiece!";
+
+$tokyo02_task17_name = "Field Day";
+$tokyo02_task17_text = "Nice to see you again! Can I ask you something? Well, everyone at school is planning a fieldtrip, and we wanted to make sure we could get there by public transport. Do you think you could help? Please? Thanks ever so!";
+$tokyo02_task17_short = "Build a line from the {0:School} to {1:Nature area}.";
+$tokyo02_task17_passed = "Ooh a big thank you! Our fieldtrip was so much fun! We all fell asleep on the way home and we almost missed our stop – but we knew we'd be alright with you in charge. Arigato!";
+
+$tokyo02_task18_name = "Family Assistance";
+$tokyo02_task18_text = "We are making excellent progress. During my daily walks through the cherry orchard I can see busy people eating lunch or hurrying back to the offices. But what about their families, waiting patiently in their apartments on the outskirts of the city, anticipating their return? I want the executives' express routes to be extended to these lower income neighborhoods.";
+$tokyo02_task18_short = "Build two lines from the {0:center of the city} to the outskirts.";
+$tokyo02_task18_passed = "I can just imagine how happy the families are, now that they can spend time together. All those happy little children and office workers...";
+
+$tokyo02_task19_name = "Best Behavior";
+$tokyo02_task19_text = "Good day, my esteemed friend! Yumeko the Geisha here again! I've completed my training and am now teaching maikos myself. I have always felt that proper comportment, when out in public, is fundamental to a geisha. My maikos and I were hoping to visit the temple to the east of the city and to use this outing as an opportunity to perfect our social graces. Could you kindly make sure there is a line to the temple?";
+$tokyo02_task19_short = "Build a line to the {0:Temple}.";
+$tokyo02_task19_passed = "Arigato, I'm so grateful for your help! The temple is beautiful this time of the year: I can still feel the peace and harmony. And I'm so happy to know that I can now visit it any time I choose!";
+
+$tokyo02_task20_name = "Tons of Transport";
+$tokyo02_task20_text = "Well, everything's looking really good! Seems like we have a lot of new customers. I'd just like make sure the lines are running smoothly before I let you go. You have been a great help!";
+$tokyo02_task20_short = "Transport %0 passengers.";
+
+/* SCENARIO3 */
+
+$tokyo03_name_text = "We Need More Land!";
+$tokyo03_location_text = "Tokyo 2004-2008";
+$tokyo03_animation_text = "Tokyo is expanding: land is being re-claimed from the sea, which opens up new areas which require transportation connections.\nThis dynamic city is constantly evolving, and so too must its transport system.";
+$tokyo03_briefing_short = "Tokyo is claiming new land from the ocean.";
+$tokyo03_briefing_text = "Konnichiwa! Welcome and thank you for coming! I'm Ms. Himeko, governor of Tokyo, and have some huge changes planned. I've contracted a company to fill-in part of the bay area, in order to gain extra land. This will allow the city to continue its expansion. And this is where you come in – could you set up some transportation routes to serve the new areas?";
+$tokyo03_completed_text = "Well done! It's been a real pleasure working with you. I wish you well in your future pursuits!";
+
+$tokyo03_task01_name = "Controlling Construction";
+$tokyo03_task01_text = "Excellent! I'm authorizing the first phase of the land re-claimation to get underway. It would be a good idea to have transportation for the workers set up at the same time, so we don't flood the construction site with parked cars. Could you build a line from the railway station to the site, please?";
+$tokyo03_task01_short = "Build a line from the {0:Railway Station} to the {1:Construction Site}.";
+$tokyo03_task01_passed = "Well done, this will be a tremendous help in the months to come. The land re-claimation can now officially start!";
+
+$tokyo03_task02_name = "Connecting Phones?";
+$tokyo03_task02_text = "Hi there! I work for the mobile phone company on the outskirts of the city. We were hoping you'd consider setting up some better connections, so we needn't travel to work by car – parking space is very limited. If you could help us we'd be happy to recommend your services to all our friends and family!";
+$tokyo03_task02_short = "Build two lines to the {0:Factory}.";
+$tokyo03_task02_passed = "Thank you! Many workers are taking public transport to work, so parking is no longer a problem. Now instead of being stressed-out, stuck in a traffic jam, I can just relax and read manga on my ride home.";
+
+$tokyo03_task03_name = "New Area!";
+$tokyo03_task03_text = "The first stage is complete! Now you can start expanding the transportation network to serve the new area, while I focus on the next part of the project. I'd like you to add one more line, please!";
+$tokyo03_task03_short = "Build a new line in the {0:new area}.";
+$tokyo03_task03_passed = "Excellent! Looks like the new area is already proving popular.";
+
+$tokyo03_task04_name = "Bunnies in Distress";
+$tokyo03_task04_text = "Konnichiwa! I'm Rose, and I run an animal cafe in the city center. One of your stops has been causing me a lot of trouble: the vehicles make such a racket when they are coming and going that they scare my bunnies. Do you think it would be possible to remove the stop? I know I'm asking a lot, but frankly, it's just too noisy!";
+$tokyo03_task04_short = "Remove the {0:%0 bus stop}.";
+$tokyo03_task04_passed = "Thank you so much! With the stop removed, my bunnies have been much calmer, making it more enjoyable for my customers. Stop by if you'd like to pet them yourself, some day!";
+
+$tokyo03_task05_name = "City Check-Up";
+$tokyo03_task05_text = "While I'm working on the land re-claimation, could you check whether the rest of the city needs new lines?";
+$tokyo03_task05_short = "Build two lines; transport %0 passengers.";
+$tokyo03_task05_passed = "Good work, the places you chose are excellent! I'm very happy to have your assistance, since I have to focus most of my attention on the project.";
+
+$tokyo03_task06_name = "Need for Natto";
+$tokyo03_task06_text = "We meet again! This time, it's about lunch. At the factory we've all been craving natto, but the nearest decent restaurant that serves it is a bit too far away. Could you build a line there for us?";
+$tokyo03_task06_short = "Build a line from the {0:Factory} to the {1:Restaurant}.";
+$tokyo03_task06_passed = "Great, now we can have natto every day! It's really good – you should try it! Mmmm… fermented soy beans, what's not to love, eh?";
+
+$tokyo03_task07_name = "New Offices";
+$tokyo03_task07_text = "The second phase is coming together, so you can start adding lines to the new area. This time they are mostly needed to serve the office buildings.";
+$tokyo03_task07_short = "Build a new line to the {0:new area}.";
+$tokyo03_task07_passed = "Good job! One of the CEOs of a company that recently re-located in the new area contacted me to personally express his gratitude for the excellent public transportation connections. Of course, it's you he should be thanking!";
+
+$tokyo03_task08_name = "Costume Play";
+$tokyo03_task08_text = "Sumimasen! Listen! My hobby is cosplay, and there is a major event planned. Me and a bunch of friends want to participate, but our props simply won't fit in the car, no matter how hard we try. Could you make sure there's a line to the theatre so we can get there with all our stuff?";
+$tokyo03_task08_short = "Build a line to the {0:Theatre}.";
+$tokyo03_task08_passed = "Arigato! We got to the event in time – and with all props intact! It's the first time we all made it! From now on, we'll always use public transport, and we'll be sure to spread the word, too...";
+
+$tokyo03_task09_name = "Missing a Monorail";
+$tokyo03_task09_text = "The residents to the north of the city have written to request a new monorail line. Could you handle this one for me?";
+$tokyo03_task09_short = "Build a monorail line to the {0:residential area}; transport %0 passengers.";
+$tokyo03_task09_passed = "Much appreciated. I'm sure the citizens are pleased! It looks like the new line is a great success, so we'll all benefit from this.";
+
+$tokyo03_task10_name = "Brand New Bunnies!";
+$tokyo03_task10_text = "Hello again! My animal cafe is doing really well now! I have a shipment due: some of the cutest baby bunnies in the whole Japan...white and fluffy and soooo tiny! My only concern is that I don't have a car with air conditioning and too much heat would be bad for the bunnies. They will be arriving at the railway station soon, so could you set up a line from there to my cafe?";
+$tokyo03_task10_short = "Build a line from the {0:Railway Station} to the {1:Café}.";
+$tokyo03_task10_passed = "Thank you! The baby bunnies made it to the cafe safely. I'm also hoping my customers will start using the line, too, so it won't go to waste. You have been a great help!";
+
+$tokyo03_task11_name = "Secret Police";
+$tokyo03_task11_text = "The super secret mobile police force just contacted me: one of our stops is in their way and they need it removed ASAP, so they can start an operation. Sounds to me like someone had a little too much sake for lunch, if they can't simply go round a stop... but I guess we have to comply.";
+$tokyo03_task11_short = "Remove the {0:%0 bus stop}.";
+$tokyo03_task11_passed = "I hope the cops won't bother us again! I know they are doing an important job, but we simply can't go about demolishing stops whenever they feel like it. Still, you handled the situation well!";
+
+$tokyo03_task12_name = "Dinner for Two";
+$tokyo03_task12_text = "Good day! I'm opening another restaurant soon and I was hoping you could do me a favor. My new place is quite close to the railway station, but is also convenient for the theatre, so the audience can drop by for a bite to eat after the play. Could you build a line to connect those spots? I'd be happy to treat you to a three course meal in return!";
+$tokyo03_task12_short = "Build a line connecting the {0:Railway Station}, the {1:Restaurant} and the {2:Theatre}.";
+$tokyo03_task12_passed = "Nice job! This line will surely bring in loads of customers. I hope you'll stop by yourself, some day – I'm sure we'll have something you'd enjoy on the menu!";
+
+$tokyo03_task13_name = "Top Secret!";
+$tokyo03_task13_text = "Can you keep a secret? I need your help: there's a cosplay convention taking place at one of the school campuses, and I'm planning to participate. I can't take my official car – someone would be bound to recognize me, and then there goes my career... Could you make sure there's a direct line going there? I'm hoping to win a prize in the cosplay competition – I've been working on my costume for months, and I simply must go!";
+$tokyo03_task13_short = "Build a line to the {0:School Campus}.";
+$tokyo03_task13_passed = "Hurray, I got second place! Thank you so much for helping me out – and for keeping my secret. I'm forever in your debt!";
+
+$tokyo03_task14_name = "Aino's Mother";
+$tokyo03_task14_text = "Konnichiwa! My name is Aino and I'm training to be a geisha. I would humbly like to make a request. My aging mother lives in the city and I would like to be able to visit her more often, but it's a long way and travelling takes up the whole evening. It would be really nice if there were a direct line – then she could perhaps visit me at the geisha school, too. Do you think you could arrange this?";
+$tokyo03_task14_short = "Build a line from the {0:Geisha School} to {1:Aino's Mother's House}.";
+$tokyo03_task14_passed = "Arigato! I'm so happy! Now I can easily visit my mother as often as I please. Maybe she will be less grumpy from now on, too…";
+
+$tokyo03_task15_name = "Eastern Suburbs";
+$tokyo03_task15_text = "The reclamation project is progressing well, and soon we will have even more land. But for now, I'd like you to see that the eastern suburbs have sufficient coverage. Many residents commute to the city center, and they need to have good connections.";
+$tokyo03_task15_short = "Build a line from the {0:eastern residential area} to the {1:city center}.";
+$tokyo03_task15_passed = "Excellent work! The eastern suburbs are now covered, and I'm sure many of the inhabitants will switch over to public transport.";
+
+$tokyo03_task16_name = "Maximized Monorail";
+$tokyo03_task16_text = "Look at this! It's my new gizmo, specially designed to increase the speed of monorail trains! It still needs some testing though... Would you let me put a few of these on your monorail trains, to see how they perform?";
+$tokyo03_task16_short = "Pay %it,d.20 to get +%1%% speed for all monorail trains, for 3 months.";
+$tokyo03_task16_passed = "Smart business move! This invention will save you lots of money! It will also increase passenger satisfaction, since traveling times are slashed.";
+
+$tokyo03_task17_name = "Rising from the Sea";
+$tokyo03_task17_text = "The land rises up from the sea, almost like magic! It's a miracle! I'm planning to host a ball to celebrate the event. I thought we could use the occasion to further encourage the use of public transportation by having our guests arrive on our own vehicles. Could you set up a few routes to the cinema, where the ball is to be held?";
+$tokyo03_task17_short = "Build two lines to the {0:Cinema}, transport %0 people.";
+$tokyo03_task17_passed = "The ball was a huge success! Everyone seems really excited about the new land and is looking forward to developing it. Since we were quick to build a strong connection network, the area is bound to be very popular – and we are guaranteed a lot of passengers.";
+
+$tokyo03_task18_name = "Further Education";
+$tokyo03_task18_text = "Hello! My school is on the outskirts of the city, and we really need some better connections out there. It takes almost an hour for me to get to school! Could you see if there's something you could do about this, please?";
+$tokyo03_task18_short = "Build two lines to the {0:School}, transport %0 passengers.";
+$tokyo03_task18_passed = "Thanks! Traveling to school is much faster now – and nicer. The other students like it better too!";
+
+$tokyo03_task19_name = "Sushi Craving";
+$tokyo03_task19_text = "My favorite sushi restaurant chain is opening a new place in the city. It's right on my way home from work, and I was hoping you could arrange it so there's a line going directly from the office to the sushi restaurant, and then to my home. I really fancy some natto!";
+$tokyo03_task19_short = "Build a line joining the {0:Office Building} to the {1:Restaurant} and {2:Residential Building}.";
+$tokyo03_task19_passed = "Thanks! I promise to give you nicer assignments from now on! Let's hope a lot more people use the line, too… I'd feel pretty silly riding all by myself!";
+
+$tokyo03_task20_name = "Wonders of Nature";
+$tokyo03_task20_text = "Good day! There's a new group of tourists just arrived in town and they would like to see something out of the ordinary. I was thinking of taking them to the northern forests, so they could admire the beauty of nature. Unfortunately, there are no lines going there at present. Maybe you could help me out?";
+$tokyo03_task20_short = "Build a line to the {0:Northern Forests}.";
+$tokyo03_task20_passed = "You should take a ride out there yourself! It's really relaxing, and the tourists were struck by the beauty and harmony of nature.";
+
+$tokyo03_task21_name = "From Korea, With Love";
+$tokyo03_task21_text = "A Korean boy band is due to perform at the stadium. The manager contacted me, asking for help: they are expecting a horde of teenagers to show up, and would like to have better connections to the stadium so the place won't be completely swamped. Please build more lines there as soon as possible!";
+$tokyo03_task21_short = "Build three lines to the {0:stadium}, transport %0 people.";
+$tokyo03_task21_passed = "The gig was awesome! I got into the V.I.P. booth and I thought the music, in fact the whole performance, was just great. The stadium was packed to the seams, so I'm sure our lines saw a lot of use!";
+
+$tokyo03_task22_name = "Amaterasu, Queen of Heaven";
+$tokyo03_task22_text = "A large exhibition is opening at the museum, soon. The theme is 'Ancient Japanese Beliefs', and celebrates Amaterasu, the sun goddess. We are expecting visitors from all over Japan, so it would be excellent if there were a line to the museum, straight from the railway station.";
+$tokyo03_task22_short = "Build a line from the {0:Railway Station} to the {1:Museum}.";
+$tokyo03_task22_passed = "Now everyone will have heard of Amaterasu! She really is an intriguing character! Did you know she hid in a cave… and that she's the sister of the moon and storms?";
+
+$tokyo03_task23_name = "Final Phase of the Reclamation";
+$tokyo03_task23_text = "The final phase of the reclamation project is getting underway. I'll be pretty tied up with it, so could you please make sure the public transport is in full working order? While you're at it, could you add a new monorail line? That might be just the thing to distract the media from the construction site. Construction news isn't very media-friendly!";
+$tokyo03_task23_short = "Build a monorail line, transport %0 people.";
+$tokyo03_task23_passed = "Excellent work – a real asset to the transportation system. Monorails are always popular: so fast and efficient.";
+
+$tokyo03_task24_name = "Party on a Boat";
+$tokyo03_task24_text = "Afternoon! PO Yanako here. No need to worry, nothing's wrong! I'm merely here to ask a favor. We're having a celebration for the Chief of Police – twenty years of service, she's put in. Quite impressive, isn't it? We thought we'd take her for a cruise on the river. Could you make sure there's a suitable water bus line? She's rather worried about the budget, so we'd prefer to make the trip using public transportation, if at all possible.";
+$tokyo03_task24_short = "Have a waterbus line connecting {0:Railway station}, {1:Residential area}, {2:Office buildings} and {3:Factory}.";
+$tokyo03_task24_passed = "The party was most enjoyable – the Chief was very  happy and everyone had a relaxing time! Thanks for your help, we couldn't have done it without you.";
+
+$tokyo03_task25_name = "Promised Land";
+$tokyo03_task25_text = "The new area is ready! Please provide public transport connections for all the new houses and offices. I want to make this new land a real utopia!";
+$tokyo03_task25_short = "Build a new line with stops in the {0:new area}.";
+$tokyo03_task25_passed = "You did extraordinarily well – I'm so proud! This was the final phase, so now we can just sit back and enjoy.";
+
+$tokyo03_task26_name = "Sadly Uncool";
+$tokyo03_task26_text = "Hello! I did a research essay on public transportation and I found out that students think it's lame and uncool. Maybe you should launch an advertising campaign? I really care about the environment and I want people to make more use of public transport!";
+$tokyo03_task26_short = "Launch an advertising campaign, have %0%% reputation with students.";
+$tokyo03_task26_passed = "Now everyone uses public transport – it's the latest trend! I'm so happy this worked out. I was really worried about the long-term impact on nature.";
+
+$tokyo03_task27_name = "Silver Lining";
+$tokyo03_task27_text = "Everything seems to be working well. I'd still like you to add a few lines, just to make sure we can handle any future growth. Then you are free to go!";
+$tokyo03_task27_short = "Build 4 lines, transport %0 people.";
+
+/* SCENARIO4 */
+
+$tokyo04_name_text = "The Future is Bright";
+$tokyo04_location_text = "Tokyo 2027 - 2030";
+$tokyo04_animation_text = "A new era is dawning in Tokyo.\nThe city is at the heart of a new wave of innovation, including streamlined electrical cars, advanced artificial intelligence, mega-stars giving holographic performance – in fact, the rich and famous, best and brightest, from all around the world are heading to Tokyo, chasing the scent of future success.";
+$tokyo04_briefing_short = "Update Tokyo's public transport system to cater to the needs of the modern consumer.";
+$tokyo04_briefing_text = "Nice to meet you! I'm Masaki Ohno, you can call me Masaki! I'm having a bit of trouble with the public transport network, so I'm really happy you're here to help out!";
+$tokyo04_completed_text = "Great! I think that's about all I needed from you. Thanks for keeping an eye on the traffic system while I was busy being wonderful. I couldn't have done it all without you – juggling a successful solo career and being in charge of the public transport, you can't imagine the pressure! Arigato once again!";
+
+$tokyo04_task01_name = "Do-over!";
+$tokyo04_task01_text = "Right! Well, the main problem seems to be that my lines aren't attracting enough passengers. Or at least that's what I'm told. Could you take a look at them and make a few changes, hai?";
+$tokyo04_task01_short = "Demolish a line; build two new lines.";
+$tokyo04_task01_passed = "Good, good! Looks like you're doing a great job. Keep it up!";
+
+$tokyo04_task02_name = "Ancient Values";
+$tokyo04_task02_text = "Good day to you. I represent the most prestigious geisha school in the whole of Japan. We have bought space on a video billboard, hoping to steer the youth of Japan back towards our ancient values. The only problem is that we picked a place that unfortunately doesn't seem to have heavy traffic, so our video doesn't receive much exposure. Could you arrange to have a few lines passing it, please?";
+$tokyo04_task02_short = "Build three lines covering the {0:billboard}.";
+$tokyo04_task02_passed = "Thank you! Now our video can be seen by many more people, and I'm sure they will be moved by our message.";
+
+$tokyo04_task03_name = "On Tour";
+$tokyo04_task03_text = "Oh, I'm afraid I have to ask for another favor. My band is going on tour and I'll be way too busy to handle the city. I had a dream last night, where a sweet old lady told me to build more lines. But since I don't have the time, you should do it instead.";
+$tokyo04_task03_short = "Build three lines.";
+$tokyo04_task03_passed = "I'm off now, the tour can't wait! Nice job, though!";
+
+$tokyo04_task04_name = "Environmental Concerns";
+$tokyo04_task04_text = "Sumimasen! At school we've been discussing the impact of cars on the environment. We students would like to be able to use public transport as much as possible. Could you please build lines to our school from all the busiest parts of the town?";
+$tokyo04_task04_short = "Build three lines connecting the {0:School} to the {1:Railway Station}, the {2:Park} and the {3:Shopping Mall}.";
+$tokyo04_task04_passed = "Arigato, this has brought a lot of new students to the school! We are excited to have so many new friends.";
+
+$tokyo04_task05_name = "Yatta!";
+$tokyo04_task05_text = "What do you mean, how did I end up managing public transport? With the right connections, of course! The mayor's daughter is a big fan of my band, Happa-Yai, which made me the natural choice for public transport manager...  or whatever position happened to be available at the time. And anyway, I'm really good at this! Oh, and I forgot to mention – we need a line from the airport to somewhere or other. The temple, perhaps?";
+$tokyo04_task05_short = "Build a line from the {0:airport} to the {1:Temple}.";
+$tokyo04_task05_passed = "Looks pretty! I think this was the way to go, but then again, I'm always right…";
+
+$tokyo04_task06_name = "Swamped!";
+$tokyo04_task06_text = "We have opened new offices on the south side of town. The building is great and has a nice view, but unfortunately no-one noticed that the parking lot was inadequate. We are swamped with cars: people arrive late because they can't find space to park. Could you build a few lines out there so the workers can leave their cars at home?";
+$tokyo04_task06_short = "Build two lines to the {0:Police Station}.";
+$tokyo04_task06_passed = "Thank you for your help! We should have been more careful when choosing where to put our station house, but now it is better than ever!";
+
+$tokyo04_task07_name = "Schooling";
+$tokyo04_task07_text = "Ooh, more fan mail! Awe, how cute! Oh well, back to work, right? Well, I got this e-mail from the school headmistress and she is hoping we'll put in a new line out there. What do you think?";
+$tokyo04_task07_short = "Build a line to the {0:School}.";
+$tokyo04_task07_passed = "Sweet! The headmistress was very pleased! She even sent me a picture of herself as a gift! I'm so happy things are going well!";
+
+$tokyo04_task08_name = "Pickpockets";
+$tokyo04_task08_text = "Our headquarters are working out fine, but we've a new problem on our hands. There's a pickpocket problem on one of your lines. The culprit is pretty quick getting off the vehicle. Could you stop the line for a short while, please?";
+$tokyo04_task08_short = "Stop bus line %0 for four weeks.";
+$tokyo04_task08_passed = "Well, we caught the thief! This is great news – he's been a nuisance for months. I hope we can find where he stashed the loot, so people can have their belongings returned.";
+
+$tokyo04_task09_name = "Flying High";
+$tokyo04_task09_text = "I just took a helicopter flight and it was awesome! I want you to add helicopter lines for the city – you can't imagine how cool it was flying high over the city! The TV-crew following us said I was exceptionally brave for getting in a helicopter, so I'm sure my fans will love the show!";
+$tokyo04_task09_short = "Build three helicopter lines.";
+$tokyo04_task09_passed = "Flying is so cool! I just took a ride on one of our helicopters and it was Totally Awesome. I'm sure we will have a lot of business on those lines!";
+
+$tokyo04_task10_name = "Much Manga";
+$tokyo04_task10_text = "Konnichiwa! I'm opening a manga cafe soon, and it would be great if you could set up some good connections to it. I'm sure many of Masaki's fans will be visiting too, so it'll benefit both of you!";
+$tokyo04_task10_short = "Build two lines to the {0:Manga café}; transport %0 passengers.";
+$tokyo04_task10_passed = "Thanks! Why don't you stop by for a cup of green tea, some pockys, and a quick leaf through a manga? You're looking a bit tired. The tea's on me!";
+
+$tokyo04_task11_name = "True Reality";
+$tokyo04_task11_text = "I'm appearing on a new reality show next week, you mustn't miss it! I'm going to be playing chess with the digital-idol, Rei – I heard that her artificial intelligence is designed by some really cool dude. Plus she's pretty hot! The channel boss suggested I build a new monorail line to celebrate the event, so they can cover the trains with advertisements.";
+$tokyo04_task11_short = "Build a monorail line to the {0:Studio}.";
+$tokyo04_task11_passed = "What the heck?! I lost to that stupid digital babe! I've already played chess twice before with my young nephew and I won! There must be some mistake. Oh, I forgot to say… nice work on the monorail.";
+
+$tokyo04_task12_name = "Memory Lapse";
+$tokyo04_task12_text = "Hi, I'm Yuki, one of Masaki's band members. of Masaki. I was a bit worried when he told me about his plans for the video. Luckily everything went well, and I even had the chance to ask if he could do something about the connections to my father's apartment. He lives alone and should really get out more, but he says it's too hard to get around in the city. I think Masaki forgot to mention it, but do you think you could help me?";
+$tokyo04_task12_short = "Build two lines to {0:Yuki's father's house}.";
+$tokyo04_task12_passed = "Thank you ever so much! My dad visits the shopping mall daily now, and seems much happier. You are a blessing!";
+
+$tokyo04_task13_name = "Cherry Orchard";
+$tokyo04_task13_text = "Our album is out! I'm super excited – I hope it sells well. I'm already getting a ton of e-mails from my fans every day, and my social media page almost crashed due to the number of new fans! Anyway, where was I? Oh yes, a little request... We filmed our hit video in the cherry orchard and now hoards of fans are going there to pay homage to our musical genius. If you could build a few lines out there, they could actually make it all the way to the park and not end up stuck in traffic.";
+$tokyo04_task13_short = "Build two lines to the {0:Park}.";
+$tokyo04_task13_passed = "The album is selling really well! I'm wearing cherry patterned underwear to celebrate. The park was quite nice, I suppose, but it's simply too crowded now everyone's using our lines.";
+
+$tokyo04_task14_name = "Transport History";
+$tokyo04_task14_text = "Great news! We are opening an exhibition celebrating the history of public transportation! I'm sure you know all about it, but the public doesn't. We were hoping to offers special tours, such as trips to see how the railway station is connected to the transportation network, and which routes go to the airport. Could you make sure we don't have to rent buses but can make use of the real transportation grid? Thanks!";
+$tokyo04_task14_short = "Build a line from the {0:Museum} to the {1:Railway Station}, and one from the Museum to the {2:Airport}; transport %0 passengers.";
+$tokyo04_task14_passed = "The exhibition is drawing record crowds – people are even purchasing tickets in advance. Thank you for helping us out! The guided tour really helps people grasp the scale of the system.";
+
+$tokyo04_task15_name = "Monorail Numero Uno";
+$tokyo04_task15_text = "Yatta! Our album made it to number one! Our record company suggested that since I hold such an important position, and am doing so well, we should film the next music video on a monorail train circling the city. Could you build us a suitable route? There are a few places I want to be seen on the video...";
+$tokyo04_task15_short = "Build a monorail line connecting {0:Tokyo tower}, {1:Temple area}, {2:Stadium} and {3:Park}.";
+$tokyo04_task15_passed = "Cameras! Ready! Action! I'm off to film the video… Yeah, great work on the line! I'm sure the video will be a hit!";
+
+$tokyo04_task16_name = "Tea Ceremony";
+$tokyo04_task16_text = "The northern temple is opening its doors to host a tea ceremony for a few guests. I'd love to be able to take my tourists there, and allow them to really experience Japanese traditions first hand. Do you think you could build a line there from the railway station?";
+$tokyo04_task16_short = "Build a line from the {0:Railway Station} to the {1:Temple}.";
+$tokyo04_task16_passed = "The tourists loved the tea ceremony. I told the monks at the temple how you helped me, and they invited you to visit them. They've had too few visitors attending the ceremonies lately, but now, thanks to the new line, all that has changed!";
+
+$tokyo04_task17_name = "Expand the Line";
+$tokyo04_task17_text = "My band will be touring the city soon. Actually, the record company wanted me to do a solo tour, but me, I'm generous enough to allow the other band members to tag along and support me, if they feel like it. We want to travel by monorail, so I'd like you to expand our old the line.";
+$tokyo04_task17_short = "Build a monorail line connecting {0:School}, {1:Shopping center}, {2:Tokyo tower}, {3:Temple area}, {4:Stadium}, {5:Park} and {6:Residential area}.";
+$tokyo04_task17_passed = "Whee! I just rode the monorail and it was great! You built an excellent line, thanks!";
+
+$tokyo04_task18_name = "Molecular Tweak";
+$tokyo04_task18_text = "I'm designing a device that would help us predicting weather changes and protecting the city from the storms. Basically, this involves tweaking the molecular structure of our skyscrapers – no big deal! But to make it work, I need to be able to get from one building to another quickly, and I don't like driving: it's so 2000's... just not my thing. So I was hoping you could make sure my test buildings all have a connecting line. How about it?";
+$tokyo04_task18_short = "Build a line connecting {0:Skyscraper 1}, {1:Skyscraper 2}, {2:Skyscraper 3} and {3:Skyscraper 4}.";
+$tokyo04_task18_passed = "Thanks! Now I'll be able to test my device. This will surely help the city expand skywards!";
+
+$tokyo04_task19_name = "Northern Route";
+$tokyo04_task19_text = "Oh wow! A duet with the digital-idol Rei! I'm still a bit bitter about the chess match, mind you, but this could be really good for my career! The governor is going on and on about building a line to the housing area up north, so could you look into that for me? I don't have time, I need to practice!";
+$tokyo04_task19_short = "Build a line to the {0:residential area} in the North.";
+$tokyo04_task19_passed = "The governor was very pleased with our work! Y'know, the new line and my awesome duet with Rei.";
+
+$tokyo04_task20_name = "Paying Homage";
+$tokyo04_task20_text = "Tee hee, I'm Masaki's number one fan! Please, can I get your autograph – you've actually touched my idol! Swoon! Oh, there was something else I meant to ask you, too. We fans truly respect Masaki, we really, really do... But we would like to be able to travel to his house to leave gifts and fan letters. Shipping costs are ridiculous, and it's better to bring our offerings in person. Could you build a line we could use?";
+$tokyo04_task20_short = "Build a line to {0:Masaki's house}.";
+$tokyo04_task20_passed = "Arigato! Now we can spy on Masaki – I mean bring him lots and lots of gifts! Lots and lots!";
+
+$tokyo04_task21_name = "Governor's Visit";
+$tokyo04_task21_text = "Uh-oh, the governor is coming to pay a visit and wants to know how I'm doing. Well, how are we doing? Quick, build a few more lines so it looks like everything's fine!";
+$tokyo04_task21_short = "Build three lines.";
+$tokyo04_task21_passed = "What a relief, he was really happy with our work! Told us to keep it up, and presented me with a bottle of sake as a gift.";
+
+$tokyo04_task22_name = "Sushi for the Tourists";
+$tokyo04_task22_text = "Do come and check out my new sushi bar! I've got hologram menus, a sushi train and robotic waitresses. It's the best around! The sushi doesn't taste bad either. Well, yes, now you mention it, I did have something to ask you. I'm hoping to attract a lot of the tourists, so it would be really useful if the bar was connected to the airport and other major sights. Could you help me out?";
+$tokyo04_task22_short = "Build a line from the {0:Sushi Bar} to the {1:Airport} and {2:Sky Tree}.";
+$tokyo04_task22_passed = "Thank you! The bar is doing so much better now all the tourists are dining there. They simply love the robotic waitresses – imagine, some locals thought they were a bit tacky!";
+
+$tokyo04_task23_name = "Save the Stadium";
+$tokyo04_task23_text = "Rei is performing at the stadium soon! I promised her – or was it some producer – that we would have three monorail lines going there to cope with the traffic. Please see to it, and fast!";
+$tokyo04_task23_short = "Build three monorail lines to the {0:Stadium}.";
+$tokyo04_task23_passed = "Excellent! She was very happy with the new lines. I think they might also make us some money, since there were lots of people on board.";
+
+$tokyo04_task24_name = "Foreign Workers";
+$tokyo04_task24_text = "Hello! Since wages are so high now, and times are tough, we are hiring a group of foreign workers to help out at the factory. They need to be able to get there and back fast, so a line to the airport is crucial. Oh, and by the way, they also like shopping!";
+$tokyo04_task24_short = "Build a line connecting the {0:Factory}, the {1:Airport} and the {2:Shopping Mall}.";
+$tokyo04_task24_passed = "Thanks, the foreign workers were very pleased with the route. They have been shopping like crazy for gifts to take back to their families!";
+
+$tokyo04_task25_name = "More Buses";
+$tokyo04_task25_text = "Whew, everything is looking good. My solo album is coming out soon and everyone says it's great! I'm sure it will sell millions, and it's bye bye, off to Monaco to live in the lap of luxury... Oh, yes! I wanted you to help me out a bit. The album is going to be advertised on the buses, so could you build a few more lines so I can get wider coverage? Thanks!";
+$tokyo04_task25_short = "Build three bus lines; transport %0 passengers.";
+$tokyo04_task25_passed = "Hmmm, seems like my plans for Monaco might have to be postponed... Bummer! But the bus lines worked out well, although some of them seem to be causing the odd traffic jam.";
+
+$tokyo04_task26_name = "Western Air";
+$tokyo04_task26_text = "Hi again! I see you are running Masaki's business for him – and doing a good job. You are so kind! I'm sure he wouldn't even show up for work if he had to actually understand what public transportation was all about. Actually, I was hoping you could do me a favor. I recently noticed that many people on the west side of town, where I live, use their own cars simply because there are no decent connections to the city center. This makes the air quality really poor and it affects my voice. I'm also concerned about the long term health effects. I'm sure a line out there would be profitable, so could you see if it can be done?";
+$tokyo04_task26_short = "Build a line to the {0:West Residential Area}.";
+$tokyo04_task26_passed = "Nice work! Now the number of cars on the road has fallen significantly, and the air quality has improved. This has set an excellent example for the other residential areas!";
+
+$tokyo04_task27_name = "Somethin's Going On";
+$tokyo04_task27_text = "Our band has been asked to participate in an international song contest. The show includes performances too, so we're practicing our dance and fire breathing routine, but we're on a really tight schedule. I was hoping you could add some more lines in the meantime, so I'll have something to report to the governor? Pretty please?";
+$tokyo04_task27_short = "Build two more lines.";
+$tokyo04_task27_passed = "The governor was very exited about our success in the contest! Oh, and he liked those new lines too, of course. Honestly he did!";
+
+$tokyo04_task28_name = "Slippery Problem!";
+$tokyo04_task28_text = "I'm cosplaying Masaki next week! I've got a wig that's the spitting image of his luscious locks, and a copy of the outfit he wore on his American tour! But yes, about the cosplay event – actually, I'm one of the organizers and we have a problem. The venue has run out of slippers – you know, the kind you put on when going to the toilet? It's a disaster! We need more, pronto, but the only shop that carries the cosplay themed ones says they can't ship them out in time. I have to go there to pick them up, but I don't have a car. You see where I'm going?";
+$tokyo04_task28_short = "Build a line from the {0:Park} to the {1:Slipper Shop}.";
+$tokyo04_task28_passed = "Whew, just in time! Now I can collect the slippers, and the crisis is avoided. Thank you so much!";
+
+$tokyo04_task29_name = "Masaki Advert!";
+$tokyo04_task29_text = "I'm leaving for my world tour soon – I just wanted you to know that you've done a great job! My career is soaring and the public transport thing is going really well, too. Someone mentioned that we should advertise to attract more passengers. I'm willing to donate some of my valuable time to feature in the ads, so lets do it!";
+$tokyo04_task29_short = "Start an advertising campaign.";
+$tokyo04_task29_passed = "Oh, it feels so wonderful to see my face everywhere! I'm sure my numerous fans will switch to public transport – how could they resist?!";
+
+$tokyo04_task30_name = "Hosting Cars";
+$tokyo04_task30_text = "Good day! I'm currently working at a hostess bar, and we have been having trouble with our parking arrangements. There's no space to park in the city center, but we have to be centrally located in order to attract customers! Could you build line there? We would be more than grateful!";
+$tokyo04_task30_short = "Build two lines to the {0:Hostess Club}.";
+$tokyo04_task30_passed = "Thank you! This has been a great help. Now we have more customers than ever!";
+
+$tokyo04_task31_name = "Got it Covered!";
+$tokyo04_task31_text = "Everything's golden! Seeing as you have done so well so far, this should be a piece of cake to you: I want you to raise our total coverage to %0%% of the city. That'll definitely make business boom!";
+$tokyo04_task31_short = "Have %0%% coverage.";
+
+$tokyo_credit_items = [
+  "",
+  "Cities In Motion: Tokyo",
+  "",
+  "PRODUCER",
+  "-Mariina Hallikainen",
+  "TECHNICAL DIRECTOR",
+  "-Antti Lehto",
+  "LEAD DESIGNER",
+  "-Karoliina Korppoo",
+  "MAP DESIGN",
+  "-Henri Haimakainen",
+  "-Antti Isosomppi",
+  "-Antti Lehto",
+  "LEAD ARTIST",
+  "-Antti Isosomppi",
+  "ARTISTS",
+  "-Tuuli Juntunen",
+  "-Henri Haimakainen",
+  "ADDITIONAL ART",
+  "-Ulysses Graphics",
+  "-Mikko Tyni",
+  "-Aapo Peltola",
+  "ANIMATION",
+  "-Joonas Korpilaakso",
+  "-Aapo Peltola",
+  "-Tuuli Juntunen",
+  "-Ulysses Graphics",
+  "SOUND DESIGN",
+  "-Oleksi Onttonen",
+  "MUSIC COMPOSER",
+  "-Olli Perttula/Mediastage",
+  "SPECIAL THANKS",
+  "-All the fans",
+  "-Paradox Forum community",
+  "",
+  "-Thank you for the feedback that helps us",
+  "-make Cities in Motion an even better game."
+];
+

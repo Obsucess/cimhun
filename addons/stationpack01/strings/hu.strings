@@ -1,0 +1,6 @@
+
+$tool_metro_xstation01_hint = "Földalatti metróállomás dupla peronnal\nÁr: %it d,20\nHavi fenntartási költség: %it,d.21\n\nA duplaperonos földalatti állomás nagyon sok utast tud kezelni.\nÖsszeköttetésben kell állnia a földalatti sínekkel. Nagyon magas fenntartási költség.";
+$tool_metro_xstation02_hint = "Földalatti metróállomás keresztezõ peronokkal\nÁr: %it d,20\nHavi fenntartási költség: %it,d.21\n\nA többszintû földalatti állomás képes kezelni az egymást keresztezõ metróvonalakat.\nÖsszeköttetésben kell állnia a földalatti sínekkel. Nagyon magas fenntartási költség.";
+
+$station_metroPlatform3 = "3. metróvágány";
+$station_metroPlatform4 = "4. metróvágány";

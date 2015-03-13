@@ -1,0 +1,15 @@
+
+$vehicle_dlc04_bus01 = "EvoUrban";
+$vehicle_dlc04_bus01_info = "Az EvoUrban speciálisan városi használatra lett tervezve, így kitûnõ választás rövid távolságokra. A legjobb tulajdonsága a nagy megbízhatósága, amely a hibátlan mérnöki tervezésbõl származik.";
+
+$vehicle_dlc04_tram01 = "City T13";
+$vehicle_dlc04_tram01_info = "A City T13 egy modern villamos sok jó tulajdonsággal. A befogadóképessége és magas átlagsebessége jó választássá teszi bármilyen viszonylatra, ahol sok az utas. Továbbá egy nagyon vonzó villamos, ami segít az utasokat elégedetten tartani.";
+
+$vehicle_dlc04_tram02 = "Tatra T600";
+$vehicle_dlc04_tram02_info = "A keleti klasszikus, a Tatra, egy szívós villamos nagy befogadóképességgel. Úgy építették, hogy hibátlanul mûködjön minden idõjárási körülményben és hõmérsékletben, a Fekete-tenger napos partjaitól Moszkva kemény téljeiig.";
+
+$vehicle_dlc04_metro01 = "Ostrich SP1900";
+$vehicle_dlc04_metro01_info = "A csillogó és modern Ostrich SP1900 az egyik legjobb elérhetõ metrómodell. A karcsú formája segít lecsökkenteni a légellenállást. A magas átlagsebesség biztosítja, hogy ez a jellemzõje jól ki legyen használva. A metrószerelvény rengeteg helyet biztosít az utasok számára, olyan ülésekkel, amelyet szándékosan úgy terveztek, hogy minél több helyet biztosítsanak. A modell egyetlen hátránya a finom felépítése, amitõl hajlamos a meghibásodásra.";
+
+$vehicle_dlc04_metro02 = "Kaganovich Metrotrain";
+$vehicle_dlc04_metro02_info = "A Kaganovich Metrotrain a valaha épített egyik elsõ metrószerelvény. Robosztus, de a régi orosz stílusban fényûzõen berendezett, hogy sok utast vonzzon. A viszonylag magas átlagsebessége miatt a Kaganovich-t korai metrók királyai között kell számon tartani.";

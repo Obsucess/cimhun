@@ -1,0 +1,15 @@
+
+$vehicle_dlc04_bus01 = "EvoUrban";
+$vehicle_dlc04_bus01_info = "EvoUrban is especially designed to be used in cities, thus it is an excellent choice for small distances. One of its best qualities is the high reliability that comes from flawless engineering and design.";
+
+$vehicle_dlc04_tram01 = "City T13";
+$vehicle_dlc04_tram01_info = "City T13 is a modern tram with lots of good qualities. The capacity and high average speed make it a good option for all tram routes with lots of passengers. It's also a very attractive tram, helping to keep passengers happy.";
+
+$vehicle_dlc04_tram02 = "Tatra T600";
+$vehicle_dlc04_tram02_info = "The eastern classic, Tatra, is a hardy tram with a good capacity. It is built to operate flawlessly in all weather conditions and temperatures, from the sunny shores of the black sea to the hard winters in Moscow.";
+
+$vehicle_dlc04_metro01 = "Ostrich SP1900";
+$vehicle_dlc04_metro01_info = "The sleek and modern Ostrich SP1900 is one of the top metro models available. Its slim shape helps reduce the drag. The high average speed makes sure this feature is used well. The metro train also has lots of space for passengers, with the seating deliberately designed to give as much room as possible. The only setback is the model's delicate construction which makes it prone to malfunctions.";
+
+$vehicle_dlc04_metro02 = "Kaganovich Metrotrain";
+$vehicle_dlc04_metro02_info = "Kaganovich Metrotrain is one of the first metro trains built. It's sturdy, but also furnished luxuriously in old Russian style to attract many passengers. The relatively high average speed makes the Kaganovich to be counted among the royalty of the early metros.";

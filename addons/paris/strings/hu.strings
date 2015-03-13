@@ -1,0 +1,352 @@
+$location_france_name = "Franciaország";
+
+$cityname_paris = "Párizs";
+$citydescription_paris_short = "Bárkinek, aki tervez valamit Párizsba, problémákba fog ütközni a város egyedi építészeti kialakításával és infrastruktúrájával. Te készen állsz?";
+$citydescription_paris_long = "";
+
+$building_eiffelTower = "Eiffel-torony";
+$building_louvre = "Louvre";
+$building_notreDame = "Notre Dame";
+$building_arcOfTriumph = "Diadalív";
+$building_restaurant = "Étterem";
+$building_lowCommercial01 = "Kereskedelmi épület";
+
+$vehicle_parisTram01 = "TTS villamoskocsi";
+$vehicle_parisTram01_info = "A TTS villamoskocsi egy jó jármû városi környezetbe. Igen vonzó az utasok számára és kényelmes üléseket, valamint hatalmas ablakokat nyújt. A jármûnek van egy kis gondja a motorjával, de a szép belsõ tér ellensúlyozza ezt a kis kényelmetlenséget.";
+$vehicle_parisTram02 = "Bertrand";
+$vehicle_parisTram02_info = "A Bertrand villamosok a tervezõjüktõl kapták nevüket és kiválóak rövid városi viszonylatokra. Gyors és és megbízható jármûvek elég jó befogadóképességgel. A kilátás a felsõ emeletrõl lélegzetelállító a legtöbb viszonylaton!";
+$vehicle_parisMetro01 = "Asparagus-Thomson";
+$vehicle_parisMetro01_info = "A tervezõje kedvenc ételérõl elnevezve a Asparagus-Thomson metrószerelvény magas átlagsebességet biztosít és kényelmes üléseket. Megbízható és nem fogyaszt sok energiát.";
+$vehicle_parisMetro02 = "MF-69";
+$vehicle_parisMetro02_info = "Az MF-69 metrószerelvény a francia jármûtervezés büszkesége. Nagy befogadóképessége van, a forgalmas városközpontbeli viszonylatok ellátására, tartósra lett építve és nem fogyaszt túl sok energiát. A belsõ tere nem épp a legjobb, de pont elég kényelmes.";
+
+$campaign_paris1_name_text = "A fények városa";
+$campaign_paris1_description_text = "Párizs öreg és gyönyörû, de a lakóknak még mindig vannak szükségleteik a tömegközlekedéssel kapcsolatban. Hogyan építesz egy mûködõ, rugalmas rendszert, miközben figyelembe veszed Párizs építészetét és egyediségét?";
+
+/* SCENARIO1 */
+
+$paris01_name_text = "A szerelmesek városa";
+$paris01_location_text = "Párizs 1920-1923";
+$paris01_animation_text = "Párizs, a szerelem és szerelmesek városa!\nSzerencsére azoknak is szükségük van tömegközlekedésre, akik szerelmesek .\nEgyébként hogyan jutnának el ahhoz a sok szép, Szajna felett átívelõ romantikus hidakhoz vagy a bájos parkokhoz?\nVégül a párizsi hatóságok is észrevették a szükségletet és fel akarnak bérelni téged, hogy elrendezd a tömegközlekedési rendszert.";
+
+$paris01_briefing_short = "Építs egy tömegközlekedési rendszert Párizs számára.";
+$paris01_briefing_text = "Bonjour! A nevem Henry Durand, örülök hogy találkoztunk! Én vagyok felelõs az ötletért, hogy hozzunk létre tömegközlekedést Párizs számára. Olyan sokat hallottam önrõl és biztos vagyok benne, hogy ön képes lesz ezt elvégezni!";
+$paris01_completed_text = "Nagyon köszönöm! Soha nem lettem volna képes erre ön nélkül. Biztosan fogom terjeszteni a hírt és elmondom mindenkinek, hogy milyen jól teljesített egy ilyen bonyolult városban mint Párizs.";
+
+$paris01_task01_name = "Viszonylatok, viszonylatok, viszonylatok";
+$paris01_task01_text = "Amit elõször szeretném ha tenne, az viszonylatok építése. Ha megtudjuk mutatni az embereknek, hogy milyen csodálatosak és modernek a jármûveink, akkor biztos késõbb is érdekelni fogják õket, amikor kiterjesztjük a hálózatot.";
+$paris01_task01_short = "Létesíts öt viszonylatot.";
+$paris01_task01_passed = "Ó igen! Így szeretem ezt! Biztos vagyok benne, hogy az utasok így majd seregleni fognak a szolgáltatásainkhoz.";
+
+$paris01_task02_name = "Palacsintakávézó";
+$paris01_task02_text = "Helló! Az új kávézóm épp most nyílik és abban reménykedtem, hogy ön képes lesz jobb kapcsolatokat biztosítani. Elkészítem önnek a legfinomabb palacsintákat egész Párizsban, ha megteszi! Kérem!";
+$paris01_task02_short = "Létesíts egy viszonylatot a {0:kávézóhoz}";
+$paris01_task02_passed = "Nagyon köszönöm! Kérem nézzen be bármikor, mindig felajánlok egy ingyen palacsintát!";
+
+$paris01_task03_name = "A nagyközönség imádja a villamosokat";
+$paris01_task03_text = "Egyszerûen imádom a villamosokat, és a nagyközönség is! Annyira jól beleilleszkednek a bájos kis városunkba. Létesítsen egy pár további viszonylatot.";
+$paris01_task03_short = "Létesíts három villamosviszonylatot.";
+$paris01_task03_passed = "Annyira jól néz ki! Tetszik amit mûvelt a viszonylatokkal.";
+
+$paris01_task04_name = "Egy kis költségvetés";
+$paris01_task04_text = "Micsoda elbûvölõ város, de olyan nehéz volt ejutni a városközpontból a {0:reptérre}. A költségvetésem kicsi, tehát úgy hiszem, hogy pár reptérre vezetõ viszonylat nagyszerû kiegészítés lenne a rendszerünkhöz.";
+$paris01_task04_short = "Létesíts két viszonylatot a {0:reptérhez}";
+$paris01_task04_passed = "Jó, jó! Pont így akartam!";
+
+$paris01_task05_name = "Érd el, hogy szeressenek minket";
+$paris01_task05_text = "Most már csak meg kell növelnünk a hírnevünket. A lakosok tudják, hogy itt vagyunk, de el kell érnünk, hogy szeressenek minket!";
+$paris01_task05_short = "Érj el 70%%-os hírnevet.";
+$paris01_task05_passed = "Remek! Mindenki üdvözöl, bárhová is megyek! Folytassuk.";
+
+$paris01_task06_name = "Kiegészítés";
+$paris01_task06_text = "Jól haladunk. Csinálhatnánk pár buszviszonylatot következõnek? Szépen kiegészítenék a villamosviszonylatainkat.";
+$paris01_task06_short = "Létesíts három buszviszonylatot.";
+$paris01_task06_passed = "Nagyon jó! Szeretem a buszokat és remélem, hogy az utasaink is így éreznek!";
+
+$paris01_task07_name = "Annyira divatjamúlt";
+$paris01_task07_text = "Szeretnék tömegközlekedéssel munkába menni, de jelenleg egyszerûen túl divatjamúlt és unalmas! Ha szeretné, hogy én és a kollégáim használjuk a szolgáltatásait, valamit tennie kell.";
+$paris01_task07_short = "Érj el 80%%-os hírnevet az üzletemberek körében.";
+$paris01_task07_passed = "Szép! Az utazás így már sokkal kevésbé unalmas! Talán egyszer még egy új trend is lesz.";
+
+$paris01_task08_name = "Megnézni Párizst";
+$paris01_task08_text = "Egy városnézõ viszonylaton gondolkoztam, mivel Párizs annyira szép és mindenki látni akarja. Meg tudja csinálni?";
+$paris01_task08_short = "Létesíts egy viszonylatot, ami összeköti az {0:Eiffel-tornyot}, a {1:szobrot}, a {2:Diadalívet} és az {3:obeliszket}";
+$paris01_task08_passed = "Tökéletes! Ez mindenkinek megmutatja majd Párizs szépségét!";
+
+$paris01_task09_name = "François a színházból";
+$paris01_task09_text = "Örülök hogy találkoztunk! François vagyok, az egyik helyi színház tulajdonosa. Nemrég nyitottam egy új jegypénztárat, hogy több jegyet adjunk el az elõadásokra. Nagyon jó, de több vendégre van szükségünk és az alkalmazottak is jobb kapcsolatokat kértek. Tudna nekem segíteni? Jól meg tudom önt fizetni!";
+$paris01_task09_short = "Létesíts két viszonylatot az {0:irodához}";
+$paris01_task09_passed = "Köszönöm! Így már egy csomó vendégem van és az alkalmazottaim is elégedettebbek. Itt van a jutalom, amit ígértem önnek!";
+
+$paris01_task10_name = "Vasút és viszonylatok";
+$paris01_task10_text = "A fõ vasútállomás sok embert vonz. Tudna létesíteni oda pár viszonylatot?";
+$paris01_task10_short = "Létesíts két viszonylatot a {0:vasútállomáshoz}";
+$paris01_task10_passed = "Szép munka! Ez majd enyhíti a közlekedési dugókat és könnyebbé teszi az emberek számára, hogy eljussanak az állomáshoz.";
+
+$paris01_task11_name = "Egy feltörekvõ költõ";
+$paris01_task11_text = "Jó napot! Egy feltörekvõ költõ vagyok, de jelenleg még dolgozni is kell mennem. Hamarosan fenn tudom tartani magam csak az elbûvülõ költészetembõl, de jelenleg problémám van a munkába jutással. CTudna létesíteni egy viszonylatot a házamtól a {0:gyárhoz}, ahol dolgozok? Így egész úton tudnék írni.";
+$paris01_task11_short = "Létesíts egy viszonylatot a {0:költõ házától} a {1:gyárhoz}";
+$paris01_task11_passed = "Kitûnõ! Így munkábamenet egész út alatt írhatok költeményeket. Köszönöm!";
+
+$paris01_task12_name = "Divat, természtesen";
+$paris01_task12_text = "Hé, te! Egy divatbemutatót szervezek és szeretném, ha a természet közepén lenne. Ez mind a tavaszi kollekció része! Reménykedtem, hogy ön tud nekem segíteni, mivel nem akarom, hogy a hely tele legyen jármûvekkel, szóval egy szép és hatékony viszonylat jó lenne. Utána tudna nézni?";
+$paris01_task12_short = "Létesíts egy viszonylatot a {0:vasútállomástól} a {1:divatbemutató helyszínéig}";
+$paris01_task12_passed = "A bemutató nagy siker volt, nagyon köszönöm! Nem volt túl sok kocsi és minden tökéletesen ment.";
+
+$paris01_task13_name = "A közlekedés csodái";
+$paris01_task13_text = "Most azon aggódok, hogy ki tudjuk-e szolgálni az összes utasunkat, akik használni akarják csodálatos szolgáltatásainkat. Kérem bizonyosodjon meg róla, hogy mindenkit el tudunk szállítani!";
+$paris01_task13_short = "Szállíts 400 utast";
+$paris01_task13_passed = "Ez már sokkal jobban néz ki. Nagyon meg vagyok gyõzve!";
+
+$paris01_task14_name = "Egy elõadás!";
+$paris01_task14_text = "Írtam egy színjátékot! A költeményeim is jól mennek, de a színjáték egy igazi remekmû. A bemutató hamarosan lesz, tehát biztosítani tudná, hogy elég viszonylat megy a színházhoz? A szegény fiatal munkásokra célzok, akiknek a lelke epedezik a kultúráért.";
+$paris01_task14_short = "Létesíts két viszonylatot a {0:színházhoz} és szállíts oda 40 utast";
+$paris01_task14_passed = "Sok gyári munkás volt ott a bemutatón, tehát a tervünk mûködött! Félreraktam egy kis összeget a fizetésembõl, tehát ön folytathatja a csodálatos tömegközlekedési hálózat építését.";
+
+$paris01_task15_name = "Villamosok megszállottja";
+$paris01_task15_text = "Milyen bájosan néz ki mindegyik! A villamosok megszállotja vagyok. Tudna még építeni pár további viszonylatot?";
+$paris01_task15_short = "Létesíts négy villamosviszonylatot";
+$paris01_task15_passed = "Imádom a villamosokat! Köszönöm a viszonylatok felépítéséért.";
+
+$paris01_task16_name = "Sok mandulás csók";
+$paris01_task16_text = "Bonjour! Megint én vagyok! Most már pár szép kis mandulás csókom és süteményem a kávézóban, és reménykedek, hogy még több, kifinomult vendéget szerezhetek. Lenne olyan kedves és létesítene egy viszonylatot a kávézómhoz?";
+$paris01_task16_short = "Létesíts egy viszonylatot, amely összeköti a {0:villát}, az {1:ikerházat}, a {2:családi házat} és a {3:kávézót}.";
+$paris01_task16_passed = "Köszönöm! A mandulás csókokat viszik mint a cukrot! Annyira boldog vagyok.  Tessék, csináltam párat csak önnek!";
+
+$paris01_task17_name = "Mutass rá";
+$paris01_task17_text = "Kiválasztottam pár érdekes helyet, amit jó lenne, ha összekötne. Tessék, nézze meg, hogy egyetért-e velük. Olyan gyorsan szeretném hogy kész legyen, amilyen gyorsan csak lehet!";
+$paris01_task17_short = "Létesíts egy viszonylatot, amely összeköti az {0:áruházat}, az {1:egyetemet}, és a {2:vasútállomást}.";
+$paris01_task17_passed = "Remek, ez egy olyan viszonylat, amelyen mindennap utaznék!";
+
+$paris01_task18_name = "Hol vannak az alkalmazottak?";
+$paris01_task18_text = "Ó, szegény én! Az éttermem egy probléma. Jól menne, csak gondom van alkalmazottak bevonzásával és a többi éttermem túl messze van, hogy ugyanazokat az alkalmazottakat használjam, amikor van idejük. Ó, ki menthetne meg...";
+$paris01_task18_short = "Létesíts egy viszonylatot, amely összeköti az {0:1-es számú éttermet}, a {1:2-es számú éttermet} és a {2:3-as számú éttermet}.";
+$paris01_task18_passed = "Ez már sokkal jobb! Így megtakaríthatok egy kis pénzt azzal, hogy megkérem a régi alkalmazottaimat, hogy álljanak meg az új étteremnél és ott is húzzanak le pár mûszakot. Köszönöm!";
+
+$paris01_task19_name = "Templomtúra";
+$paris01_task19_text = "Egy az összes gyönyörû templomot érintõ túra nagyszerû kiegészítés lenne a hálózathoz! A Notre Dame és a Sacré Coeur nagyon szép az év ezen idõszakában.";
+$paris01_task19_short = "Létesíts egy viszonylatot, amely összeköti a {0:Notre Dame-ot}, a {1:Székesegyházat} és a {2:Templomot}.";
+$paris01_task19_passed = "Szép munka, ez rengeteg embert fog hozni a templomoknak, nekünk pedig rengeteg pénzt!";
+
+$paris01_task20_name = "Megint gondban";
+$paris01_task20_text = "Ez egy katasztrófa! Az új éttermem hamarosan megnyílik, de túl messze van a városközponttól! Ó szegény én, senki se fog jönni kipróbálni a kiváló ételeimet... Bárcsak tudna segíteni valaki!";
+$paris01_task20_short = "Létesíts egy új viszonylatot az {0:étteremhez}.";
+$paris01_task20_passed = "Köszönöm! Így legalább van egy pár vendégem. Ó, miért is építettem egy ilyen szörnyû helyre?";
+
+$paris01_task21_name = "Kék szolgáltatás";
+$paris01_task21_text = "A fizikai dolgozók azt mondják, hogy nem biztosítunk nekik elég szolgáltatást. Kérem utánanézne a problémának?";
+$paris01_task21_short = "Érj el 70%-os hírnevet a fizikai dolgozók körében.";
+$paris01_task21_passed = "Ez majd kielégíti õket! Szép munka!";
+
+$paris01_task22_name = "Egy nagyon fontos viszonylat";
+$paris01_task22_text = "Figyeljen! Épp most voltam nyaralni ebben a gyönyörû városban és úgy gondolom, hogy híján vannak egy nagyon fontos viszonylatnak! Ez olyan, amin mindig utaznék, biztos vagyok benne, hogy rengeteg utasa lesz.";
+$paris01_task22_short = "Létesíts egy viszonylatot, amely összeköti a {0:kórházat}, a {1:szállodát}, a {2:könyvtárat} és a {3:minisztériumi épületet}";
+$paris01_task22_passed = "Ez az a viszonylat, amit lárni akartam! Kitûnõ! Nézze, már most sok ember van rajta!";
+
+$paris01_task23_name = "Oly sok lakos";
+$paris01_task23_text = "Azt hiszem már majdnem végeztünk, de biztosítani tudná, hogy elég nagy kapacitásunk van? Oly sok lakos és turista van, akik látni akarják a szerelmesek városát.";
+$paris01_task23_short = "Szállíts 1000 utast.";
+
+$paris01_task24_name = "Egy panasz!";
+$paris01_task24_text = "Jó napot! Egy panaszt akarok benyújtani! Rengeteg viszonylat van az irodai dolgozók és a tanulók számára, de mi, fizikai dolgozók úgy érezzük, hogy kimaradunk. Mi csinálunk önnek dolgokat, tehát elégedetté kell tennünk minket, nem?";
+$paris01_task24_short = "Érj el 80%-os népszerûséget a fizikai dolgozók körében.";
+$paris01_task24_passed = "Ez már sokkal jobban néz ki! Számos kollégám már busszal vagy villamossal megy munkába. Szép volt!";
+
+/* SCENARIO 2 */
+
+$paris02_name_text = "Prûdség párizsban";
+$paris02_location_text = "Párizs 1950-1952";
+$paris02_animation_text = "Oly sok év után, Párizs tömegközlekedési rendszere elavulttá vált és fejlesztésre van szüksége.";
+
+$paris02_briefing_short = "Fejleszd fel Párizs tömegközlekedési rendszerét.";
+$paris02_briefing_text = "Örülök, hogy újra találkoztunk! Olyan jól dolgozott a legutóbbi alkalommal, biztosak vagyunk benne, hogy tud most segíteni nekünk. Számos változtatást végeztem, de attól félek, hogy közel sem voltam olyan jó, mint ön. Kérem, segítene nekem megjavítani a rendszert és talán végrehajtani pár fejlesztést?";
+$paris02_completed_text = "Jól csinálta! Biztos vagyok benne, hogy most már képes leszek kezelni a rendszert egy ideig, de biztos, hogy felhívom ha problémákba ütközök. Nagyon köszönöm a segítéségét.";
+
+$paris02_task01_name = "Sok új viszonylat";
+$paris02_task01_text = "Köszönöm! Az elsõ dolog, amit tennünk kellene, az új viszonylatok létesítése. A régiek nem olyan jók, de maradhatnak.";
+$paris02_task01_short = "Létesíts tíz viszonylatot";
+$paris02_task01_passed = "Nagyszerû! A város így már sokkal élettel telibbnek néz ki! Folytassuk a munkát.";
+
+$paris02_task02_name = "Árellenõrzés";
+$paris02_task02_text = "Jó napot! Azon tûnõdtem, hogy mikor nézte meg utoljára a jegyek árait? A villamosok nagyon drágák. Miért nem nézi meg, hogy hány utast képes bevonzani alacsonyabb árakkal?";
+$paris02_task02_short = "Csökkentsd a villamosok jegyárát 0,20-al 30 napig.";
+$paris02_task02_passed = "Szép munka! Biztos vagyok benne, hogy így több utast szerez!";
+
+$paris02_task03_name = "Lefedettség?";
+$paris02_task03_text = "Mit szólna a lefedettség növeléséhez? Eddig nagyon jól csináljuk, de még mindig van hely a fejlesztésnek.";
+$paris02_task03_short = "Legyen 45%-os lefedettséged.";
+$paris02_task03_passed = "Szép volt! Looks like you haven't lost your edge!";
+
+$paris02_task04_name = "Az Eiffel park";
+$paris02_task04_text = "Az Eiffel park csodálatos! Miért nincs több viszonylata, ami oda megy? Azt akarom, hogy mindenki lássa milyen gyönyörû!";
+$paris02_task04_short = "Létesíts három viszonylatot a {0:parkhoz}.";
+$paris02_task04_passed = "Gyönyörû! A viszonylatai és a park is.";
+
+$paris02_task05_name = "Az idõsek";
+$paris02_task05_text = "Aggódok az idõsek miatt. Kérem biztosítsa, hogy a szolgáltatásaink az õ szükségleteiket is kielégítsék!";
+$paris02_task05_short = "Érj el 75%-os hírnevet a nyugdíjasok körében.";
+$paris02_task05_passed = "Kitûnõ! Úgy látom így már nagyon sok nyugdíjas használja a szolgáltatásainkat.";
+
+$paris02_task06_name = "Gyorsan, még a kínaiak elõtt!";
+$paris02_task06_text = "Gyorsan! Van két nagoyn fontos üzleti kapcsolatom Kínában és a Szajnán akarnak sétahajókázni! Csak elég lehetõség kell, hogy legalább az egyik viszonylat kielégíti õket. Kérem segítsen!";
+$paris02_task06_short = "Létesíts két vízibuszviszonylatot.";
+$paris02_task06_passed = "Húha, épp idõben. Az üzleti partnerek imádták a sétahajókázást és megkértek hogy adjam át önnek a small token of their gratitude.";
+
+$paris02_task07_name = "Metró";
+$paris02_task07_text = "Mit szólna a metróhoz? Nagyon divatos, szóval jó lenne, ha itt is lenne.";
+$paris02_task07_short = "Létesíts egy metróviszonylatot.";
+$paris02_task07_passed = "A metró szuperül néz ki, szép munka!";
+
+$paris02_task08_name = "Egy elõadás a diákok számára";
+$paris02_task08_text = "Helló! Abban reménykedtem, hogy tud nekem segíteni. Hamarosan egy új elõadás bemutatója lesz és a zöld értékekrõl és a környezetrõl fog szólni. Diákok tömegeire számítok, tehát jó tömegközlekedési kapcsolatok kötelezõek. Fogadok, hogy ön is sok pénzt tudna kihozni belõle!";
+$paris02_task08_short = "Legyen három viszonylatod a {0:színházhoz}.";
+$paris02_task08_passed = "Köszönöm! Rengeteg vendégem volt a bemutatón, közülük sokan diákok voltak.";
+
+$paris02_task09_name = "Tanulók bevonzása";
+$paris02_task09_text = "A metró nagyon jó! Úgy tûnik, hogy a tanulók szeretik a legjobban, de a kiváló tervezésével mindenféle utast be fogunk vonzani. Biztosítaná, hogy nem veszítjük el a taunulókat? Jó pénzt hoznak.";
+$paris02_task09_short = "Érj el 70%-os hírnevet a tanulók körében";
+$paris02_task09_passed = "Remek. Rengeteg tanuló sereglik össze, hogy használja a szolgáltatásainkat.";
+
+$paris02_task10_name = "Ó, mókázó mókusok!";
+$paris02_task10_text = "Egy új versesköteten dolgozok, de kétségbeesetten a természethez kötõdve akarom érezni magam. Gyönyörû fák zöld levelekkel, elbûvölõ kis virágok, játékos mókusok mókáznak a növényzetben, micsoda látvány! Az egyetlen problémám a pénz. Túl messze van gyalog és nincsen autóm. Biztos vagyok benne, hogy amikor kijön a könyvem, mindenki meg akarja majd látogatni a helyet, ami inspirálta, tehát rengeteg utasa lesz a viszonylaton!";
+$paris02_task10_short = "Létesíts egy viszonylatot a {0:költõ házától} az {1:erdõig}.";
+$paris02_task10_passed = "A kis múkusoknak most már elég mogyorójuk van kibírják a telet, köszönhetõen a sok embernek, aki meglátogatta az erdõt!";
+
+$paris02_task11_name = "Parkok Párizsban";
+$paris02_task11_text = "Olyan szép parkjaink vannak itt Párizsban, jó lenne könnyû hozzáférést biztosítani hozzájuk. Talán egy viszonylat, amely összeköti a legszebb parkokat jó lenne?";
+$paris02_task11_short = "Létesíts egy viszonylatot, amely összeköti a {0:Jardin du Luxembourg-ot}, a {1:Jardin des Tuileries-t} és a {2:Jardin des Plantes-t}.";
+$paris02_task11_passed = "Olyan sok ember látogatja meg a parkokat, pont ahogy elképzeltem! És a legtöbb nyereséget hoz be.";
+
+$paris02_task12_name = "Nyújtózkodj ki!";
+$paris02_task12_text = "Épp most vettem egy hirdetõkampányt, amelyet az ön jármûvein lehet látni, de nem érem el az embereket, akiket akarok! Több fizikai dolgozó kell a jármûvekre, hogy tudják milyen kitûnõ a moi által tervezett új munkásing.";
+$paris02_task12_short = "Érj el 80%-os hírnevet a fizikai dolgozók körében.";
+$paris02_task12_passed = "Ó, olyan sokat adtam el a király pólóimból. Látott embereket mindössze egy inggallérban? Az az én munkám! És ön segített eladni, köszönöm!";
+
+$paris02_task13_name = "Szent szív";
+$paris02_task13_text = "Nagyon tetszik, amit látok. Az egyik nap épp csak meglátogattam a székesegyházat és arra gondoltam, hogy csodálatos lenne, ha villamossal is oda lehetne jutni. Össze lehetne ezt hozni?";
+$paris02_task13_short = "Létesíts egy villamosviszonylatot a {0:székesegyházhoz}.";
+$paris02_task13_passed = "Remek, így már egy kis nyereséget is tudunk szerezni a látványosságokat meglátogató emberekbõl.";
+
+$paris02_task14_name = "Kávézó a Louvre-ban";
+$paris02_task14_text = "Egy új kávézót nyitottam a Louvre elõcsarnokában! Hallottam, hogy a múzeum kurátora arról beszélt, hogy mennyire aggódik a fiatalok taníttatásával kapcsolatban, mert a látogatók száma nem olyan magas, mint régebben volt. Úgy gondoltam, hogy önt érdekelni a múzeum jobb bekapcsolása a hálózatba. Mit szól hozzá?";
+$paris02_task14_short = "Létesíts két viszonylatot a {0:múzeumhoz}.";
+$paris02_task14_passed = "Köszönöm, mostanában már sokkal több fiatalt látok a múzeumban, tehát azt hiszem, hogy elértük a célunkat!";
+
+$paris02_task15_name = "Oldd fel a dugókat";
+$paris02_task15_text = "A reptéren nagyon nagy a forgalom. Talán segíthetnénk feloldani a közlekedési dugókat egy új viszonylat létesítésével. Én a buszt preferálnám, de tegye azt amit jónak lát!";
+$paris02_task15_short = "Létesíts egy viszonylatot a {0:reptérhez}.";
+$paris02_task15_passed = "Jó, úgy tûnik mûködik! Hamarosan a reptér körüli dugók történelemmé válnak.";
+
+$paris02_task16_name = "Drága ajándék";
+$paris02_task16_text = "Ez egy katasztrófa! Ó, mit fogok csinálni? Meghívtak az egyik barátom bulijába, de miután megvettem az ajándékát, észrevettem, hogy nem volt több pénzem benzinre! Jaj nekem, hogy fogom ezt megoldani!";
+$paris02_task16_short = "Létesíts egy viszonylatot a {0:Menedzser házától} a {1:barát házához}.";
+$paris02_task16_passed = "Köszönöm! Imádta az ajándékot, egy új gyapjúing amit külön neki választottam ki. Köszönöm, hogy sikerré tette a bulit!";
+
+$paris02_task17_name = "Csinálj egy párat";
+$paris02_task17_text = "Úgy gondolom, hogy pár további villlamosviszonylat jól kiegészíteni a hálózatot. Építene egy párat?";
+$paris02_task17_short = "Létesíts négy villamosviszonylatot.";
+
+$paris02_task18_name = "Metró, szerelmem";
+$paris02_task18_text = "Jó napot! Már egy jó ideje tömegközlekedéssel járok munkába, de rájöttem, hogy a metró a legjobb lehetõség. Tudna építeni egy vonalat?";
+$paris02_task18_short = "Létesíts egy metróviszonylatot.";
+$paris02_task18_passed = "Köszönöm! A metró tökéletesen megfelelõ, örülök, hogy önnek is tetszik.";
+
+/* SCENARIO 3 */
+
+$paris03_name_text = "Az új modern idõ";
+$paris03_location_text = "Párizs 1998-2000";
+$paris03_animation_text = "Paris needs to raise its profile to attract more tourists and generally take its place once again as one of Europe's most attractive cities.\nNew transport options are one of the cornerstones of a friendly, open city.";
+
+$paris03_briefing_short = "Modernize the Paris public transport system";
+$paris03_briefing_text = "Welcome again! Good that you could make it. I have made many plans, so let's just choose the best of them. Do you think this would do? Excellent, let's start!";
+$paris03_completed_text = "You have been a great help! Thank you for making the transport system efficient and fashionable again. I couldn't have done it without you. I wish you success in all you decide to do!";
+
+$paris03_task01_name = "An Excellent Spot";
+$paris03_task01_text = "The first step would be to add two metro lines. I think the railway station would be an excellent place for the lines to start from.";
+$paris03_task01_short = "Build two metro lines going to the {0:Railway station}";
+$paris03_task01_passed = "Good, let's get on with the plan.";
+
+$paris03_task02_name = "Old But Traveling";
+$paris03_task02_text = "Hello dear, I have a favor to ask.. I'm getting so old and tired, but I would still like to travel around the city. Could you build more lines, so that it's easier?";
+$paris03_task02_short = "Build three lines";
+$paris03_task02_passed = "Thank you, dear, nice of you to grant my wish!";
+
+$paris03_task03_name = "According To My Plan...";
+$paris03_task03_text = "Now on to the trams. According to my plan, we should need around five lines to cover the center of the city.";
+$paris03_task03_short = "Build five Tram lines";
+$paris03_task03_passed = "Really nice siting. Now on to the next step.";   
+
+$paris03_task04_name = "Promoting A Play";
+$paris03_task04_text = "Hello! I'm sorry I have to ask you this, but I'm having pictures taken to promote a new play that's coming soon. My problem is that we need a certain backdrop, and one of your lines is in the way. If you could just pause it for some time, it would help us tremendously. I'll make it worth your while!";
+$paris03_task04_short = "Pause tram line %0 for three weeks";
+$paris03_task04_passed = "Thank you! The pictures were perfect, no extra vehicles in the background or other problems!";
+
+$paris03_task05_name = "Build Bus Lines!";
+$paris03_task05_text = "The next step in my plan would be to make sure the buses are up to date. Add a few lines, and I'm sure they'll please our customers!";
+$paris03_task05_short = "Build four Bus lines";
+$paris03_task05_passed = "It's looking good, I'm sure the passengers will love these lines!";
+
+$paris03_task06_name = "His Favorite Spots";
+$paris03_task06_text = "Good day! I'm having friends over, and I'd like to show them my favorite spots in the city. The problem is that we don't have a lot of time, so the tour would need to be quick. I was hoping you could make a line that goes to all the nicest places. I'm sure lots of other people want to see them too. Please?";
+$paris03_task06_short = "Build a line connecting the {0:Railway station}, {1:Pier} and {2:Shopping mall}";
+$paris03_task06_passed = "Great job. We managed to see all my favorite spots in time, and my friends made it on to their flight back.";
+
+$paris03_task07_name = "Why Not Helicopters?";
+$paris03_task07_text = "What about helicopters? They are not so popular, but I'm sure the tourists will love them. My plan has a line leaving from this marketplace.";
+$paris03_task07_short = "Build a Helicopter line going to the {0:Marketplace}";
+$paris03_task07_passed = "Well done, that looks so nice! Now on with the plan.";
+
+$paris03_task08_name = "It's So Modern";
+$paris03_task08_text = "Bonjour! I'm photographing pieces of modern art, but I need to do this in a factory so as to capture their unique look and feel. Even of the three identical pieces. My worry is that the factory workers' cars will disrupt my plans, and I need them out of the way. Maybe if you build a line there, the workers will leave their cars at home?";
+$paris03_task08_short = "Build a line to the {0:Factory}, transport 20 passengers";
+$paris03_task08_passed = "The art pictures were a success. Thank you for your help!";
+
+$paris03_task09_name = "Seeing Seine";
+$paris03_task09_text = "The Seine is so beautiful, and I was thinking that we could also make a nice profit from river cruises. Please build a few lines; you can choose where!";
+$paris03_task09_short = "Build two Water bus lines";
+$paris03_task09_passed = "Very nice! People will love these boats!";
+
+$paris03_task10_name = "Think About The Environment!";
+$paris03_task10_text = "Have you thought about the environment? I just joined an organization that promotes health and wants to keep our cities clean, so I'm asking you to upgrade your fleet. It's for the best for all of us!";
+$paris03_task10_short = "Have no vehicle older than two years";
+$paris03_task10_passed = "Well done, everything runs smoothly now and the air is so pure and clean!";
+
+$paris03_task11_name = "One More Metro Line";
+$paris03_task11_text = "We still have room for a new metro line. Just choose a good spot and go ahead with it!";
+$paris03_task11_short = "Build a Metro line";
+$paris03_task11_passed = "Excellent siting. This line will earn us a lot of money!";
+
+$paris03_task12_name = "Having Dinner, Need Wine";
+$paris03_task12_text = "Me and my work buddies are planning on having dinner together one evening, but we would want to take the bus there so that we can leave our cars at home. Other vehicles are also fine, so allow us just a few glasses of wine!";
+$paris03_task12_short = "Build two lines to the {0:Restaurant}";
+$paris03_task12_passed = "Good, now we can have a few glasses of wine! Thank you so much.";
+
+$paris03_task13_name = "Make It Look Fashionable!";
+$paris03_task13_text = "I want more business people to use our system. They make taking the bus look fashionable, and that's just what we need in order to get more customers! You know, Parisians and fashion...";
+$paris03_task13_short = "Have 80 reputation with Business people";
+$paris03_task13_passed = "Good, I see lots of people in suits using our services.";
+
+$paris03_task14_name = "Deep Trouble?";
+$paris03_task14_text = "I'm in trouble! My car broke down and I have no way of getting to work! My employees will be so lost, poor things. How will they know what to do? Please help me. I can pay you?";
+$paris03_task14_short = "Build a line from the {0:Manager's house} to the {1:Restaurant}";
+$paris03_task14_passed = "Oh thank you, thank you! I'm so happy I can guide my employees nicely, yet firmly, so they won't feel lost.";
+
+$paris03_task15_name = "Our Lady";
+$paris03_task15_text = "Notre Dame cathedral is holding an exhibition of its history, and they asked us to help them get lots of visitors. Naturally, I promised them that we would take care of it, so could you maybe build a line there? Please? ";
+$paris03_task15_short = "Build a line going to {0:Notre Dame}, transport 40 passengers to Notre Dame";
+$paris03_task15_passed = "Great job. I'm happy that people will go and see the exhibition! Getting some money is also nice.";
+
+$paris03_task16_name = "Finding Work";
+$paris03_task16_text = "I see you have some people out of work here! No problem, every city has them! Everyone falls on hard times every once in a while. The way I found my last employer was by bumping into her on the bus. Maybe if these people rode on these vehicles they would also benefit by making contacts.";
+$paris03_task16_short = "Lower bus ticket prices by 0,30, have 75 reputation with Dropouts";
+$paris03_task16_passed = "I'm sure this will help the unemployed, thanks!";
+
+$paris03_task17_name = "I Should Have Been In The Plan";
+$paris03_task17_text = "Our coverage should be better, but it seems I somehow didn't mention it in my plan... Oh well, I'm sure you know what to do! Just make the coverage better, please?";
+$paris03_task17_short = "Have 80 coverage";
+
+$paris03_task18_name = "An Idea Comes Forth";
+$paris03_task18_text = "How about this route? I'm not sure if it would work, but have a look and decide.";
+$paris03_task18_short = "Build a line connecting {0:Airport}, {1:Railway station} and {2:Louvre}";
+$paris03_task18_passed = "Very good! Nice that my plan worked so well!";
+
